@@ -18,6 +18,9 @@ export interface PopulationType {
   rate_per_sec: number;
   consumes: Record<string, number>;
   produces: string;
+  icon: string;
+  region: string;
+  slots: number;
 }
 
 export interface GameData {
@@ -64,18 +67,14 @@ export function calculatePlan(input: PlanInput): PlanResult {
     if (!pop) continue;
 
     const houseCount = inhabitantCount / pop.inhabitants_per_house;
-    
-    // Track house building counts
     buildingCounts[popId] = (buildingCounts[popId] || 0) + houseCount;
     
-    // Population produces (e.g. Militia, Gold)
-    const prodRate = pop.rate_per_sec * houseCount;
-    if (pop.produces) {
+    const prodRate = (pop.rate_per_sec || 0) * houseCount;
+    if (pop.produces && !pop.produces.includes('Population')) {
       totalProduced[pop.produces] = (totalProduced[pop.produces] || 0) + prodRate;
       resourceFlows[pop.produces] = (resourceFlows[pop.produces] || 0) + prodRate;
     }
 
-    // Population consumes
     for (const [item, ratePerSec] of Object.entries(pop.consumes)) {
       const totalRate = ratePerSec * houseCount * consumptionMultiplier;
       totalConsumed[item] = (totalConsumed[item] || 0) + totalRate;
@@ -91,36 +90,50 @@ export function calculatePlan(input: PlanInput): PlanResult {
   }
 
   // 3. Resolve dependencies
-  let stable = false;
   let iterations = 0;
-  while (!stable && iterations < 200) {
-    stable = true;
+  const maxIterations = 200;
+  
+  while (iterations < maxIterations) {
+    let changed = false;
+    // Get all items that have a deficit AND a known producer
+    const itemsWithDeficit = Object.entries(resourceFlows)
+        .filter(([item, flow]) => flow < -1e-10 && gameData.producers[item]);
+    
+    if (itemsWithDeficit.length === 0) break;
     iterations++;
 
-    for (const [item, flow] of Object.entries(resourceFlows)) {
-      if (flow < -1e-10) {
-        stable = false;
-        const producerIds = gameData.producers[item];
-        if (!producerIds || producerIds.length === 0) continue;
+    for (const [item, flow] of itemsWithDeficit) {
+      const producerIds = gameData.producers[item];
+      if (!producerIds || producerIds.length === 0) continue;
 
-        const bId = producerIds[0];
-        const b = gameData.buildings[bId];
-        if (!b || b.rate_per_sec <= 0) continue;
+      // Filter out population houses as producers for deficits
+      const validProducerIds = producerIds.filter(id => !id.startsWith('POPULATION_'));
+      if (validProducerIds.length === 0) continue;
 
-        const neededCount = Math.abs(flow) / b.rate_per_sec;
-        buildingCounts[bId] = (buildingCounts[bId] || 0) + neededCount;
+      const bId = validProducerIds[0];
+      const b = gameData.buildings[bId];
+      if (!b || b.rate_per_sec <= 0) continue;
+
+      const deficit = Math.abs(flow);
+      const neededToAdd = deficit / b.rate_per_sec;
+      
+      if (neededToAdd > 1e-12) {
+        changed = true;
+        buildingCounts[bId] = (buildingCounts[bId] || 0) + neededToAdd;
         
-        const actualProduced = neededCount * b.rate_per_sec;
-        totalProduced[item] = (totalProduced[item] || 0) + actualProduced;
-        resourceFlows[item] += actualProduced;
+        const addedProd = neededToAdd * b.rate_per_sec;
+        totalProduced[item] = (totalProduced[item] || 0) + addedProd;
+        resourceFlows[item] += addedProd;
 
         for (const [consItem, consRate] of Object.entries(b.consumes)) {
-          const totalCons = consRate * neededCount;
-          totalConsumed[consItem] = (totalConsumed[consItem] || 0) + totalCons;
-          resourceFlows[consItem] = (resourceFlows[consItem] || 0) - totalCons;
+          const addedCons = consRate * neededToAdd;
+          totalConsumed[consItem] = (totalConsumed[consItem] || 0) + addedCons;
+          resourceFlows[consItem] = (resourceFlows[consItem] || 0) - addedCons;
         }
       }
     }
+    
+    if (!changed) break;
   }
 
   // 4. Summarize
@@ -136,7 +149,7 @@ export function calculatePlan(input: PlanInput): PlanResult {
   const regionalBuildings: Record<string, Record<string, number>> = {};
   for (const [id, count] of Object.entries(buildingCounts)) {
     if (count <= 0) continue;
-    const b = (gameData.buildings[id] || gameData.population[id]) as any;
+    const b = (gameData.buildings[id] || gameData.population[id]);
     if (!b) continue;
     
     totalSlots += Math.ceil(count) * (b.slots || 1);

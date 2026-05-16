@@ -315,3 +315,35 @@ h3 {
   opacity: 1;
   font-weight: bold;
 }
+
+.input-row-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background: rgba(255,255,255,0.02);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.label-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.small-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.input-row-with-icon input {
+  width: 70px;
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: white;
+  padding: 0.25rem;
+  border-radius: 4px;
+  text-align: right;
+}

@@ -75,24 +75,26 @@ function App() {
           <h2>Inputs</h2>
           <div className="input-group">
             <h3>Population Targets (Inhabitants)</h3>
-            {Object.keys(gameData.population).map(id => {
-              const popName = gameData.population[id].name
-                .replace('Residence', '')
-                .replace('House', '')
-                .replace('Shack', '')
-                .replace('Mansion', '')
-                .trim();
-              return (
-                <div key={id} className="input-row">
-                  <label>{popName}</label>
-                  <input 
-                    type="number" 
-                    value={popCounts[id] || 0} 
-                    onChange={(e) => updatePop(id, e.target.value)} 
-                  />
-                </div>
-              );
-            })}
+            <div className="input-grid">
+              {Object.keys(gameData.population).map(id => {
+                const pop = gameData.population[id];
+                const cleanName = pop.name.replace('Population', '').replace('House', '').replace('Mansion', '').replace('Residence', '').replace('Shack', '').trim();
+                const iconSrc = pop.icon ? `/paragon-planner${pop.icon}` : '';
+                return (
+                  <div key={id} className="input-row-with-icon">
+                    <div className="label-with-icon">
+                      {iconSrc && <img src={iconSrc} alt={cleanName} className="small-icon" />}
+                      <label>{cleanName}</label>
+                    </div>
+                    <input 
+                      type="number" 
+                      value={popCounts[id] || 0} 
+                      onChange={(e) => updatePop(id, e.target.value)} 
+                    />
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           <div className="input-group">

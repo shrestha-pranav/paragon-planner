@@ -11,7 +11,7 @@
         "Copper Ingot": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Smelter"
     },
     "ROCK_SALT_MINE_NORTH_INFO": {
       "id": "ROCK_SALT_MINE_NORTH_INFO",
@@ -23,7 +23,7 @@
         "Rock Salt": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Rock Salt"
+      "produces": "Rock Salt Mine"
     },
     "GOLD_SMELTER_NORTH_INFO": {
       "id": "GOLD_SMELTER_NORTH_INFO",
@@ -36,7 +36,7 @@
         "Gold Ore": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Gold Ingot"
+      "produces": "Gold Smelter"
     },
     "HEATING_PLANT_INFO": {
       "id": "HEATING_PLANT_INFO",
@@ -48,7 +48,7 @@
         "Wood": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "HeatingPlant"
+      "produces": "Heating Plant"
     },
     "GOLD_MINE_NORTH_INFO": {
       "id": "GOLD_MINE_NORTH_INFO",
@@ -60,7 +60,7 @@
         "Gold Ingot": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Gold Ore"
+      "produces": "Gold Mine"
     },
     "FUR_TRAPPER_INFO": {
       "id": "FUR_TRAPPER_INFO",
@@ -72,7 +72,7 @@
         "Grass": 0.019444444444444445
       },
       "slots": 1,
-      "produces": "Fur"
+      "produces": "Fur Trapper"
     },
     "BRASS_SMELTER_NORTH_INFO": {
       "id": "BRASS_SMELTER_NORTH_INFO",
@@ -85,7 +85,7 @@
         "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
-      "produces": "Brass Ingot"
+      "produces": "Brass Smelter"
     },
     "LARGE_HEATING_PLANT_INFO": {
       "id": "LARGE_HEATING_PLANT_INFO",
@@ -97,7 +97,7 @@
         "Coal": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "LargeHeatingPlant"
+      "produces": "Large Heating Plant"
     },
     "MARBLE_QUARRY_NORTH_INFO": {
       "id": "MARBLE_QUARRY_NORTH_INFO",
@@ -109,7 +109,7 @@
         "Marble": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "MarbleQuarry"
+      "produces": "Marble Quarry"
     },
     "CONIFER_LUMBERJACK_INFO": {
       "id": "CONIFER_LUMBERJACK_INFO",
@@ -118,7 +118,7 @@
       "icon": "/icons/assets/icons/buildings/northern-islands/ConiferLumberjack.png",
       "rate_per_sec": 0.03333333333333333,
       "consumes": {
-        "ConiferForest": 0.03333333333333333
+        "Conifer Forest": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Wood"
@@ -146,7 +146,7 @@
         "Coal": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Coal"
+      "produces": "Coal Mine"
     },
     "CAVIAR_FACTORY_INFO": {
       "id": "CAVIAR_FACTORY_INFO",
@@ -159,7 +159,7 @@
         "Sturgeon": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Caviar"
+      "produces": "Caviar Factory"
     },
     "SALMON_FISHERMANS_HUT_INFO": {
       "id": "SALMON_FISHERMANS_HUT_INFO",
@@ -168,7 +168,7 @@
       "icon": "/icons/assets/icons/buildings/northern-islands/SalmonFishermansHut.png",
       "rate_per_sec": 0.022222222222222223,
       "consumes": {
-        "CoastalField": 0.08888888888888889
+        "Coastal Field": 0.08888888888888889
       },
       "slots": 1,
       "produces": "Fish"
@@ -180,10 +180,10 @@
       "icon": "/icons/assets/icons/buildings/northern-islands/Whaler.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "SpermWhale": 0.004166666666666667
+        "Sperm Whale": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "SpermWhale"
+      "produces": "Whaler"
     },
     "SALT_WORKS_NORTH_INFO": {
       "id": "SALT_WORKS_NORTH_INFO",
@@ -196,7 +196,7 @@
         "Rock Salt": 0.001388888888888889
       },
       "slots": 1,
-      "produces": "Salt"
+      "produces": "Salt Works"
     },
     "ZINC_SMELTER_INFO": {
       "id": "ZINC_SMELTER_INFO",
@@ -209,7 +209,7 @@
         "Zinc Ingot": 0.002777777777777778
       },
       "slots": 1,
-      "produces": "Zinc Ingot"
+      "produces": "Zinc Smelter"
     },
     "IRON_MINE_NORTH_INFO": {
       "id": "IRON_MINE_NORTH_INFO",
@@ -221,7 +221,7 @@
         "Iron Ingot": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Iron Ingot"
+      "produces": "Iron Ore"
     },
     "COPPER_MINE_NORTH_INFO": {
       "id": "COPPER_MINE_NORTH_INFO",
@@ -233,7 +233,7 @@
         "Copper Ingot": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Mine"
     },
     "LEAD_MINE_INFO": {
       "id": "LEAD_MINE_INFO",
@@ -245,7 +245,7 @@
         "Lead Ingot": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Lead Ingot"
+      "produces": "Lead Mine"
     },
     "AMBERGRIS_PRODUCTION_INFO": {
       "id": "AMBERGRIS_PRODUCTION_INFO",
@@ -254,10 +254,10 @@
       "icon": "/icons/assets/icons/buildings/northern-islands/AmbergrisProduction.png",
       "rate_per_sec": 0.0005208333333333333,
       "consumes": {
-        "SpermWhale": 0.0010416666666666667
+        "Sperm Whale": 0.0010416666666666667
       },
       "slots": 1,
-      "produces": "Ambergris"
+      "produces": "Ambergris Production"
     },
     "LEAD_SMELTER_INFO": {
       "id": "LEAD_SMELTER_INFO",
@@ -270,7 +270,7 @@
         "Lead Ingot": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Lead Ingot"
+      "produces": "Lead Smelter"
     },
     "STURGEON_FARM_INFO": {
       "id": "STURGEON_FARM_INFO",
@@ -279,10 +279,10 @@
       "icon": "/icons/assets/icons/buildings/northern-islands/SturgeonFarm.png",
       "rate_per_sec": 0.0020833333333333333,
       "consumes": {
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Sturgeon"
+      "produces": "Sturgeon Farm"
     },
     "ZINC_MINE_NORTH_INFO": {
       "id": "ZINC_MINE_NORTH_INFO",
@@ -294,7 +294,7 @@
         "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
-      "produces": "Zinc Ingot"
+      "produces": "Zinc Mine"
     },
     "THEATRE_INFO": {
       "id": "THEATRE_INFO",
@@ -304,7 +304,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Community"
+      "produces": "Theatre"
     },
     "SENATE_INFO": {
       "id": "SENATE_INFO",
@@ -324,11 +324,11 @@
       "rate_per_sec": 0.016666666666666666,
       "consumes": {
         "Gold Ingot": 0.016666666666666666,
-        "SilkFabric": 0.016666666666666666,
-        "RiverField": 0.016666666666666666
+        "Silk Fabric": 0.016666666666666666,
+        "River Field": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "BrocadeSpinningFactory"
+      "produces": "Brocade Spinning Factory"
     },
     "STEEL_FURNACE_INFO": {
       "id": "STEEL_FURNACE_INFO",
@@ -339,10 +339,10 @@
       "consumes": {
         "Coke": 0.004166666666666667,
         "Iron Ingot": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Steel"
+      "produces": "Steel Furnace"
     },
     "TRUMPET_MAKER_INFO": {
       "id": "TRUMPET_MAKER_INFO",
@@ -354,7 +354,7 @@
         "Brass Ingot": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Trumpet"
+      "produces": "Trumpet Maker"
     },
     "LENS_GRINDER_INFO": {
       "id": "LENS_GRINDER_INFO",
@@ -367,7 +367,7 @@
         "Glass": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Glasses"
+      "produces": "Lens Grinder"
     },
     "ORNATE_TAILOR_INFO": {
       "id": "ORNATE_TAILOR_INFO",
@@ -377,10 +377,10 @@
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
         "Fur": 0.008333333333333333,
-        "BrocadeFabric": 0.008333333333333333
+        "Brocade Fabric": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "OrnateTailor"
+      "produces": "Ornate Tailor"
     },
     "LARGE_THERMAL_BATH_INFO": {
       "id": "LARGE_THERMAL_BATH_INFO",
@@ -390,7 +390,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "LargeThermalBath"
+      "produces": "Large Thermal Bath"
     },
     "CHANDLER_INFO": {
       "id": "CHANDLER_INFO",
@@ -403,7 +403,7 @@
         "Fiber": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Candles"
+      "produces": "Chandler"
     },
     "SALTERN_INFO": {
       "id": "SALTERN_INFO",
@@ -412,10 +412,10 @@
       "icon": "/icons/assets/icons/buildings/paragons/Saltern.png",
       "rate_per_sec": 0.0010416666666666667,
       "consumes": {
-        "CoastalField": 0.0020833333333333333
+        "Coastal Field": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Salt"
+      "produces": "Saltern"
     },
     "FIREWORKS_MAKER_INFO": {
       "id": "FIREWORKS_MAKER_INFO",
@@ -425,10 +425,10 @@
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
         "Gunpowder": 0.008333333333333333,
-        "MetalCutting": 0.008333333333333333
+        "Metal Cutting": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Fireworks"
+      "produces": "Fireworks Maker"
     },
     "TREASURE_SEEKER_INFO": {
       "id": "TREASURE_SEEKER_INFO",
@@ -440,7 +440,7 @@
         "River": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "TreasureSeeker"
+      "produces": "Treasure Seeker"
     },
     "MUSKET_MAKER_INFO": {
       "id": "MUSKET_MAKER_INFO",
@@ -452,10 +452,10 @@
         "Gunpowder": 0.0020833333333333333,
         "Brass Ingot": 0.0020833333333333333,
         "Steel": 0.0020833333333333333,
-        "RiverField": 0.0020833333333333333
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Musket"
+      "produces": "Musket Maker"
     },
     "CANNONEERS_SCHOOL_INFO": {
       "id": "CANNONEERS_SCHOOL_INFO",
@@ -468,7 +468,7 @@
         "Cannon": 0.0005555555555555556
       },
       "slots": 1,
-      "produces": "Cannoneer"
+      "produces": "Cannoneers School"
     },
     "COOPER_INFO": {
       "id": "COOPER_INFO",
@@ -481,7 +481,7 @@
         "Planks": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Barrel"
+      "produces": "Cooper"
     },
     "BOOKBINDER_INFO": {
       "id": "BOOKBINDER_INFO",
@@ -494,7 +494,7 @@
         "Paper": 0.06666666666666667
       },
       "slots": 1,
-      "produces": "Book"
+      "produces": "Bookbinder"
     },
     "HONEY_DISTILLERY_INFO": {
       "id": "HONEY_DISTILLERY_INFO",
@@ -507,7 +507,7 @@
         "Brandy": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Liqueur"
+      "produces": "Honey Distillery"
     },
     "GLASSWORKS_INFO": {
       "id": "GLASSWORKS_INFO",
@@ -521,7 +521,7 @@
         "Quartz": 0.010416666666666666
       },
       "slots": 1,
-      "produces": "Glass"
+      "produces": "Glassworks"
     },
     "WINERY_INFO": {
       "id": "WINERY_INFO",
@@ -533,7 +533,7 @@
         "Vineyard": 0.2
       },
       "slots": 1,
-      "produces": "Grape"
+      "produces": "Winery"
     },
     "UNIVERSITY_INFO": {
       "id": "UNIVERSITY_INFO",
@@ -568,10 +568,10 @@
       "rate_per_sec": 0.0005555555555555556,
       "consumes": {
         "Militia": 0.0033333333333333335,
-        "ArmoredHorse": 0.0005555555555555556
+        "Armored Horse": 0.0005555555555555556
       },
       "slots": 1,
-      "produces": "Cuirassier"
+      "produces": "Cuirassier Academy"
     },
     "MUSKETEER_SCHOOL_INFO": {
       "id": "MUSKETEER_SCHOOL_INFO",
@@ -584,7 +584,7 @@
         "Musket": 0.0005555555555555556
       },
       "slots": 1,
-      "produces": "Musketeer"
+      "produces": "Musketeer School"
     },
     "BRASS_SMELTER_INFO": {
       "id": "BRASS_SMELTER_INFO",
@@ -597,7 +597,7 @@
         "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
-      "produces": "Brass Ingot"
+      "produces": "Brass Smelter"
     },
     "CANNON_FOUNDRY_INFO": {
       "id": "CANNON_FOUNDRY_INFO",
@@ -608,10 +608,10 @@
       "consumes": {
         "Gunpowder": 0.0020833333333333333,
         "Steel": 0.0020833333333333333,
-        "RiverField": 0.0020833333333333333
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Cannon"
+      "produces": "Cannon Foundry"
     },
     "ARMORSMITH_INFO": {
       "id": "ARMORSMITH_INFO",
@@ -622,10 +622,10 @@
       "consumes": {
         "Horse": 0.004166666666666667,
         "Steel": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "ArmoredHorse"
+      "produces": "Armorsmith"
     },
     "TILTYARD_INFO": {
       "id": "TILTYARD_INFO",
@@ -651,7 +651,7 @@
         "Glass": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "GalziersWorkshop"
+      "produces": "Galziers Workshop"
     },
     "COIFFEUR_INFO": {
       "id": "COIFFEUR_INFO",
@@ -672,10 +672,10 @@
       "consumes": {
         "Barrel": 0.002777777777777778,
         "Grape": 0.011111111111111112,
-        "RiverField": 0.002777777777777778
+        "River Field": 0.002777777777777778
       },
       "slots": 1,
-      "produces": "Wine"
+      "produces": "Winepress"
     },
     "POWDER_MILL_INFO": {
       "id": "POWDER_MILL_INFO",
@@ -686,10 +686,10 @@
       "consumes": {
         "Coal": 0.004166666666666667,
         "Saltpeter": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Gunpowder"
+      "produces": "Powder Mill"
     },
     "COBBLERS_SHOP_INFO": {
       "id": "COBBLERS_SHOP_INFO",
@@ -702,7 +702,7 @@
         "Leather": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Shoe"
+      "produces": "Cobblers Shop"
     },
     "LANCE_MAKER_INFO": {
       "id": "LANCE_MAKER_INFO",
@@ -715,7 +715,7 @@
         "Wood": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Lance"
+      "produces": "Lance Maker"
     },
     "PAPER_MILL_INFO": {
       "id": "PAPER_MILL_INFO",
@@ -726,10 +726,10 @@
       "consumes": {
         "Wood": 0.016666666666666666,
         "Quicklime": 0.008333333333333333,
-        "RiverField": 0.008333333333333333
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Paper"
+      "produces": "Paper Mill"
     },
     "QUARTZ_QUARRY_INFO": {
       "id": "QUARTZ_QUARRY_INFO",
@@ -738,10 +738,10 @@
       "icon": "/icons/assets/icons/buildings/paragons/QuartzQuarry.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "CoastalField": 0.03333333333333333
+        "Coastal Field": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Quartz"
+      "produces": "Quartz Quarry"
     },
     "PLANING_MILL_INFO": {
       "id": "PLANING_MILL_INFO",
@@ -753,10 +753,10 @@
         "Zinc Ingot": 0.004166666666666667,
         "Iron Ingot": 0.004166666666666667,
         "Copper Ingot": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "MetalCutting"
+      "produces": "Planing Mill"
     },
     "COKERY_INFO": {
       "id": "COKERY_INFO",
@@ -768,7 +768,7 @@
         "Coal": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Coke"
+      "produces": "Cokery"
     },
     "FISHERMANS_HUT_INFO": {
       "id": "FISHERMANS_HUT_INFO",
@@ -790,7 +790,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Community"
+      "produces": "Tavern"
     },
     "CIDER_MAKER_INFO": {
       "id": "CIDER_MAKER_INFO",
@@ -802,7 +802,7 @@
         "Apple": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Cider"
+      "produces": "Cider Maker"
     },
     "CISTERN_INFO": {
       "id": "CISTERN_INFO",
@@ -836,7 +836,7 @@
         "Pigs": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Sausage"
+      "produces": "Sausage Maker"
     },
     "PIONEERS_HUT_INFO": {
       "id": "PIONEERS_HUT_INFO",
@@ -871,7 +871,7 @@
         "Planks": 0.0033333333333333335
       },
       "slots": 1,
-      "produces": "BootCamp"
+      "produces": "Boot Camp"
     },
     "SAW_WORKS_INFO": {
       "id": "SAW_WORKS_INFO",
@@ -883,7 +883,7 @@
         "Wood": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Planks"
+      "produces": "Saw Works"
     },
     "PIGGERY_INFO": {
       "id": "PIGGERY_INFO",
@@ -915,10 +915,10 @@
       "rate_per_sec": 0.1,
       "consumes": {
         "Wood": 0.06666666666666667,
-        "RiverField": 0.03333333333333333
+        "River Field": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Planks"
+      "produces": "Sawmill"
     },
     "SCHOOL_INFO": {
       "id": "SCHOOL_INFO",
@@ -928,7 +928,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Education"
+      "produces": "School"
     },
     "SHEEP_FARM_INFO": {
       "id": "SHEEP_FARM_INFO",
@@ -940,7 +940,7 @@
         "Grass": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Yarn"
+      "produces": "Sheep Farm"
     },
     "COPPER_AXESMITH_INFO": {
       "id": "COPPER_AXESMITH_INFO",
@@ -953,7 +953,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Copper Axe"
+      "produces": "Copper Axesmith"
     },
     "WEAVER_INFO": {
       "id": "WEAVER_INFO",
@@ -965,7 +965,7 @@
         "Yarn": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Fabric"
+      "produces": "Weaver"
     },
     "COPPER_ARMORY_INFO": {
       "id": "COPPER_ARMORY_INFO",
@@ -978,7 +978,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Copper Sword"
+      "produces": "Copper Armory"
     },
     "STONECUTTER_INFO": {
       "id": "STONECUTTER_INFO",
@@ -1000,10 +1000,10 @@
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
         "Wheat": 0.016666666666666666,
-        "RiverField": 0.008333333333333333
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Flour"
+      "produces": "Flour Mill"
     },
     "BAKERY_INFO": {
       "id": "BAKERY_INFO",
@@ -1015,7 +1015,7 @@
         "Flour": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Bread"
+      "produces": "Bakery"
     },
     "LIME_KILN_INFO": {
       "id": "LIME_KILN_INFO",
@@ -1028,7 +1028,7 @@
         "Limestone": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Quicklime"
+      "produces": "Lime Kiln"
     },
     "ASH_HOUSE_INFO": {
       "id": "ASH_HOUSE_INFO",
@@ -1040,7 +1040,7 @@
         "Wood": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Potash"
+      "produces": "Ash House"
     },
     "MORTAR_BATCH_WORKS_INFO": {
       "id": "MORTAR_BATCH_WORKS_INFO",
@@ -1050,10 +1050,10 @@
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
         "Quicklime": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "MortarBatchWorks"
+      "produces": "Mortar Batch Works"
     },
     "FLOUR_WINDMILL_INFO": {
       "id": "FLOUR_WINDMILL_INFO",
@@ -1065,7 +1065,7 @@
         "Wheat": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Flour"
+      "produces": "Flour Windmill"
     },
     "LINSEED_FARM_INFO": {
       "id": "LINSEED_FARM_INFO",
@@ -1077,7 +1077,7 @@
         "Linseed": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Fiber"
+      "produces": "Linseed Farm"
     },
     "ARCHERY_RANGE_INFO": {
       "id": "ARCHERY_RANGE_INFO",
@@ -1090,7 +1090,7 @@
         "Bow": 0.0033333333333333335
       },
       "slots": 1,
-      "produces": "Archer"
+      "produces": "Archery Range"
     },
     "TEXTILE_FACTORY_INFO": {
       "id": "TEXTILE_FACTORY_INFO",
@@ -1100,10 +1100,10 @@
       "rate_per_sec": 0.0125,
       "consumes": {
         "Yarn": 0.016666666666666666,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Fabric"
+      "produces": "Textile Factory"
     },
     "WHEAT_FARM_INFO": {
       "id": "WHEAT_FARM_INFO",
@@ -1115,7 +1115,7 @@
         "Wheat": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Wheat"
+      "produces": "Wheat Farm"
     },
     "ROPERY_INFO": {
       "id": "ROPERY_INFO",
@@ -1127,7 +1127,7 @@
         "Fiber": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Rope"
+      "produces": "Ropery"
     },
     "COPPER_MINE_INFO": {
       "id": "COPPER_MINE_INFO",
@@ -1136,10 +1136,10 @@
       "icon": "/icons/assets/icons/buildings/colonists/CopperMine.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "CopperDeposit": 0.004166666666666667
+        "Copper Deposit": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Mine"
     },
     "SOAP_MAKER_INFO": {
       "id": "SOAP_MAKER_INFO",
@@ -1152,7 +1152,7 @@
         "Tallow": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Soap"
+      "produces": "Soap Maker"
     },
     "BERSERKER_HALL_INFO": {
       "id": "BERSERKER_HALL_INFO",
@@ -1165,7 +1165,7 @@
         "Copper Axe": 0.0016666666666666668
       },
       "slots": 1,
-      "produces": "Berserker"
+      "produces": "Berserker Hall"
     },
     "HARBOR_TAVERN_INFO": {
       "id": "HARBOR_TAVERN_INFO",
@@ -1175,7 +1175,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "HarborTavern"
+      "produces": "Harbor Tavern"
     },
     "BARRACKS_INFO": {
       "id": "BARRACKS_INFO",
@@ -1188,7 +1188,7 @@
         "Copper Sword": 0.0016666666666666668
       },
       "slots": 1,
-      "produces": "Footsoldier"
+      "produces": "Barracks"
     },
     "BOWYER_INFO": {
       "id": "BOWYER_INFO",
@@ -1201,7 +1201,7 @@
         "Fiber": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Bow"
+      "produces": "Bowyer"
     },
     "RICKYARD_INFO": {
       "id": "RICKYARD_INFO",
@@ -1225,7 +1225,7 @@
         "Pigs": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Tallow"
+      "produces": "Rendering Works"
     },
     "COPPER_SMELTER_INFO": {
       "id": "COPPER_SMELTER_INFO",
@@ -1238,7 +1238,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Smelter"
     },
     "FAIR_INFO": {
       "id": "FAIR_INFO",
@@ -1248,7 +1248,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Community"
+      "produces": "Fair"
     },
     "BOILER_MAKER_INFO": {
       "id": "BOILER_MAKER_INFO",
@@ -1261,7 +1261,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Cauldron"
+      "produces": "Boiler Maker"
     },
     "BREWERY_INFO": {
       "id": "BREWERY_INFO",
@@ -1274,7 +1274,7 @@
         "Malt": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Beer"
+      "produces": "Brewery"
     },
     "TOWN_SCHOOL_INFO": {
       "id": "TOWN_SCHOOL_INFO",
@@ -1286,7 +1286,7 @@
         "Chalk": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Town"
+      "produces": "Town School"
     },
     "BOILING_HOUSE_INFO": {
       "id": "BOILING_HOUSE_INFO",
@@ -1299,7 +1299,7 @@
         "Fish": 0.025
       },
       "slots": 1,
-      "produces": "FishOil"
+      "produces": "Boiling House"
     },
     "MALTHOUSE_INFO": {
       "id": "MALTHOUSE_INFO",
@@ -1311,7 +1311,7 @@
         "Wheat": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Malt"
+      "produces": "Malthouse"
     },
     "HOP_FARM_INFO": {
       "id": "HOP_FARM_INFO",
@@ -1323,7 +1323,7 @@
         "Hops": 0.06666666666666667
       },
       "slots": 1,
-      "produces": "Hops"
+      "produces": "Hop Farm"
     },
     "LONGBOWYER_INFO": {
       "id": "LONGBOWYER_INFO",
@@ -1336,7 +1336,7 @@
         "Fiber": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Longbow"
+      "produces": "Longbowyer"
     },
     "CHARCOAL_KILN_INFO": {
       "id": "CHARCOAL_KILN_INFO",
@@ -1348,7 +1348,7 @@
         "Wood": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Coal"
+      "produces": "Charcoal Kiln"
     },
     "SAILMAKER_INFO": {
       "id": "SAILMAKER_INFO",
@@ -1373,7 +1373,7 @@
         "Leather": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Drum"
+      "produces": "Drum Maker"
     },
     "STRAWBERRY_FARM_INFO": {
       "id": "STRAWBERRY_FARM_INFO",
@@ -1385,7 +1385,7 @@
         "Strawberry": 0.1
       },
       "slots": 1,
-      "produces": "Strawberry"
+      "produces": "Strawberry Farm"
     },
     "DRUMMERS_SCHOOL_INFO": {
       "id": "DRUMMERS_SCHOOL_INFO",
@@ -1398,7 +1398,7 @@
         "Drum": 0.0011111111111111111
       },
       "slots": 1,
-      "produces": "War Drummer"
+      "produces": "Drummers School"
     },
     "CHALK_MAKER_INFO": {
       "id": "CHALK_MAKER_INFO",
@@ -1410,7 +1410,7 @@
         "Limestone": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Chalk"
+      "produces": "Chalk Maker"
     },
     "TANNERY_INFO": {
       "id": "TANNERY_INFO",
@@ -1421,10 +1421,10 @@
       "consumes": {
         "Salt": 0.000925925925925926,
         "Leather": 0.002777777777777778,
-        "RiverField": 0.000925925925925926
+        "River Field": 0.000925925925925926
       },
       "slots": 1,
-      "produces": "Leather"
+      "produces": "Tannery"
     },
     "BOULDER_GATHERER_INFO": {
       "id": "BOULDER_GATHERER_INFO",
@@ -1436,7 +1436,7 @@
         "Gras": 0.3333333333333333
       },
       "slots": 1,
-      "produces": "Limestone"
+      "produces": "Boulder Gatherer"
     },
     "LONGBOW_ARCHERY_RANGE_INFO": {
       "id": "LONGBOW_ARCHERY_RANGE_INFO",
@@ -1449,7 +1449,7 @@
         "Longbow": 0.0011111111111111111
       },
       "slots": 1,
-      "produces": "Longbow Archer"
+      "produces": "Longbow Archery Range"
     },
     "JAM_MAKER_INFO": {
       "id": "JAM_MAKER_INFO",
@@ -1462,7 +1462,7 @@
         "Strawberry": 0.005555555555555556
       },
       "slots": 1,
-      "produces": "Jam"
+      "produces": "Jam Maker"
     },
     "FURRIERY_INFO": {
       "id": "FURRIERY_INFO",
@@ -1474,7 +1474,7 @@
         "Cattle": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Leather"
+      "produces": "Furriery"
     },
     "SALT_WORKS_INFO": {
       "id": "SALT_WORKS_INFO",
@@ -1487,7 +1487,7 @@
         "Rock Salt": 0.001388888888888889
       },
       "slots": 1,
-      "produces": "Salt"
+      "produces": "Salt Works"
     },
     "PADDOCK_INFO": {
       "id": "PADDOCK_INFO",
@@ -1511,7 +1511,7 @@
         "Gras": 0.05555555555555555
       },
       "slots": 1,
-      "produces": "Horse"
+      "produces": "Horse Breeder"
     },
     "COAL_MINE_INFO": {
       "id": "COAL_MINE_INFO",
@@ -1520,10 +1520,10 @@
       "icon": "/icons/assets/icons/buildings/townsmen/CoalMine.png",
       "rate_per_sec": 0.016666666666666666,
       "consumes": {
-        "CoalDeposit": 0.016666666666666666
+        "Coal Deposit": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Coal"
+      "produces": "Coal Mine"
     },
     "MEDICUS_INFO": {
       "id": "MEDICUS_INFO",
@@ -1532,7 +1532,7 @@
       "icon": "/icons/assets/icons/buildings/townsmen/Medicus.png",
       "rate_per_sec": 0.016666666666666666,
       "consumes": {
-        "FishOil": 0.016666666666666666
+        "Fish Oil": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Medicus"
@@ -1544,10 +1544,10 @@
       "icon": "/icons/assets/icons/buildings/townsmen/RockSaltMine.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "RockSaltDeposit": 0.004166666666666667
+        "Rock Salt Deposit": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Rock Salt"
+      "produces": "Rock Salt Mine"
     },
     "CATTLE_RANCH_INFO": {
       "id": "CATTLE_RANCH_INFO",
@@ -1559,7 +1559,7 @@
         "Gras": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Cattle"
+      "produces": "Cattle Ranch"
     },
     "RIDING_ARENA_INFO": {
       "id": "RIDING_ARENA_INFO",
@@ -1572,7 +1572,7 @@
         "Horse": 0.0011111111111111111
       },
       "slots": 1,
-      "produces": "RidingArena"
+      "produces": "Riding Arena"
     },
     "COFFEE_PLANTATION_INFO": {
       "id": "COFFEE_PLANTATION_INFO",
@@ -1581,10 +1581,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/CoffeePlantation.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "CoffeeBean": 0.008333333333333333
+        "Coffee Bean": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "CoffeeBean"
+      "produces": "Coffee Plantation"
     },
     "FIBER_MAKER_INFO": {
       "id": "FIBER_MAKER_INFO",
@@ -1593,10 +1593,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/FiberMaker.png",
       "rate_per_sec": 0.03333333333333333,
       "consumes": {
-        "PalmTree": 0.03333333333333333
+        "Palm Tree": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Fiber"
+      "produces": "Fiber Maker"
     },
     "COFFEE_HOUSE_INFO": {
       "id": "COFFEE_HOUSE_INFO",
@@ -1608,7 +1608,7 @@
         "Coffee": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Coffee"
+      "produces": "Coffee House"
     },
     "COPPER_MINE_TROPICAL_INFO": {
       "id": "COPPER_MINE_TROPICAL_INFO",
@@ -1620,7 +1620,7 @@
         "Copper Ingot": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Mine"
     },
     "DAIRY_INFO": {
       "id": "DAIRY_INFO",
@@ -1632,7 +1632,7 @@
         "Milk": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Cheese"
+      "produces": "Dairy"
     },
     "ROAST_HOUSE_INFO": {
       "id": "ROAST_HOUSE_INFO",
@@ -1641,10 +1641,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/RoastHouse.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "CoffeeBean": 0.016666666666666666
+        "Coffee Bean": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Coffee"
+      "produces": "Roast House"
     },
     "WHIM_HOUSE_INFO": {
       "id": "WHIM_HOUSE_INFO",
@@ -1653,10 +1653,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/WhimHouse.png",
       "rate_per_sec": 0.011111111111111112,
       "consumes": {
-        "WaterBuffalo": 0.011111111111111112
+        "Water Buffalo": 0.011111111111111112
       },
       "slots": 1,
-      "produces": "Whim"
+      "produces": "Whim House"
     },
     "SUGAR_CANE_PLANTATION_INFO": {
       "id": "SUGAR_CANE_PLANTATION_INFO",
@@ -1665,10 +1665,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/SugarCanePlantation.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "SugarCane": 0.008333333333333333
+        "Sugar Cane": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "SugarCane"
+      "produces": "Sugar Cane Plantation"
     },
     "COAL_MINE_TROPICAL_INFO": {
       "id": "COAL_MINE_TROPICAL_INFO",
@@ -1680,7 +1680,7 @@
         "Coal": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Coal"
+      "produces": "Coal Mine"
     },
     "DRYWELL_INFO": {
       "id": "DRYWELL_INFO",
@@ -1690,7 +1690,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Water"
+      "produces": "Drywell"
     },
     "ROPERY_TROPICAL_INFO": {
       "id": "ROPERY_TROPICAL_INFO",
@@ -1702,7 +1702,7 @@
         "Fiber": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Rope"
+      "produces": "Ropery"
     },
     "BALL_MAKER_INFO": {
       "id": "BALL_MAKER_INFO",
@@ -1714,7 +1714,7 @@
         "Leather": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Ball"
+      "produces": "Ball Maker"
     },
     "SPORTS_GROUND_INFO": {
       "id": "SPORTS_GROUND_INFO",
@@ -1726,7 +1726,7 @@
         "Ball": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "SportsGround"
+      "produces": "Sports Ground"
     },
     "TOBACCO_FARM_INFO": {
       "id": "TOBACCO_FARM_INFO",
@@ -1738,7 +1738,7 @@
         "Tobacco": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Tobacco"
+      "produces": "Tobacco Farm"
     },
     "CLAY_PIT_INFO": {
       "id": "CLAY_PIT_INFO",
@@ -1750,7 +1750,7 @@
         "Clay": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Clay"
+      "produces": "Clay Pit"
     },
     "POLETURNERS_WORKSHOP_INFO": {
       "id": "POLETURNERS_WORKSHOP_INFO",
@@ -1763,7 +1763,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Pike"
+      "produces": "Poleturners Workshop"
     },
     "TEA_PLANTATION_INFO": {
       "id": "TEA_PLANTATION_INFO",
@@ -1775,7 +1775,7 @@
         "Tea": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Tea"
+      "produces": "Tea Plantation"
     },
     "WATER_BUFFALO_RANCH_INFO": {
       "id": "WATER_BUFFALO_RANCH_INFO",
@@ -1785,10 +1785,10 @@
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
         "Grass": 0.008333333333333333,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "WaterBuffalo"
+      "produces": "Water Buffalo Ranch"
     },
     "CIGAR_MANUFACTURE_INFO": {
       "id": "CIGAR_MANUFACTURE_INFO",
@@ -1800,7 +1800,7 @@
         "Tobacco": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Cigar"
+      "produces": "Cigar Manufacture"
     },
     "FIELD_SURGEON_HOUSE_INFO": {
       "id": "FIELD_SURGEON_HOUSE_INFO",
@@ -1813,7 +1813,7 @@
         "Bandages": 0.0011111111111111111
       },
       "slots": 1,
-      "produces": "FieldSurgeon"
+      "produces": "Field Surgeon House"
     },
     "RUM_DISTILLERY_INFO": {
       "id": "RUM_DISTILLERY_INFO",
@@ -1822,10 +1822,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/RumDistillery.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "SugarCane": 0.016666666666666666
+        "Sugar Cane": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Rum"
+      "produces": "Rum Distillery"
     },
     "SUGAR_MILL_INFO": {
       "id": "SUGAR_MILL_INFO",
@@ -1834,11 +1834,11 @@
       "icon": "/icons/assets/icons/buildings/farmers/SugarMill.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "SugarCane": 0.016666666666666666,
-        "RiverField": 0.008333333333333333
+        "Sugar Cane": 0.016666666666666666,
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Sugar"
+      "produces": "Sugar Mill"
     },
     "COPPER_SMELTER_TROPICAL_INFO": {
       "id": "COPPER_SMELTER_TROPICAL_INFO",
@@ -1851,7 +1851,7 @@
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Copper Smelter"
     },
     "FARMERS_SHACK_INFO": {
       "id": "FARMERS_SHACK_INFO",
@@ -1887,7 +1887,7 @@
         "Rum": 0.0125
       },
       "slots": 1,
-      "produces": "Bandages"
+      "produces": "Apothecary"
     },
     "CROCODILE_RANCH_INFO": {
       "id": "CROCODILE_RANCH_INFO",
@@ -1896,10 +1896,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/CrocodileRanch.png",
       "rate_per_sec": 0.0020833333333333333,
       "consumes": {
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Leather"
+      "produces": "Crocodile Ranch"
     },
     "PIKEMEN_BARRACKS_INFO": {
       "id": "PIKEMEN_BARRACKS_INFO",
@@ -1912,7 +1912,7 @@
         "Pike": 0.0011111111111111111
       },
       "slots": 1,
-      "produces": "Pikeman"
+      "produces": "Pikemen Barracks"
     },
     "GOAT_FARM_INFO": {
       "id": "GOAT_FARM_INFO",
@@ -1924,7 +1924,7 @@
         "Mountain": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Milk"
+      "produces": "Goat Farm"
     },
     "BEACH_FISHERMANS_HUT_INFO": {
       "id": "BEACH_FISHERMANS_HUT_INFO",
@@ -1933,7 +1933,7 @@
       "icon": "/icons/assets/icons/buildings/farmers/BeachFishermansHut.png",
       "rate_per_sec": 0.011111111111111112,
       "consumes": {
-        "CoastalField": 0.044444444444444446
+        "Coastal Field": 0.044444444444444446
       },
       "slots": 1,
       "produces": "Fish"
@@ -1945,10 +1945,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/SalternTropical.png",
       "rate_per_sec": 0.0010416666666666667,
       "consumes": {
-        "CoastalField": 0.0020833333333333333
+        "Coastal Field": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Salt"
+      "produces": "Saltern"
     },
     "SUGAR_WINDMILL_INFO": {
       "id": "SUGAR_WINDMILL_INFO",
@@ -1957,10 +1957,10 @@
       "icon": "/icons/assets/icons/buildings/farmers/SugarWindmill.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "SugarCane": 0.008333333333333333
+        "Sugar Cane": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Sugar"
+      "produces": "Sugar Windmill"
     },
     "APIARY_INFO": {
       "id": "APIARY_INFO",
@@ -1972,7 +1972,7 @@
         "Gras": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Honey"
+      "produces": "Apiary"
     },
     "IRON_SMELTER_INFO": {
       "id": "IRON_SMELTER_INFO",
@@ -1998,7 +1998,7 @@
         "Cattle": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Meat"
+      "produces": "Butchery"
     },
     "IRON_ARMORY_INFO": {
       "id": "IRON_ARMORY_INFO",
@@ -2009,7 +2009,7 @@
       "consumes": {
         "Coal": 0.0010416666666666667,
         "Iron Ingot": 0.0020833333333333333,
-        "RiverField": 0.0010416666666666667
+        "River Field": 0.0010416666666666667
       },
       "slots": 1,
       "produces": "Iron Sword"
@@ -2021,7 +2021,7 @@
       "icon": "/icons/assets/icons/buildings/merchants/Hospital.png",
       "rate_per_sec": 0.016666666666666666,
       "consumes": {
-        "FishOil": 0.03333333333333333
+        "Fish Oil": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Hospital"
@@ -2035,10 +2035,10 @@
       "consumes": {
         "Soap": 0.004166666666666667,
         "Yarn": 0.008333333333333333,
-        "RiverField": 0.0020833333333333333
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Felt"
+      "produces": "Feltmaking Mill"
     },
     "GOLDSMITH_INFO": {
       "id": "GOLDSMITH_INFO",
@@ -2060,11 +2060,11 @@
       "icon": "/icons/assets/icons/buildings/merchants/PipemakersShop.png",
       "rate_per_sec": 0.016666666666666666,
       "consumes": {
-        "FineWood": 0.004166666666666667,
-        "PipeTobacco": 0.008333333333333333
+        "Fine Wood": 0.004166666666666667,
+        "Pipe Tobacco": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Pipe"
+      "produces": "Pipemakers Shop"
     },
     "PERFUMERY_INFO": {
       "id": "PERFUMERY_INFO",
@@ -2075,10 +2075,10 @@
       "consumes": {
         "Ambergris": 0.0020833333333333333,
         "Brandy": 0.004166666666666667,
-        "RoseWater": 0.004166666666666667
+        "Rose Water": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Perfume"
+      "produces": "Perfumery"
     },
     "COMPOSITE_BOWYER_INFO": {
       "id": "COMPOSITE_BOWYER_INFO",
@@ -2091,7 +2091,7 @@
         "Cattle": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Composite Bow"
+      "produces": "Composite Bowyer"
     },
     "COINING_PRESS_INFO": {
       "id": "COINING_PRESS_INFO",
@@ -2103,7 +2103,7 @@
         "Gold Ingot": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "CoiningPress"
+      "produces": "Coining Press"
     },
     "BRANDY_DISTILLERY_INFO": {
       "id": "BRANDY_DISTILLERY_INFO",
@@ -2116,7 +2116,7 @@
         "Cider": 0.025
       },
       "slots": 1,
-      "produces": "Brandy"
+      "produces": "Brandy Distillery"
     },
     "MARBLE_QUARRY_INFO": {
       "id": "MARBLE_QUARRY_INFO",
@@ -2125,10 +2125,10 @@
       "icon": "/icons/assets/icons/buildings/merchants/MarbleQuarry.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "MarbleDeposit": 0.008333333333333333
+        "Marble Deposit": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "MarbleQuarry"
+      "produces": "Marble Quarry"
     },
     "CROSSBOW_SHOOTING_RANGE_INFO": {
       "id": "CROSSBOW_SHOOTING_RANGE_INFO",
@@ -2141,7 +2141,7 @@
         "Crossbow": 0.0008333333333333334
       },
       "slots": 1,
-      "produces": "Crossbowman"
+      "produces": "Crossbow Shooting Range"
     },
     "PASTRY_MANUFACTURE_INFO": {
       "id": "PASTRY_MANUFACTURE_INFO",
@@ -2155,7 +2155,7 @@
         "Egg": 0.0125
       },
       "slots": 1,
-      "produces": "PastryManufacture"
+      "produces": "Pastry Manufacture"
     },
     "TOOLMAKER_INFO": {
       "id": "TOOLMAKER_INFO",
@@ -2180,7 +2180,7 @@
         "Rose": 0.03333333333333333
       },
       "slots": 1,
-      "produces": "Rose"
+      "produces": "Rose Cultivation"
     },
     "TOWNHALL_INFO": {
       "id": "TOWNHALL_INFO",
@@ -2205,7 +2205,7 @@
         "Gold Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Gold Ingot"
+      "produces": "Gold Smelter"
     },
     "ARCHER_ACADEMY_INFO": {
       "id": "ARCHER_ACADEMY_INFO",
@@ -2215,10 +2215,10 @@
       "rate_per_sec": 0.0008333333333333334,
       "consumes": {
         "Militia": 0.0033333333333333335,
-        "CompositeBow": 0.0008333333333333334
+        "Composite Bow": 0.0008333333333333334
       },
       "slots": 1,
-      "produces": "Composite Bow Archer"
+      "produces": "Archer Academy"
     },
     "CHICKEN_FARM_INFO": {
       "id": "CHICKEN_FARM_INFO",
@@ -2230,7 +2230,7 @@
         "Gras": 0.06666666666666667
       },
       "slots": 1,
-      "produces": "Egg"
+      "produces": "Chicken Farm"
     },
     "DEEP_COPPER_MINE_INFO": {
       "id": "DEEP_COPPER_MINE_INFO",
@@ -2239,10 +2239,10 @@
       "icon": "/icons/assets/icons/buildings/merchants/DeepCopperMine.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "CopperDeposit": 0.008333333333333333
+        "Copper Deposit": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Copper Ingot"
+      "produces": "Deep Copper Mine"
     },
     "CROSSBOW_MAKER_INFO": {
       "id": "CROSSBOW_MAKER_INFO",
@@ -2253,10 +2253,10 @@
       "consumes": {
         "Fiber": 0.008333333333333333,
         "Iron Ingot": 0.004166666666666667,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Crossbow"
+      "produces": "Crossbow Maker"
     },
     "ESSENCE_DISTILLERY_INFO": {
       "id": "ESSENCE_DISTILLERY_INFO",
@@ -2269,7 +2269,7 @@
         "Rose": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "RoseWater"
+      "produces": "Essence Distillery"
     },
     "KNIGHT_BARRACKS_INFO": {
       "id": "KNIGHT_BARRACKS_INFO",
@@ -2316,10 +2316,10 @@
       "icon": "/icons/assets/icons/buildings/merchants/IronMine.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "IronDeposit": 0.004166666666666667
+        "Iron Deposit": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Iron Ingot"
+      "produces": "Iron Ore"
     },
     "CURING_HOUSE_INFO": {
       "id": "CURING_HOUSE_INFO",
@@ -2332,7 +2332,7 @@
         "Tobacco": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "PipeTobacco"
+      "produces": "Curing House"
     },
     "HATTERS_SHOP_INFO": {
       "id": "HATTERS_SHOP_INFO",
@@ -2344,7 +2344,7 @@
         "Felt": 0.0010416666666666667
       },
       "slots": 1,
-      "produces": "Hat"
+      "produces": "Hatters Shop"
     },
     "SUGAR_BEET_FARM_INFO": {
       "id": "SUGAR_BEET_FARM_INFO",
@@ -2353,10 +2353,10 @@
       "icon": "/icons/assets/icons/buildings/merchants/SugarBeetFarm.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "SugarBeet": 0.16666666666666666
+        "Sugar Beet": 0.16666666666666666
       },
       "slots": 1,
-      "produces": "Sugar"
+      "produces": "Sugar Beet Farm"
     },
     "GOLD_MINE_TROPICAL_INFO": {
       "id": "GOLD_MINE_TROPICAL_INFO",
@@ -2368,7 +2368,7 @@
         "Gold Ore": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Gold Ore"
+      "produces": "Gold Mine"
     },
     "HERALDIC_ARMOURER_INFO": {
       "id": "HERALDIC_ARMOURER_INFO",
@@ -2378,10 +2378,10 @@
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
         "Gold Ingot": 0.008333333333333333,
-        "FineWood": 0.016666666666666666
+        "Fine Wood": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Shield"
+      "produces": "Heraldic Armourer"
     },
     "BUFFALO_PASTURE_INFO": {
       "id": "BUFFALO_PASTURE_INFO",
@@ -2390,10 +2390,10 @@
       "icon": "/icons/assets/icons/buildings/workers/BuffaloPasture.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "WaterBuffalo": 0.008333333333333333
+        "Water Buffalo": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "BuffaloPasture"
+      "produces": "Buffalo Pasture"
     },
     "GLAIVE_SMITH_INFO": {
       "id": "GLAIVE_SMITH_INFO",
@@ -2402,12 +2402,12 @@
       "icon": "/icons/assets/icons/buildings/workers/GlaiveSmith.png",
       "rate_per_sec": 0.0020833333333333333,
       "consumes": {
-        "FineWood": 0.0020833333333333333,
+        "Fine Wood": 0.0020833333333333333,
         "Gemstone": 0.004166666666666667,
         "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Glaive"
+      "produces": "Glaive Smith"
     },
     "INDIGO_PLANTATION_INFO": {
       "id": "INDIGO_PLANTATION_INFO",
@@ -2419,7 +2419,7 @@
         "Indigo": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Dye"
+      "produces": "Indigo Plantation"
     },
     "FINE_WOOD_LOGGER_INFO": {
       "id": "FINE_WOOD_LOGGER_INFO",
@@ -2428,10 +2428,10 @@
       "icon": "/icons/assets/icons/buildings/workers/FineWoodLogger.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "MahoganyTree": 0.008333333333333333
+        "Mahogany Tree": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "FineWood"
+      "produces": "Fine Wood Logger"
     },
     "BUFFALO_BUTCHERY_INFO": {
       "id": "BUFFALO_BUTCHERY_INFO",
@@ -2444,7 +2444,7 @@
         "Buffalo": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Meat"
+      "produces": "Buffalo Butchery"
     },
     "LUTHIER_INFO": {
       "id": "LUTHIER_INFO",
@@ -2454,10 +2454,10 @@
       "rate_per_sec": 0.06666666666666667,
       "consumes": {
         "Brass Ingot": 0.008333333333333333,
-        "FineWood": 0.06666666666666667
+        "Fine Wood": 0.06666666666666667
       },
       "slots": 1,
-      "produces": "Guitar"
+      "produces": "Luthier"
     },
     "GOLD_PANNER_INFO": {
       "id": "GOLD_PANNER_INFO",
@@ -2466,10 +2466,10 @@
       "icon": "/icons/assets/icons/buildings/workers/GoldPanner.png",
       "rate_per_sec": 0.0010416666666666667,
       "consumes": {
-        "RiverField": 0.0010416666666666667
+        "River Field": 0.0010416666666666667
       },
       "slots": 1,
-      "produces": "Gold Ingot"
+      "produces": "Gold Panner"
     },
     "SOUP_KITCHEN_INFO": {
       "id": "SOUP_KITCHEN_INFO",
@@ -2482,7 +2482,7 @@
         "Meat": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Stew"
+      "produces": "Soup Kitchen"
     },
     "STADIUM_INFO": {
       "id": "STADIUM_INFO",
@@ -2492,7 +2492,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Sports"
+      "produces": "Stadium"
     },
     "CACAO_PLANTATION_INFO": {
       "id": "CACAO_PLANTATION_INFO",
@@ -2501,10 +2501,10 @@
       "icon": "/icons/assets/icons/buildings/workers/CacaoPlantation.png",
       "rate_per_sec": 0.004166666666666667,
       "consumes": {
-        "CacaoTree": 0.004166666666666667
+        "Cacao Tree": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Cacao"
+      "produces": "Cacao Plantation"
     },
     "GOLD_SMELTER_TROPICAL_INFO": {
       "id": "GOLD_SMELTER_TROPICAL_INFO",
@@ -2517,7 +2517,7 @@
         "Gold Ingot": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Gold Ingot"
+      "produces": "Gold Smelter"
     },
     "DANCING_SCHOOL_INFO": {
       "id": "DANCING_SCHOOL_INFO",
@@ -2529,7 +2529,7 @@
         "Costume": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Dancing"
+      "produces": "Dancing School"
     },
     "COTTON_PLANTATION_INFO": {
       "id": "COTTON_PLANTATION_INFO",
@@ -2541,7 +2541,7 @@
         "Cotton": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Yarn"
+      "produces": "Cotton Plantation"
     },
     "NITRATE_MAKER_INFO": {
       "id": "NITRATE_MAKER_INFO",
@@ -2553,7 +2553,7 @@
         "Saltpeter": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Saltpeter"
+      "produces": "Nitrate Maker"
     },
     "CHOCOLATERIE_INFO": {
       "id": "CHOCOLATERIE_INFO",
@@ -2566,7 +2566,7 @@
         "Cacao": 0.025
       },
       "slots": 1,
-      "produces": "Chocolate"
+      "produces": "Chocolaterie"
     },
     "SILK_TWINE_MILL_INFO": {
       "id": "SILK_TWINE_MILL_INFO",
@@ -2576,10 +2576,10 @@
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
         "Silk": 0.016666666666666666,
-        "RiverField": 0.008333333333333333
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Silk"
+      "produces": "Silk Twine Mill"
     },
     "RICKYARD_TROPICAL_INFO": {
       "id": "RICKYARD_TROPICAL_INFO",
@@ -2603,7 +2603,7 @@
         "Silk": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Garment"
+      "produces": "Noble Tailor"
     },
     "BRASS_SMELTER_TROPICAL_INFO": {
       "id": "BRASS_SMELTER_TROPICAL_INFO",
@@ -2616,7 +2616,7 @@
         "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
-      "produces": "Brass Ingot"
+      "produces": "Brass Smelter"
     },
     "CEMETERY_INFO": {
       "id": "CEMETERY_INFO",
@@ -2641,7 +2641,7 @@
         "Shield": 0.0008333333333333334
       },
       "slots": 1,
-      "produces": "Shield Guardian"
+      "produces": "Shield Guardian Temple"
     },
     "GEMSTONE_MINE_INFO": {
       "id": "GEMSTONE_MINE_INFO",
@@ -2653,7 +2653,7 @@
         "Gemstone": 0.016666666666666666
       },
       "slots": 1,
-      "produces": "Gemstone"
+      "produces": "Gemstone Mine"
     },
     "SILK_PLANTATION_INFO": {
       "id": "SILK_PLANTATION_INFO",
@@ -2665,7 +2665,7 @@
         "Silkworm": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Silk"
+      "produces": "Silk Plantation"
     },
     "ARTISTIC_BLACKSMITH_INFO": {
       "id": "ARTISTIC_BLACKSMITH_INFO",
@@ -2678,7 +2678,7 @@
         "Gemstone": 0.0020833333333333333
       },
       "slots": 1,
-      "produces": "Mojo"
+      "produces": "Artistic Blacksmith"
     },
     "COSTUMIER_INFO": {
       "id": "COSTUMIER_INFO",
@@ -2691,7 +2691,7 @@
         "Fabric": 0.025
       },
       "slots": 1,
-      "produces": "Costume"
+      "produces": "Costumier"
     },
     "SPINNING_MILL_INFO": {
       "id": "SPINNING_MILL_INFO",
@@ -2701,10 +2701,10 @@
       "rate_per_sec": 0.0125,
       "consumes": {
         "Yarn": 0.016666666666666666,
-        "RiverField": 0.004166666666666667
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
-      "produces": "Fabric"
+      "produces": "Spinning Mill"
     },
     "GLAIVE_TEMPLE_INFO": {
       "id": "GLAIVE_TEMPLE_INFO",
@@ -2717,7 +2717,7 @@
         "Glaive": 0.0008333333333333334
       },
       "slots": 1,
-      "produces": "Glaive Warrior"
+      "produces": "Glaive Temple"
     },
     "MARKET_HALL_INFO": {
       "id": "MARKET_HALL_INFO",
@@ -2727,7 +2727,7 @@
       "rate_per_sec": 1.0,
       "consumes": {},
       "slots": 1,
-      "produces": "Trading"
+      "produces": "Market Hall"
     },
     "FLOWER_HOUSE_INFO": {
       "id": "FLOWER_HOUSE_INFO",
@@ -2739,7 +2739,7 @@
         "Grass": 0.3333333333333333
       },
       "slots": 1,
-      "produces": "Flowers"
+      "produces": "Flower House"
     },
     "COCONUT_PLANTATION_INFO": {
       "id": "COCONUT_PLANTATION_INFO",
@@ -2748,10 +2748,10 @@
       "icon": "/icons/assets/icons/buildings/workers/CoconutPlantation.png",
       "rate_per_sec": 0.008333333333333333,
       "consumes": {
-        "CoconutPalm": 0.008333333333333333
+        "Coconut Palm": 0.008333333333333333
       },
       "slots": 1,
-      "produces": "Coconut"
+      "produces": "Coconut Plantation"
     }
   },
   "population": {
@@ -2770,18 +2770,18 @@
         "Water": 1.0,
         "Community": 1.0,
         "Education": 1.0,
-        "MedicalCare": 1.0,
+        "Medical Care": 1.0,
         "Hat": 0.003125,
         "Pipe": 0.002777777777777778,
         "Pastry": 0.003125,
         "Caviar": 0.0006944444444444445,
-        "GoldJewelry": 0.0020161290322580645,
+        "Gold Jewelry": 0.0020161290322580645,
         "Perfume": 0.0020161290322580645,
         "Administration": 1.0,
         "Hygiene": 1.0
       },
       "slots": 1,
-      "produces": "PopulationMerchantsMansion",
+      "produces": "Population Merchants Mansion",
       "inhabitants_per_house": 25
     },
     "POPULATION_PARAGONS_RESIDENCE_INFO": {
@@ -2794,26 +2794,26 @@
         "Pastry": 0.00375,
         "Pipe": 0.0033333333333333335,
         "Caviar": 0.0008333333333333334,
-        "GoldJewelry": 0.0024193548387096775,
+        "Gold Jewelry": 0.0024193548387096775,
         "Perfume": 0.0024193548387096775,
         "Community": 1.0,
         "Education": 1.0,
-        "MedicalCare": 1.0,
+        "Medical Care": 1.0,
         "Administration": 1.0,
         "Hygiene": 1.0,
         "Shoe": 0.004901960784313725,
         "Glasses": 0.004901960784313725,
         "Book": 0.0017157563625965113,
-        "ChocolateCandy": 0.0029411764705882353,
-        "NobleGarment": 0.0017157563625965113,
+        "Chocolate Candy": 0.0029411764705882353,
+        "Noble Garment": 0.0017157563625965113,
         "Wine": 0.003676470588235294,
         "Coiffeur": 1.0,
         "Entertainment": 1.0,
-        "HigherEducation": 1.0,
+        "Higher Education": 1.0,
         "Gambling": 1.0
       },
       "slots": 1,
-      "produces": "PopulationParagonsResidence",
+      "produces": "Population Paragons Residence",
       "inhabitants_per_house": 30
     },
     "POPULATION_TOWNSMEN_HOUSE_INFO": {
@@ -2834,10 +2834,10 @@
         "Leather": 0.0009049773755656109,
         "Coffee": 0.0009569377990430622,
         "Jam": 0.0014925373134328358,
-        "MedicalCare": 1.0
+        "Medical Care": 1.0
       },
       "slots": 1,
-      "produces": "PopulationTownsmen",
+      "produces": "Population Townsmen House",
       "inhabitants_per_house": 20
     },
     "POPULATION_COLONISTS_HOUSE_INFO": {
@@ -2858,7 +2858,7 @@
         "Education": 1.0
       },
       "slots": 1,
-      "produces": "PopulationColonists",
+      "produces": "Population Colonists House",
       "inhabitants_per_house": 15
     },
     "POPULATION_FARMERS_SHACK_INFO": {
@@ -2878,7 +2878,7 @@
         "Sports": 1.0
       },
       "slots": 1,
-      "produces": "PopulationersShack",
+      "produces": "Population Farmers Shack",
       "inhabitants_per_house": 10
     },
     "POPULATION_PIONEERS_HUT_INFO": {
@@ -2895,7 +2895,7 @@
         "Community": 1.0
       },
       "slots": 1,
-      "produces": "PopulationPioneersHut",
+      "produces": "Population Pioneers Hut",
       "inhabitants_per_house": 10
     },
     "POPULATION_WORKERS_HOUSE_INFO": {
@@ -2924,49 +2924,44 @@
         "Entertainment": 1.0
       },
       "slots": 1,
-      "produces": "PopulationWorkers",
+      "produces": "Population Workers House",
       "inhabitants_per_house": 20
     }
   },
   "producers": {
-    "Copper Ingot": [
+    "Copper Smelter": [
       "COPPER_SMELTER_NORTH_INFO",
-      "COPPER_MINE_NORTH_INFO",
-      "COPPER_MINE_INFO",
       "COPPER_SMELTER_INFO",
-      "COPPER_MINE_TROPICAL_INFO",
-      "COPPER_SMELTER_TROPICAL_INFO",
-      "DEEP_COPPER_MINE_INFO"
+      "COPPER_SMELTER_TROPICAL_INFO"
     ],
-    "Rock Salt": [
+    "Rock Salt Mine": [
       "ROCK_SALT_MINE_NORTH_INFO",
       "ROCK_SALT_MINE_INFO"
     ],
-    "Gold Ingot": [
+    "Gold Smelter": [
       "GOLD_SMELTER_NORTH_INFO",
       "GOLD_SMELTER_INFO",
-      "GOLD_PANNER_INFO",
       "GOLD_SMELTER_TROPICAL_INFO"
     ],
-    "HeatingPlant": [
+    "Heating Plant": [
       "HEATING_PLANT_INFO"
     ],
-    "Gold Ore": [
+    "Gold Mine": [
       "GOLD_MINE_NORTH_INFO",
       "GOLD_MINE_TROPICAL_INFO"
     ],
-    "Fur": [
+    "Fur Trapper": [
       "FUR_TRAPPER_INFO"
     ],
-    "Brass Ingot": [
+    "Brass Smelter": [
       "BRASS_SMELTER_NORTH_INFO",
       "BRASS_SMELTER_INFO",
       "BRASS_SMELTER_TROPICAL_INFO"
     ],
-    "LargeHeatingPlant": [
+    "Large Heating Plant": [
       "LARGE_HEATING_PLANT_INFO"
     ],
-    "MarbleQuarry": [
+    "Marble Quarry": [
       "MARBLE_QUARRY_NORTH_INFO",
       "MARBLE_QUARRY_INFO"
     ],
@@ -2977,17 +2972,14 @@
     ],
     "Iron Ingot": [
       "IRON_SMELTER_NORTH_INFO",
-      "IRON_MINE_NORTH_INFO",
-      "IRON_SMELTER_INFO",
-      "IRON_MINE_INFO"
+      "IRON_SMELTER_INFO"
     ],
-    "Coal": [
+    "Coal Mine": [
       "COAL_MINE_NORTH_INFO",
-      "CHARCOAL_KILN_INFO",
       "COAL_MINE_INFO",
       "COAL_MINE_TROPICAL_INFO"
     ],
-    "Caviar": [
+    "Caviar Factory": [
       "CAVIAR_FACTORY_INFO"
     ],
     "Fish": [
@@ -2995,83 +2987,96 @@
       "FISHERMANS_HUT_INFO",
       "BEACH_FISHERMANS_HUT_INFO"
     ],
-    "SpermWhale": [
+    "Whaler": [
       "WHALER_INFO"
     ],
-    "Salt": [
+    "Salt Works": [
       "SALT_WORKS_NORTH_INFO",
-      "SALTERN_INFO",
-      "SALT_WORKS_INFO",
-      "SALTERN_TROPICAL_INFO"
+      "SALT_WORKS_INFO"
     ],
-    "Zinc Ingot": [
-      "ZINC_SMELTER_INFO",
-      "ZINC_MINE_NORTH_INFO"
+    "Zinc Smelter": [
+      "ZINC_SMELTER_INFO"
     ],
-    "Lead Ingot": [
-      "LEAD_MINE_INFO",
-      "LEAD_SMELTER_INFO"
+    "Iron Ore": [
+      "IRON_MINE_NORTH_INFO",
+      "IRON_MINE_INFO"
     ],
-    "Ambergris": [
+    "Copper Mine": [
+      "COPPER_MINE_NORTH_INFO",
+      "COPPER_MINE_INFO",
+      "COPPER_MINE_TROPICAL_INFO"
+    ],
+    "Lead Mine": [
+      "LEAD_MINE_INFO"
+    ],
+    "Ambergris Production": [
       "AMBERGRIS_PRODUCTION_INFO"
     ],
-    "Sturgeon": [
+    "Lead Smelter": [
+      "LEAD_SMELTER_INFO"
+    ],
+    "Sturgeon Farm": [
       "STURGEON_FARM_INFO"
     ],
-    "Community": [
-      "THEATRE_INFO",
-      "TAVERN_INFO",
-      "FAIR_INFO"
+    "Zinc Mine": [
+      "ZINC_MINE_NORTH_INFO"
+    ],
+    "Theatre": [
+      "THEATRE_INFO"
     ],
     "Senate": [
       "SENATE_INFO"
     ],
-    "BrocadeSpinningFactory": [
+    "Brocade Spinning Factory": [
       "BROCADE_SPINNING_FACTORY_INFO"
     ],
-    "Steel": [
+    "Steel Furnace": [
       "STEEL_FURNACE_INFO"
     ],
-    "Trumpet": [
+    "Trumpet Maker": [
       "TRUMPET_MAKER_INFO"
     ],
-    "Glasses": [
+    "Lens Grinder": [
       "LENS_GRINDER_INFO"
     ],
-    "OrnateTailor": [
+    "Ornate Tailor": [
       "ORNATE_TAILOR_INFO"
     ],
-    "LargeThermalBath": [
+    "Large Thermal Bath": [
       "LARGE_THERMAL_BATH_INFO"
     ],
-    "Candles": [
+    "Chandler": [
       "CHANDLER_INFO"
     ],
-    "Fireworks": [
+    "Saltern": [
+      "SALTERN_INFO",
+      "SALTERN_TROPICAL_INFO"
+    ],
+    "Fireworks Maker": [
       "FIREWORKS_MAKER_INFO"
     ],
-    "TreasureSeeker": [
+    "Treasure Seeker": [
       "TREASURE_SEEKER_INFO"
     ],
-    "Musket": [
+    "Musket Maker": [
       "MUSKET_MAKER_INFO"
     ],
-    "Cannoneer": [
+    "Cannoneers School": [
       "CANNONEERS_SCHOOL_INFO"
     ],
-    "Barrel": [
+    "Cooper": [
       "COOPER_INFO"
     ],
-    "Book": [
+    "Bookbinder": [
       "BOOKBINDER_INFO"
     ],
-    "Liqueur": [
+    "Honey Distillery": [
       "HONEY_DISTILLERY_INFO"
     ],
-    "Glass": [
+    "Glassworks": [
       "GLASSWORKS_INFO"
     ],
-    "Grape": [
+    "Winery": [
       "WINERY_INFO"
     ],
     "University": [
@@ -3080,60 +3085,62 @@
     "Confectionery": [
       "CONFECTIONERY_INFO"
     ],
-    "Cuirassier": [
+    "Cuirassier Academy": [
       "CUIRASSIER_ACADEMY_INFO"
     ],
-    "Musketeer": [
+    "Musketeer School": [
       "MUSKETEER_SCHOOL_INFO"
     ],
-    "Cannon": [
+    "Cannon Foundry": [
       "CANNON_FOUNDRY_INFO"
     ],
-    "ArmoredHorse": [
+    "Armorsmith": [
       "ARMORSMITH_INFO"
     ],
     "Tiltyard": [
       "TILTYARD_INFO"
     ],
-    "GalziersWorkshop": [
+    "Galziers Workshop": [
       "GALZIERS_WORKSHOP_INFO"
     ],
     "Coiffeur": [
       "COIFFEUR_INFO"
     ],
-    "Wine": [
+    "Winepress": [
       "WINEPRESS_INFO"
     ],
-    "Gunpowder": [
+    "Powder Mill": [
       "POWDER_MILL_INFO"
     ],
-    "Shoe": [
+    "Cobblers Shop": [
       "COBBLERS_SHOP_INFO"
     ],
-    "Lance": [
+    "Lance Maker": [
       "LANCE_MAKER_INFO"
     ],
-    "Paper": [
+    "Paper Mill": [
       "PAPER_MILL_INFO"
     ],
-    "Quartz": [
+    "Quartz Quarry": [
       "QUARTZ_QUARRY_INFO"
     ],
-    "MetalCutting": [
+    "Planing Mill": [
       "PLANING_MILL_INFO"
     ],
-    "Coke": [
+    "Cokery": [
       "COKERY_INFO"
     ],
-    "Cider": [
+    "Tavern": [
+      "TAVERN_INFO"
+    ],
+    "Cider Maker": [
       "CIDER_MAKER_INFO"
     ],
     "Water": [
       "CISTERN_INFO",
-      "WELL_INFO",
-      "DRYWELL_INFO"
+      "WELL_INFO"
     ],
-    "Sausage": [
+    "Sausage Maker": [
       "SAUSAGE_MAKER_INFO"
     ],
     "Militia": [
@@ -3143,199 +3150,217 @@
       "PIG_RANCH_INFO",
       "PIGGERY_INFO"
     ],
-    "BootCamp": [
+    "Boot Camp": [
       "BOOT_CAMP_INFO"
     ],
-    "Planks": [
-      "SAW_WORKS_INFO",
+    "Saw Works": [
+      "SAW_WORKS_INFO"
+    ],
+    "Sawmill": [
       "SAWMILL_INFO"
     ],
-    "Education": [
+    "School": [
       "SCHOOL_INFO"
     ],
-    "Yarn": [
-      "SHEEP_FARM_INFO",
-      "COTTON_PLANTATION_INFO"
+    "Sheep Farm": [
+      "SHEEP_FARM_INFO"
     ],
-    "Copper Axe": [
+    "Copper Axesmith": [
       "COPPER_AXESMITH_INFO"
     ],
-    "Fabric": [
-      "WEAVER_INFO",
-      "TEXTILE_FACTORY_INFO",
-      "SPINNING_MILL_INFO"
+    "Weaver": [
+      "WEAVER_INFO"
     ],
-    "Copper Sword": [
+    "Copper Armory": [
       "COPPER_ARMORY_INFO"
     ],
     "Limestone": [
-      "STONECUTTER_INFO",
-      "BOULDER_GATHERER_INFO"
+      "STONECUTTER_INFO"
     ],
-    "Flour": [
-      "FLOUR_MILL_INFO",
-      "FLOUR_WINDMILL_INFO"
+    "Flour Mill": [
+      "FLOUR_MILL_INFO"
     ],
-    "Bread": [
+    "Bakery": [
       "BAKERY_INFO"
     ],
-    "Quicklime": [
+    "Lime Kiln": [
       "LIME_KILN_INFO"
     ],
-    "Potash": [
+    "Ash House": [
       "ASH_HOUSE_INFO"
     ],
-    "MortarBatchWorks": [
+    "Mortar Batch Works": [
       "MORTAR_BATCH_WORKS_INFO"
     ],
-    "Fiber": [
-      "LINSEED_FARM_INFO",
-      "FIBER_MAKER_INFO"
+    "Flour Windmill": [
+      "FLOUR_WINDMILL_INFO"
     ],
-    "Archer": [
+    "Linseed Farm": [
+      "LINSEED_FARM_INFO"
+    ],
+    "Archery Range": [
       "ARCHERY_RANGE_INFO"
     ],
-    "Wheat": [
+    "Textile Factory": [
+      "TEXTILE_FACTORY_INFO"
+    ],
+    "Wheat Farm": [
       "WHEAT_FARM_INFO"
     ],
-    "Rope": [
+    "Ropery": [
       "ROPERY_INFO",
       "ROPERY_TROPICAL_INFO"
     ],
-    "Soap": [
+    "Soap Maker": [
       "SOAP_MAKER_INFO"
     ],
-    "Berserker": [
+    "Berserker Hall": [
       "BERSERKER_HALL_INFO"
     ],
-    "HarborTavern": [
+    "Harbor Tavern": [
       "HARBOR_TAVERN_INFO"
     ],
-    "Footsoldier": [
+    "Barracks": [
       "BARRACKS_INFO"
     ],
-    "Bow": [
+    "Bowyer": [
       "BOWYER_INFO"
     ],
     "Rickyard": [
       "RICKYARD_INFO",
       "RICKYARD_TROPICAL_INFO"
     ],
-    "Tallow": [
+    "Rendering Works": [
       "RENDERING_WORKS_INFO"
     ],
-    "Cauldron": [
+    "Fair": [
+      "FAIR_INFO"
+    ],
+    "Boiler Maker": [
       "BOILER_MAKER_INFO"
     ],
-    "Beer": [
+    "Brewery": [
       "BREWERY_INFO"
     ],
-    "Town": [
+    "Town School": [
       "TOWN_SCHOOL_INFO"
     ],
-    "FishOil": [
+    "Boiling House": [
       "BOILING_HOUSE_INFO"
     ],
-    "Malt": [
+    "Malthouse": [
       "MALTHOUSE_INFO"
     ],
-    "Hops": [
+    "Hop Farm": [
       "HOP_FARM_INFO"
     ],
-    "Longbow": [
+    "Longbowyer": [
       "LONGBOWYER_INFO"
+    ],
+    "Charcoal Kiln": [
+      "CHARCOAL_KILN_INFO"
     ],
     "Sailmaker": [
       "SAILMAKER_INFO"
     ],
-    "Drum": [
+    "Drum Maker": [
       "DRUM_MAKER_INFO"
     ],
-    "Strawberry": [
+    "Strawberry Farm": [
       "STRAWBERRY_FARM_INFO"
     ],
-    "War Drummer": [
+    "Drummers School": [
       "DRUMMERS_SCHOOL_INFO"
     ],
-    "Chalk": [
+    "Chalk Maker": [
       "CHALK_MAKER_INFO"
     ],
-    "Leather": [
-      "TANNERY_INFO",
-      "FURRIERY_INFO",
-      "CROCODILE_RANCH_INFO"
+    "Tannery": [
+      "TANNERY_INFO"
     ],
-    "Longbow Archer": [
+    "Boulder Gatherer": [
+      "BOULDER_GATHERER_INFO"
+    ],
+    "Longbow Archery Range": [
       "LONGBOW_ARCHERY_RANGE_INFO"
     ],
-    "Jam": [
+    "Jam Maker": [
       "JAM_MAKER_INFO"
+    ],
+    "Furriery": [
+      "FURRIERY_INFO"
     ],
     "Paddock": [
       "PADDOCK_INFO"
     ],
-    "Horse": [
+    "Horse Breeder": [
       "HORSE_BREEDER_INFO"
     ],
     "Medicus": [
       "MEDICUS_INFO"
     ],
-    "Cattle": [
+    "Cattle Ranch": [
       "CATTLE_RANCH_INFO"
     ],
-    "RidingArena": [
+    "Riding Arena": [
       "RIDING_ARENA_INFO"
     ],
-    "CoffeeBean": [
+    "Coffee Plantation": [
       "COFFEE_PLANTATION_INFO"
     ],
-    "Coffee": [
-      "COFFEE_HOUSE_INFO",
-      "ROAST_HOUSE_INFO"
+    "Fiber Maker": [
+      "FIBER_MAKER_INFO"
     ],
-    "Cheese": [
+    "Coffee House": [
+      "COFFEE_HOUSE_INFO"
+    ],
+    "Dairy": [
       "DAIRY_INFO"
     ],
-    "Whim": [
+    "Roast House": [
+      "ROAST_HOUSE_INFO"
+    ],
+    "Whim House": [
       "WHIM_HOUSE_INFO"
     ],
-    "SugarCane": [
+    "Sugar Cane Plantation": [
       "SUGAR_CANE_PLANTATION_INFO"
     ],
-    "Ball": [
+    "Drywell": [
+      "DRYWELL_INFO"
+    ],
+    "Ball Maker": [
       "BALL_MAKER_INFO"
     ],
-    "SportsGround": [
+    "Sports Ground": [
       "SPORTS_GROUND_INFO"
     ],
-    "Tobacco": [
+    "Tobacco Farm": [
       "TOBACCO_FARM_INFO"
     ],
-    "Clay": [
+    "Clay Pit": [
       "CLAY_PIT_INFO"
     ],
-    "Pike": [
+    "Poleturners Workshop": [
       "POLETURNERS_WORKSHOP_INFO"
     ],
-    "Tea": [
+    "Tea Plantation": [
       "TEA_PLANTATION_INFO"
     ],
-    "WaterBuffalo": [
+    "Water Buffalo Ranch": [
       "WATER_BUFFALO_RANCH_INFO"
     ],
-    "Cigar": [
+    "Cigar Manufacture": [
       "CIGAR_MANUFACTURE_INFO"
     ],
-    "FieldSurgeon": [
+    "Field Surgeon House": [
       "FIELD_SURGEON_HOUSE_INFO"
     ],
-    "Rum": [
+    "Rum Distillery": [
       "RUM_DISTILLERY_INFO"
     ],
-    "Sugar": [
-      "SUGAR_MILL_INFO",
-      "SUGAR_WINDMILL_INFO",
-      "SUGAR_BEET_FARM_INFO"
+    "Sugar Mill": [
+      "SUGAR_MILL_INFO"
     ],
     "Slinger": [
       "FARMERS_SHACK_INFO"
@@ -3343,42 +3368,47 @@
     "Brickyard": [
       "BRICKYARD_INFO"
     ],
-    "Bandages": [
+    "Apothecary": [
       "APOTHECARY_INFO"
     ],
-    "Pikeman": [
+    "Crocodile Ranch": [
+      "CROCODILE_RANCH_INFO"
+    ],
+    "Pikemen Barracks": [
       "PIKEMEN_BARRACKS_INFO"
     ],
-    "Milk": [
+    "Goat Farm": [
       "GOAT_FARM_INFO"
     ],
-    "PopulationMerchantsMansion": [
+    "Sugar Windmill": [
+      "SUGAR_WINDMILL_INFO"
+    ],
+    "Population Merchants Mansion": [
       "POPULATION_MERCHANTS_MANSION_INFO"
     ],
-    "PopulationParagonsResidence": [
+    "Population Paragons Residence": [
       "POPULATION_PARAGONS_RESIDENCE_INFO"
     ],
-    "PopulationTownsmen": [
+    "Population Townsmen House": [
       "POPULATION_TOWNSMEN_HOUSE_INFO"
     ],
-    "PopulationColonists": [
+    "Population Colonists House": [
       "POPULATION_COLONISTS_HOUSE_INFO"
     ],
-    "PopulationersShack": [
+    "Population Farmers Shack": [
       "POPULATION_FARMERS_SHACK_INFO"
     ],
-    "PopulationPioneersHut": [
+    "Population Pioneers Hut": [
       "POPULATION_PIONEERS_HUT_INFO"
     ],
-    "PopulationWorkers": [
+    "Population Workers House": [
       "POPULATION_WORKERS_HOUSE_INFO"
     ],
-    "Honey": [
+    "Apiary": [
       "APIARY_INFO"
     ],
-    "Meat": [
-      "BUTCHERY_INFO",
-      "BUFFALO_BUTCHERY_INFO"
+    "Butchery": [
+      "BUTCHERY_INFO"
     ],
     "Iron Sword": [
       "IRON_ARMORY_INFO"
@@ -3386,52 +3416,55 @@
     "Hospital": [
       "HOSPITAL_INFO"
     ],
-    "Felt": [
+    "Feltmaking Mill": [
       "FELTMAKING_MILL_INFO"
     ],
     "Goldsmith": [
       "GOLDSMITH_INFO"
     ],
-    "Pipe": [
+    "Pipemakers Shop": [
       "PIPEMAKERS_SHOP_INFO"
     ],
-    "Perfume": [
+    "Perfumery": [
       "PERFUMERY_INFO"
     ],
-    "Composite Bow": [
+    "Composite Bowyer": [
       "COMPOSITE_BOWYER_INFO"
     ],
-    "CoiningPress": [
+    "Coining Press": [
       "COINING_PRESS_INFO"
     ],
-    "Brandy": [
+    "Brandy Distillery": [
       "BRANDY_DISTILLERY_INFO"
     ],
-    "Crossbowman": [
+    "Crossbow Shooting Range": [
       "CROSSBOW_SHOOTING_RANGE_INFO"
     ],
-    "PastryManufacture": [
+    "Pastry Manufacture": [
       "PASTRY_MANUFACTURE_INFO"
     ],
     "Toolmaker": [
       "TOOLMAKER_INFO"
     ],
-    "Rose": [
+    "Rose Cultivation": [
       "ROSE_CULTIVATION_INFO"
     ],
     "Townhall": [
       "TOWNHALL_INFO"
     ],
-    "Composite Bow Archer": [
+    "Archer Academy": [
       "ARCHER_ACADEMY_INFO"
     ],
-    "Egg": [
+    "Chicken Farm": [
       "CHICKEN_FARM_INFO"
     ],
-    "Crossbow": [
+    "Deep Copper Mine": [
+      "DEEP_COPPER_MINE_INFO"
+    ],
+    "Crossbow Maker": [
       "CROSSBOW_MAKER_INFO"
     ],
-    "RoseWater": [
+    "Essence Distillery": [
       "ESSENCE_DISTILLERY_INFO"
     ],
     "Knight": [
@@ -3440,80 +3473,97 @@
     "Bathhouse": [
       "BATHHOUSE_INFO"
     ],
-    "PipeTobacco": [
+    "Curing House": [
       "CURING_HOUSE_INFO"
     ],
-    "Hat": [
+    "Hatters Shop": [
       "HATTERS_SHOP_INFO"
     ],
-    "Shield": [
+    "Sugar Beet Farm": [
+      "SUGAR_BEET_FARM_INFO"
+    ],
+    "Heraldic Armourer": [
       "HERALDIC_ARMOURER_INFO"
     ],
-    "BuffaloPasture": [
+    "Buffalo Pasture": [
       "BUFFALO_PASTURE_INFO"
     ],
-    "Glaive": [
+    "Glaive Smith": [
       "GLAIVE_SMITH_INFO"
     ],
-    "Dye": [
+    "Indigo Plantation": [
       "INDIGO_PLANTATION_INFO"
     ],
-    "FineWood": [
+    "Fine Wood Logger": [
       "FINE_WOOD_LOGGER_INFO"
     ],
-    "Guitar": [
+    "Buffalo Butchery": [
+      "BUFFALO_BUTCHERY_INFO"
+    ],
+    "Luthier": [
       "LUTHIER_INFO"
     ],
-    "Stew": [
+    "Gold Panner": [
+      "GOLD_PANNER_INFO"
+    ],
+    "Soup Kitchen": [
       "SOUP_KITCHEN_INFO"
     ],
-    "Sports": [
+    "Stadium": [
       "STADIUM_INFO"
     ],
-    "Cacao": [
+    "Cacao Plantation": [
       "CACAO_PLANTATION_INFO"
     ],
-    "Dancing": [
+    "Dancing School": [
       "DANCING_SCHOOL_INFO"
     ],
-    "Saltpeter": [
+    "Cotton Plantation": [
+      "COTTON_PLANTATION_INFO"
+    ],
+    "Nitrate Maker": [
       "NITRATE_MAKER_INFO"
     ],
-    "Chocolate": [
+    "Chocolaterie": [
       "CHOCOLATERIE_INFO"
     ],
-    "Silk": [
-      "SILK_TWINE_MILL_INFO",
-      "SILK_PLANTATION_INFO"
+    "Silk Twine Mill": [
+      "SILK_TWINE_MILL_INFO"
     ],
-    "Garment": [
+    "Noble Tailor": [
       "NOBLE_TAILOR_INFO"
     ],
     "Cemetery": [
       "CEMETERY_INFO"
     ],
-    "Shield Guardian": [
+    "Shield Guardian Temple": [
       "SHIELD_GUARDIAN_TEMPLE_INFO"
     ],
-    "Gemstone": [
+    "Gemstone Mine": [
       "GEMSTONE_MINE_INFO"
     ],
-    "Mojo": [
+    "Silk Plantation": [
+      "SILK_PLANTATION_INFO"
+    ],
+    "Artistic Blacksmith": [
       "ARTISTIC_BLACKSMITH_INFO"
     ],
-    "Costume": [
+    "Costumier": [
       "COSTUMIER_INFO"
     ],
-    "Glaive Warrior": [
+    "Spinning Mill": [
+      "SPINNING_MILL_INFO"
+    ],
+    "Glaive Temple": [
       "GLAIVE_TEMPLE_INFO"
     ],
-    "Trading": [
+    "Market Hall": [
       "MARKET_HALL_INFO"
     ],
-    "Flowers": [
+    "Flower House": [
       "FLOWER_HOUSE_INFO"
     ],
-    "Coconut": [
+    "Coconut Plantation": [
       "COCONUT_PLANTATION_INFO"
     ]
   }
