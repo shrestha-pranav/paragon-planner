@@ -1,6 +1,8 @@
 import { useState, useMemo } from 'react'
 import { gameData, calculatePlan } from './lib/engine'
 import type { Difficulty } from './lib/engine'
+import { partitionIslands } from './lib/islandOptimizer'
+import { IslandNetworkGraph } from './components/IslandNetworkGraph'
 import './App.css'
 
 type RateUnit = 'sec' | 'min' | 'hour';
@@ -8,6 +10,17 @@ type RateUnit = 'sec' | 'min' | 'hour';
 function App() {
   const [unit, setUnit] = useState<RateUnit>('min');
   const [difficulty, setDifficulty] = useState<Difficulty>('Normal');
+  const [showNetwork, setShowNetwork] = useState(false);
+
+  const getIconUrl = (path?: string) => {
+    if (!path) return '';
+    const cleanPath = path.replace(/^\//, '');
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
+      ? import.meta.env.BASE_URL 
+      : `${import.meta.env.BASE_URL}/`;
+    return `${baseUrl}${cleanPath}`;
+  };
+
   const [popCounts, setPopCounts] = useState<Record<string, number>>({
     POPULATION_MERCHANTS_MANSION_INFO: 1000,
     POPULATION_WORKERS_HOUSE_INFO: 500,
@@ -40,6 +53,10 @@ function App() {
       difficulty 
     });
   }, [popCounts, unitTargets, difficulty]);
+
+  const network = useMemo(() => {
+    return partitionIslands(plan);
+  }, [plan]);
 
   const unitMult = useMemo(() => {
     const MIL = gameData.config.ticks_per_second;
@@ -86,7 +103,7 @@ function App() {
               {Object.keys(gameData.population).map(id => {
                 const pop = gameData.population[id];
                 const cleanName = pop.name.replace('Population', '').replace('House', '').replace('Mansion', '').replace('Residence', '').replace('Shack', '').trim();
-                const iconSrc = pop.icon ? `${import.meta.env.BASE_URL}${pop.icon.replace(/^\//, '')}` : '';
+                const iconSrc = getIconUrl(pop.icon);
                 return (
                   <div key={id} className="input-row-with-icon">
                     <div className="label-with-icon">
@@ -144,7 +161,7 @@ function App() {
                   <div className="building-grid">
                     {Object.entries(buildings).map(([id, count]) => {
                       const b = (gameData.buildings[id] || gameData.population[id]);
-                      const iconSrc = b?.icon ? `${import.meta.env.BASE_URL}${b.icon.replace(/^\//, '')}` : '';
+                      const iconSrc = getIconUrl(b?.icon);
                       
                       return (
                         <div key={id} className="building-item" title={`${b?.name} (${b?.region})`}>
@@ -163,31 +180,44 @@ function App() {
           </div>
 
           <div className="card islands-card">
-            <h2>Recommended Island Specializations</h2>
-            <div className="island-suggestions">
-              {Object.entries(plan.regionalBuildings).map(([region, buildings]) => {
-                const totalBuildings = Object.values(buildings).reduce((a, b) => a + b, 0);
-                const estimatedIslands = Math.ceil(totalBuildings / 25);
-                return (
-                  <div key={region} className="region-suggestion">
-                    <h3>{region} Region ({Math.ceil(totalBuildings)} Slots)</h3>
-                    <p>Estimated: <strong>{estimatedIslands} specialized islands</strong> (avg 25 slots/island)</p>
-                    <div className="specialization-pills">
-                      {Object.entries(buildings)
-                        .filter(([_, count]) => count > 5)
-                        .sort((a, b) => b[1] - a[1])
-                        .map(([id]) => {
-                          const b = (gameData.buildings[id] || gameData.population[id]);
-                          return (
-                            <span key={id} className="pill">{b?.produces} Hub</span>
-                          )
-                        })
-                      }
-                    </div>
-                  </div>
-                );
-              })}
+            <div className="card-header-with-toggle">
+              <h2>Recommended Island Specializations</h2>
+              <button 
+                className={`toggle-btn ${showNetwork ? 'active' : ''}`}
+                onClick={() => setShowNetwork(!showNetwork)}
+              >
+                {showNetwork ? 'Hide Network' : 'Show Trade Network'}
+              </button>
             </div>
+            
+            {showNetwork ? (
+              <IslandNetworkGraph network={network} unitMult={unitMult} />
+            ) : (
+              <div className="island-suggestions">
+                {Object.entries(plan.regionalBuildings).map(([region, buildings]) => {
+                  const totalBuildings = Object.values(buildings).reduce((a, b) => a + b, 0);
+                  const estimatedIslands = Math.ceil(totalBuildings / 350);
+                  return (
+                    <div key={region} className="region-suggestion">
+                      <h3>{region} Region ({Math.ceil(totalBuildings)} Slots)</h3>
+                      <p>Estimated: <strong>{estimatedIslands} specialized islands</strong> (avg 350 slots/island)</p>
+                      <div className="specialization-pills">
+                        {Object.entries(buildings)
+                          .filter(([_, count]) => count > 5)
+                          .sort((a, b) => b[1] - a[1])
+                          .map(([id]) => {
+                            const b = (gameData.buildings[id] || gameData.population[id]);
+                            return (
+                              <span key={id} className="pill">{b?.produces} Hub</span>
+                            )
+                          })
+                        }
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
 
           <div className="card resources-card">

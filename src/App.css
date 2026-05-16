@@ -347,3 +347,24 @@ h3 {
   border-radius: 4px;
   text-align: right;
 }
+
+.toggle-btn {
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+  border-color: var(--primary-color);
+}
+
+.toggle-btn.active {
+  background: var(--primary-color);
+  color: #1a1210;
+  font-weight: bold;
+}
