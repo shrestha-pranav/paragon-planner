@@ -1,0 +1,249 @@
+:root {
+  --primary-color: #d4a373;
+  --bg-color: #1a1210;
+  --card-bg: #2b1d1a;
+  --text-color: #f5ebe0;
+  --border-color: rgba(212, 163, 115, 0.2);
+  --input-bg: #3d2b27;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.planner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  margin: 0.5rem 0 0;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.planner-layout {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .planner-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.input-group {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.input-row label {
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.input-row input {
+  width: 80px;
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.results-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.building-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.region-block {
+  margin-bottom: 2rem;
+}
+
+.region-block h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 0.25rem;
+}
+
+.b-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.b-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.building-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.building-item {
+  background: rgba(255,255,255,0.05);
+  padding: 0.75rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.building-item:hover {
+  background: rgba(212, 163, 115, 0.1);
+  border-color: var(--primary-color);
+}
+
+.building-item .count {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  min-width: 30px;
+}
+
+.building-item .name {
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.resource-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.resource-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.75rem;
+  background: rgba(0,0,0,0.2);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  align-items: center;
+}
+
+.flow-details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.flow-details .cons {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+
+.flow-details .prod {
+  opacity: 0.8;
+  font-size: 0.75rem;
+  color: #8fb339;
+}
+
+.flow.surplus {
+  color: #8fb339;
+  min-width: 50px;
+  text-align: right;
+}
+
+.flow.deficit {
+  color: #e07a5f;
+  font-weight: bold;
+  min-width: 50px;
+  text-align: right;
+}
+
+.island-suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.region-suggestion h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.region-suggestion p {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin: 0.5rem 0;
+}
+
+.specialization-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pill {
+  background: var(--primary-color);
+  color: #1a1210;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}

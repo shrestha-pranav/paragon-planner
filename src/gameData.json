@@ -1,0 +1,2899 @@
+{
+  "buildings": {
+    "COPPER_SMELTER_NORTH_INFO": {
+      "id": "COPPER_SMELTER_NORTH_INFO",
+      "name": "CopperSmelterNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/CopperSmelterNorth.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "CopperNorth"
+    },
+    "ROCK_SALT_MINE_NORTH_INFO": {
+      "id": "ROCK_SALT_MINE_NORTH_INFO",
+      "name": "RockSaltMineNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/RockSaltMineNorth.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "RockSaltNorth"
+    },
+    "GOLD_SMELTER_NORTH_INFO": {
+      "id": "GOLD_SMELTER_NORTH_INFO",
+      "name": "GoldSmelterNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/GoldSmelterNorth.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "GoldNorth"
+    },
+    "HEATING_PLANT_INFO": {
+      "id": "HEATING_PLANT_INFO",
+      "name": "HeatingPlant",
+      "image": "../../../../assets/icons/buildings/northern-islands/HeatingPlant.png",
+      "time_sec": 120,
+      "produce_qty": 8,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "HeatingPlant"
+    },
+    "GOLD_MINE_NORTH_INFO": {
+      "id": "GOLD_MINE_NORTH_INFO",
+      "name": "GoldMineNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/GoldMineNorth.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "GoldNorth"
+    },
+    "FUR_TRAPPER_INFO": {
+      "id": "FUR_TRAPPER_INFO",
+      "name": "FurTrapper",
+      "image": "../../../../assets/icons/buildings/northern-islands/FurTrapper.png",
+      "time_sec": 360,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "FurTrapper"
+    },
+    "BRASS_SMELTER_NORTH_INFO": {
+      "id": "BRASS_SMELTER_NORTH_INFO",
+      "name": "BrassSmelterNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/BrassSmelterNorth.png",
+      "time_sec": 360,
+      "produce_qty": 5,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "BrassNorth"
+    },
+    "LARGE_HEATING_PLANT_INFO": {
+      "id": "LARGE_HEATING_PLANT_INFO",
+      "name": "LargeHeatingPlant",
+      "image": "../../../../assets/icons/buildings/northern-islands/LargeHeatingPlant.png",
+      "time_sec": 120,
+      "produce_qty": 20,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "LargeHeatingPlant"
+    },
+    "MARBLE_QUARRY_NORTH_INFO": {
+      "id": "MARBLE_QUARRY_NORTH_INFO",
+      "name": "MarbleQuarryNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/MarbleQuarryNorth.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "MarbleQuarryNorth"
+    },
+    "CONIFER_LUMBERJACK_INFO": {
+      "id": "CONIFER_LUMBERJACK_INFO",
+      "name": "ConiferLumberjack",
+      "image": "../../../../assets/icons/buildings/northern-islands/ConiferLumberjack.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "ConiferLumberjack"
+    },
+    "IRON_SMELTER_NORTH_INFO": {
+      "id": "IRON_SMELTER_NORTH_INFO",
+      "name": "IronSmelterNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/IronSmelterNorth.png",
+      "time_sec": 480,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "IronNorth"
+    },
+    "COAL_MINE_NORTH_INFO": {
+      "id": "COAL_MINE_NORTH_INFO",
+      "name": "CoalMineNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/CoalMineNorth.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "CoalNorth"
+    },
+    "CAVIAR_FACTORY_INFO": {
+      "id": "CAVIAR_FACTORY_INFO",
+      "name": "CaviarFactory",
+      "image": "../../../../assets/icons/buildings/northern-islands/CaviarFactory.png",
+      "time_sec": 480,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "CaviarFactory"
+    },
+    "SALMON_FISHERMANS_HUT_INFO": {
+      "id": "SALMON_FISHERMANS_HUT_INFO",
+      "name": "SalmonFishermansHut",
+      "image": "../../../../assets/icons/buildings/northern-islands/SalmonFishermansHut.png",
+      "time_sec": 45,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Fish"
+    },
+    "WHALER_INFO": {
+      "id": "WHALER_INFO",
+      "name": "Whaler",
+      "image": "../../../../assets/icons/buildings/northern-islands/Whaler.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Whaler"
+    },
+    "SALT_WORKS_NORTH_INFO": {
+      "id": "SALT_WORKS_NORTH_INFO",
+      "name": "SaltWorksNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/SaltWorksNorth.png",
+      "time_sec": 720,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "SaltWorksNorth"
+    },
+    "ZINC_SMELTER_INFO": {
+      "id": "ZINC_SMELTER_INFO",
+      "name": "ZincSmelter",
+      "image": "../../../../assets/icons/buildings/northern-islands/ZincSmelter.png",
+      "time_sec": 360,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Zinc"
+    },
+    "IRON_MINE_NORTH_INFO": {
+      "id": "IRON_MINE_NORTH_INFO",
+      "name": "IronMineNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/IronMineNorth.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "IronNorth"
+    },
+    "COPPER_MINE_NORTH_INFO": {
+      "id": "COPPER_MINE_NORTH_INFO",
+      "name": "CopperMineNorth",
+      "image": "../../../../assets/icons/buildings/northern-islands/CopperMineNorth.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "CopperNorth"
+    },
+    "LEAD_MINE_INFO": {
+      "id": "LEAD_MINE_INFO",
+      "name": "LeadMine",
+      "image": "../../../../assets/icons/buildings/northern-islands/LeadMine.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Lead"
+    },
+    "AMBERGRIS_PRODUCTION_INFO": {
+      "id": "AMBERGRIS_PRODUCTION_INFO",
+      "name": "AmbergrisProduction",
+      "image": "../../../../assets/icons/buildings/northern-islands/AmbergrisProduction.png",
+      "time_sec": 1920,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "AmbergrisProduction"
+    },
+    "LEAD_SMELTER_INFO": {
+      "id": "LEAD_SMELTER_INFO",
+      "name": "LeadSmelter",
+      "image": "../../../../assets/icons/buildings/northern-islands/LeadSmelter.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Lead"
+    },
+    "STURGEON_FARM_INFO": {
+      "id": "STURGEON_FARM_INFO",
+      "name": "SturgeonFarm",
+      "image": "../../../../assets/icons/buildings/northern-islands/SturgeonFarm.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Sturgeon"
+    },
+    "ZINC_MINE_NORTH_INFO": {
+      "id": "ZINC_MINE_NORTH_INFO",
+      "name": "ZincMine",
+      "image": "../../../../assets/icons/buildings/northern-islands/ZincMine.png",
+      "time_sec": 180,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "northern-islands",
+      "produces": "Zinc"
+    },
+    "THEATRE_INFO": {
+      "id": "THEATRE_INFO",
+      "name": "Theatre",
+      "image": "../../../../assets/icons/buildings/paragons/Theatre.png",
+      "time_sec": 1,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Theatre"
+    },
+    "SENATE_INFO": {
+      "id": "SENATE_INFO",
+      "name": "Senate",
+      "image": "../../../../assets/icons/buildings/paragons/Senate.png",
+      "time_sec": 1,
+      "produce_qty": 120,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Senate"
+    },
+    "BROCADE_SPINNING_FACTORY_INFO": {
+      "id": "BROCADE_SPINNING_FACTORY_INFO",
+      "name": "BrocadeSpinningFactory",
+      "image": "../../../../assets/icons/buildings/paragons/BrocadeSpinningFactory.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "BrocadeSpinningFactory"
+    },
+    "STEEL_FURNACE_INFO": {
+      "id": "STEEL_FURNACE_INFO",
+      "name": "SteelFurnace",
+      "image": "../../../../assets/icons/buildings/paragons/SteelFurnace.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "SteelFurnace"
+    },
+    "TRUMPET_MAKER_INFO": {
+      "id": "TRUMPET_MAKER_INFO",
+      "name": "TrumpetMaker",
+      "image": "../../../../assets/icons/buildings/paragons/TrumpetMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Trumpet"
+    },
+    "LENS_GRINDER_INFO": {
+      "id": "LENS_GRINDER_INFO",
+      "name": "LensGrinder",
+      "image": "../../../../assets/icons/buildings/paragons/LensGrinder.png",
+      "time_sec": 240,
+      "produce_qty": 8,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "LensGrinder"
+    },
+    "ORNATE_TAILOR_INFO": {
+      "id": "ORNATE_TAILOR_INFO",
+      "name": "OrnateTailor",
+      "image": "../../../../assets/icons/buildings/paragons/OrnateTailor.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "OrnateTailor"
+    },
+    "LARGE_THERMAL_BATH_INFO": {
+      "id": "LARGE_THERMAL_BATH_INFO",
+      "name": "LargeThermalBath",
+      "image": "../../../../assets/icons/buildings/paragons/LargeThermalBath.png",
+      "time_sec": 1,
+      "produce_qty": 120,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "LargeThermalBath"
+    },
+    "CHANDLER_INFO": {
+      "id": "CHANDLER_INFO",
+      "name": "Chandler",
+      "image": "../../../../assets/icons/buildings/paragons/Chandler.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Chandler"
+    },
+    "SALTERN_INFO": {
+      "id": "SALTERN_INFO",
+      "name": "Saltern",
+      "image": "../../../../assets/icons/buildings/paragons/Saltern.png",
+      "time_sec": 960,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Saltern"
+    },
+    "FIREWORKS_MAKER_INFO": {
+      "id": "FIREWORKS_MAKER_INFO",
+      "name": "FireworksMaker",
+      "image": "../../../../assets/icons/buildings/paragons/FireworksMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Fireworks"
+    },
+    "TREASURE_SEEKER_INFO": {
+      "id": "TREASURE_SEEKER_INFO",
+      "name": "TreasureSeeker",
+      "image": "../../../../assets/icons/buildings/paragons/TreasureSeeker.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "TreasureSeeker"
+    },
+    "MUSKET_MAKER_INFO": {
+      "id": "MUSKET_MAKER_INFO",
+      "name": "MusketMaker",
+      "image": "../../../../assets/icons/buildings/paragons/MusketMaker.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Musket"
+    },
+    "CANNONEERS_SCHOOL_INFO": {
+      "id": "CANNONEERS_SCHOOL_INFO",
+      "name": "CannoneersSchool",
+      "image": "../../../../assets/icons/buildings/paragons/CannoneersSchool.png",
+      "time_sec": 1800,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Cannoneer"
+    },
+    "COOPER_INFO": {
+      "id": "COOPER_INFO",
+      "name": "Cooper",
+      "image": "../../../../assets/icons/buildings/paragons/Cooper.png",
+      "time_sec": 480,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Cooper"
+    },
+    "BOOKBINDER_INFO": {
+      "id": "BOOKBINDER_INFO",
+      "name": "Bookbinder",
+      "image": "../../../../assets/icons/buildings/paragons/Bookbinder.png",
+      "time_sec": 120,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Bookbinder"
+    },
+    "HONEY_DISTILLERY_INFO": {
+      "id": "HONEY_DISTILLERY_INFO",
+      "name": "HoneyDistillery",
+      "image": "../../../../assets/icons/buildings/paragons/HoneyDistillery.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "HoneyDistillery"
+    },
+    "GLASSWORKS_INFO": {
+      "id": "GLASSWORKS_INFO",
+      "name": "Glassworks",
+      "image": "../../../../assets/icons/buildings/paragons/Glassworks.png",
+      "time_sec": 480,
+      "produce_qty": 8,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Glassworks"
+    },
+    "WINERY_INFO": {
+      "id": "WINERY_INFO",
+      "name": "Winery",
+      "image": "../../../../assets/icons/buildings/paragons/Winery.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Winery"
+    },
+    "UNIVERSITY_INFO": {
+      "id": "UNIVERSITY_INFO",
+      "name": "University",
+      "image": "../../../../assets/icons/buildings/paragons/University.png",
+      "time_sec": 60,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "University"
+    },
+    "CONFECTIONERY_INFO": {
+      "id": "CONFECTIONERY_INFO",
+      "name": "Confectionery",
+      "image": "../../../../assets/icons/buildings/paragons/Confectionery.png",
+      "time_sec": 240,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Confectionery"
+    },
+    "CUIRASSIER_ACADEMY_INFO": {
+      "id": "CUIRASSIER_ACADEMY_INFO",
+      "name": "CuirassierAcademy",
+      "image": "../../../../assets/icons/buildings/paragons/CuirassierAcademy.png",
+      "time_sec": 1800,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "CuirassierAcademy"
+    },
+    "MUSKETEER_SCHOOL_INFO": {
+      "id": "MUSKETEER_SCHOOL_INFO",
+      "name": "MusketeerSchool",
+      "image": "../../../../assets/icons/buildings/paragons/MusketeerSchool.png",
+      "time_sec": 1800,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Musketeer"
+    },
+    "BRASS_SMELTER_INFO": {
+      "id": "BRASS_SMELTER_INFO",
+      "name": "BrassSmelter",
+      "image": "../../../../assets/icons/buildings/paragons/BrassSmelter.png",
+      "time_sec": 360,
+      "produce_qty": 5,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Brass"
+    },
+    "CANNON_FOUNDRY_INFO": {
+      "id": "CANNON_FOUNDRY_INFO",
+      "name": "CannonFoundry",
+      "image": "../../../../assets/icons/buildings/paragons/CannonFoundry.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "CannonFoundry"
+    },
+    "ARMORSMITH_INFO": {
+      "id": "ARMORSMITH_INFO",
+      "name": "Armorsmith",
+      "image": "../../../../assets/icons/buildings/paragons/Armorsmith.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Armorsmith"
+    },
+    "TILTYARD_INFO": {
+      "id": "TILTYARD_INFO",
+      "name": "Tiltyard",
+      "image": "../../../../assets/icons/buildings/paragons/Tiltyard.png",
+      "time_sec": 120,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Tiltyard"
+    },
+    "GALZIERS_WORKSHOP_INFO": {
+      "id": "GALZIERS_WORKSHOP_INFO",
+      "name": "GalziersWorkshop",
+      "image": "../../../../assets/icons/buildings/paragons/GalziersWorkshop.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "GalziersWorkshop"
+    },
+    "COIFFEUR_INFO": {
+      "id": "COIFFEUR_INFO",
+      "name": "Coiffeur",
+      "image": "../../../../assets/icons/buildings/paragons/Coiffeur.png",
+      "time_sec": 1,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Coiffeur"
+    },
+    "WINEPRESS_INFO": {
+      "id": "WINEPRESS_INFO",
+      "name": "Winepress",
+      "image": "../../../../assets/icons/buildings/paragons/Winepress.png",
+      "time_sec": 360,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Winepress"
+    },
+    "POWDER_MILL_INFO": {
+      "id": "POWDER_MILL_INFO",
+      "name": "PowderMill",
+      "image": "../../../../assets/icons/buildings/paragons/PowderMill.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "PowderMill"
+    },
+    "COBBLERS_SHOP_INFO": {
+      "id": "COBBLERS_SHOP_INFO",
+      "name": "CobblersShop",
+      "image": "../../../../assets/icons/buildings/paragons/CobblersShop.png",
+      "time_sec": 480,
+      "produce_qty": 8,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "CobblersShop"
+    },
+    "LANCE_MAKER_INFO": {
+      "id": "LANCE_MAKER_INFO",
+      "name": "LanceMaker",
+      "image": "../../../../assets/icons/buildings/paragons/LanceMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Lance"
+    },
+    "PAPER_MILL_INFO": {
+      "id": "PAPER_MILL_INFO",
+      "name": "PaperMill",
+      "image": "../../../../assets/icons/buildings/paragons/PaperMill.png",
+      "time_sec": 120,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "PaperMill"
+    },
+    "QUARTZ_QUARRY_INFO": {
+      "id": "QUARTZ_QUARRY_INFO",
+      "name": "QuartzQuarry",
+      "image": "../../../../assets/icons/buildings/paragons/QuartzQuarry.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "QuartzQuarry"
+    },
+    "PLANING_MILL_INFO": {
+      "id": "PLANING_MILL_INFO",
+      "name": "PlaningMill",
+      "image": "../../../../assets/icons/buildings/paragons/PlaningMill.png",
+      "time_sec": 240,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "PlaningMill"
+    },
+    "COKERY_INFO": {
+      "id": "COKERY_INFO",
+      "name": "Cokery",
+      "image": "../../../../assets/icons/buildings/paragons/Cokery.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "paragons",
+      "produces": "Cokery"
+    },
+    "FISHERMANS_HUT_INFO": {
+      "id": "FISHERMANS_HUT_INFO",
+      "name": "FishermansHut",
+      "image": "../../../../assets/icons/buildings/pioneers/FishermansHut.png",
+      "time_sec": 90,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Fish"
+    },
+    "TAVERN_INFO": {
+      "id": "TAVERN_INFO",
+      "name": "Tavern",
+      "image": "../../../../assets/icons/buildings/pioneers/Tavern.png",
+      "time_sec": 1,
+      "produce_qty": 36,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Tavern"
+    },
+    "CIDER_MAKER_INFO": {
+      "id": "CIDER_MAKER_INFO",
+      "name": "CiderMaker",
+      "image": "../../../../assets/icons/buildings/pioneers/CiderMaker.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Cider"
+    },
+    "CISTERN_INFO": {
+      "id": "CISTERN_INFO",
+      "name": "Cistern",
+      "image": "../../../../assets/icons/buildings/pioneers/Cistern.png",
+      "time_sec": 1,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Cistern"
+    },
+    "LUMBERJACK_INFO": {
+      "id": "LUMBERJACK_INFO",
+      "name": "Lumberjack",
+      "image": "../../../../assets/icons/buildings/pioneers/Lumberjack.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Wood"
+    },
+    "SAUSAGE_MAKER_INFO": {
+      "id": "SAUSAGE_MAKER_INFO",
+      "name": "SausageMaker",
+      "image": "../../../../assets/icons/buildings/pioneers/SausageMaker.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Sausage"
+    },
+    "PIONEERS_HUT_INFO": {
+      "id": "PIONEERS_HUT_INFO",
+      "name": "PioneersHut",
+      "image": "../../../../assets/icons/buildings/pioneers/PioneersHut.png",
+      "time_sec": 60,
+      "produce_qty": 0,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "PioneersHut"
+    },
+    "PIG_RANCH_INFO": {
+      "id": "PIG_RANCH_INFO",
+      "name": "PigRanch",
+      "image": "../../../../assets/icons/buildings/pioneers/PigRanch.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Pigs"
+    },
+    "BOOT_CAMP_INFO": {
+      "id": "BOOT_CAMP_INFO",
+      "name": "BootCamp",
+      "image": "../../../../assets/icons/buildings/pioneers/BootCamp.png",
+      "time_sec": 300,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Squire"
+    },
+    "SAW_WORKS_INFO": {
+      "id": "SAW_WORKS_INFO",
+      "name": "SawWorks",
+      "image": "../../../../assets/icons/buildings/pioneers/SawWorks.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "SawWorks"
+    },
+    "PIGGERY_INFO": {
+      "id": "PIGGERY_INFO",
+      "name": "Piggery",
+      "image": "../../../../assets/icons/buildings/pioneers/Piggery.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Pigs"
+    },
+    "WELL_INFO": {
+      "id": "WELL_INFO",
+      "name": "Well",
+      "image": "../../../../assets/icons/buildings/pioneers/Well.png",
+      "time_sec": 1,
+      "produce_qty": 20,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Well"
+    },
+    "SAWMILL_INFO": {
+      "id": "SAWMILL_INFO",
+      "name": "Sawmill",
+      "image": "../../../../assets/icons/buildings/pioneers/Sawmill.png",
+      "time_sec": 30,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "pioneers",
+      "produces": "Sawmill"
+    },
+    "SCHOOL_INFO": {
+      "id": "SCHOOL_INFO",
+      "name": "School",
+      "image": "../../../../assets/icons/buildings/colonists/School.png",
+      "time_sec": 1,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "School"
+    },
+    "SHEEP_FARM_INFO": {
+      "id": "SHEEP_FARM_INFO",
+      "name": "SheepFarm",
+      "image": "../../../../assets/icons/buildings/colonists/SheepFarm.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Sheep"
+    },
+    "COPPER_AXESMITH_INFO": {
+      "id": "COPPER_AXESMITH_INFO",
+      "name": "CopperAxesmith",
+      "image": "../../../../assets/icons/buildings/colonists/CopperAxesmith.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Axe"
+    },
+    "WEAVER_INFO": {
+      "id": "WEAVER_INFO",
+      "name": "Weaver",
+      "image": "../../../../assets/icons/buildings/colonists/Weaver.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Fabric"
+    },
+    "COPPER_ARMORY_INFO": {
+      "id": "COPPER_ARMORY_INFO",
+      "name": "CopperArmory",
+      "image": "../../../../assets/icons/buildings/colonists/CopperArmory.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Sword"
+    },
+    "STONECUTTER_INFO": {
+      "id": "STONECUTTER_INFO",
+      "name": "Stonecutter",
+      "image": "../../../../assets/icons/buildings/colonists/Stonecutter.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Limestone"
+    },
+    "FLOUR_MILL_INFO": {
+      "id": "FLOUR_MILL_INFO",
+      "name": "FlourMill",
+      "image": "../../../../assets/icons/buildings/colonists/FlourMill.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "FlourMill"
+    },
+    "BAKERY_INFO": {
+      "id": "BAKERY_INFO",
+      "name": "Bakery",
+      "image": "../../../../assets/icons/buildings/colonists/Bakery.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Bakery"
+    },
+    "LIME_KILN_INFO": {
+      "id": "LIME_KILN_INFO",
+      "name": "LimeKiln",
+      "image": "../../../../assets/icons/buildings/colonists/LimeKiln.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "LimeKiln"
+    },
+    "ASH_HOUSE_INFO": {
+      "id": "ASH_HOUSE_INFO",
+      "name": "AshHouse",
+      "image": "../../../../assets/icons/buildings/colonists/AshHouse.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "AshHouse"
+    },
+    "MORTAR_BATCH_WORKS_INFO": {
+      "id": "MORTAR_BATCH_WORKS_INFO",
+      "name": "MortarBatchWorks",
+      "image": "../../../../assets/icons/buildings/colonists/MortarBatchWorks.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "MortarBatchWorks"
+    },
+    "FLOUR_WINDMILL_INFO": {
+      "id": "FLOUR_WINDMILL_INFO",
+      "name": "FlourWindmill",
+      "image": "../../../../assets/icons/buildings/colonists/FlourWindmill.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "FlourWindmill"
+    },
+    "LINSEED_FARM_INFO": {
+      "id": "LINSEED_FARM_INFO",
+      "name": "LinseedFarm",
+      "image": "../../../../assets/icons/buildings/colonists/LinseedFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Linseed"
+    },
+    "ARCHERY_RANGE_INFO": {
+      "id": "ARCHERY_RANGE_INFO",
+      "name": "ArcheryRange",
+      "image": "../../../../assets/icons/buildings/colonists/ArcheryRange.png",
+      "time_sec": 300,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Archer"
+    },
+    "TEXTILE_FACTORY_INFO": {
+      "id": "TEXTILE_FACTORY_INFO",
+      "name": "TextileFactory",
+      "image": "../../../../assets/icons/buildings/colonists/TextileFactory.png",
+      "time_sec": 240,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "TextileFactory"
+    },
+    "WHEAT_FARM_INFO": {
+      "id": "WHEAT_FARM_INFO",
+      "name": "WheatFarm",
+      "image": "../../../../assets/icons/buildings/colonists/WheatFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Wheat"
+    },
+    "ROPERY_INFO": {
+      "id": "ROPERY_INFO",
+      "name": "Ropery",
+      "image": "../../../../assets/icons/buildings/colonists/Ropery.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Ropery"
+    },
+    "COPPER_MINE_INFO": {
+      "id": "COPPER_MINE_INFO",
+      "name": "CopperMine",
+      "image": "../../../../assets/icons/buildings/colonists/CopperMine.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Copper"
+    },
+    "SOAP_MAKER_INFO": {
+      "id": "SOAP_MAKER_INFO",
+      "name": "SoapMaker",
+      "image": "../../../../assets/icons/buildings/colonists/SoapMaker.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Soap"
+    },
+    "BERSERKER_HALL_INFO": {
+      "id": "BERSERKER_HALL_INFO",
+      "name": "BerserkerHall",
+      "image": "../../../../assets/icons/buildings/colonists/BerserkerHall.png",
+      "time_sec": 600,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Berserker"
+    },
+    "HARBOR_TAVERN_INFO": {
+      "id": "HARBOR_TAVERN_INFO",
+      "name": "HarborTavern",
+      "image": "../../../../assets/icons/buildings/colonists/HarborTavern.png",
+      "time_sec": 1,
+      "produce_qty": 65,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "HarborTavern"
+    },
+    "BARRACKS_INFO": {
+      "id": "BARRACKS_INFO",
+      "name": "Barracks",
+      "image": "../../../../assets/icons/buildings/colonists/Barracks.png",
+      "time_sec": 600,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Footsoldier"
+    },
+    "BOWYER_INFO": {
+      "id": "BOWYER_INFO",
+      "name": "Bowyer",
+      "image": "../../../../assets/icons/buildings/colonists/Bowyer.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Bow"
+    },
+    "RICKYARD_INFO": {
+      "id": "RICKYARD_INFO",
+      "name": "Rickyard",
+      "image": "../../../../assets/icons/buildings/colonists/Rickyard.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Rickyard"
+    },
+    "RENDERING_WORKS_INFO": {
+      "id": "RENDERING_WORKS_INFO",
+      "name": "RenderingWorks",
+      "image": "../../../../assets/icons/buildings/colonists/RenderingWorks.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "RenderingWorks"
+    },
+    "COPPER_SMELTER_INFO": {
+      "id": "COPPER_SMELTER_INFO",
+      "name": "CopperSmelter",
+      "image": "../../../../assets/icons/buildings/colonists/CopperSmelter.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "colonists",
+      "produces": "Copper"
+    },
+    "FAIR_INFO": {
+      "id": "FAIR_INFO",
+      "name": "Fair",
+      "image": "../../../../assets/icons/buildings/townsmen/Fair.png",
+      "time_sec": 1,
+      "produce_qty": 80,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Fair"
+    },
+    "BOILER_MAKER_INFO": {
+      "id": "BOILER_MAKER_INFO",
+      "name": "BoilerMaker",
+      "image": "../../../../assets/icons/buildings/townsmen/BoilerMaker.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Boiler"
+    },
+    "BREWERY_INFO": {
+      "id": "BREWERY_INFO",
+      "name": "Brewery",
+      "image": "../../../../assets/icons/buildings/townsmen/Brewery.png",
+      "time_sec": 240,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Brewery"
+    },
+    "TOWN_SCHOOL_INFO": {
+      "id": "TOWN_SCHOOL_INFO",
+      "name": "TownSchool",
+      "image": "../../../../assets/icons/buildings/townsmen/TownSchool.png",
+      "time_sec": 60,
+      "produce_qty": 120,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "TownSchool"
+    },
+    "BOILING_HOUSE_INFO": {
+      "id": "BOILING_HOUSE_INFO",
+      "name": "BoilingHouse",
+      "image": "../../../../assets/icons/buildings/townsmen/BoilingHouse.png",
+      "time_sec": 240,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "BoilingHouse"
+    },
+    "MALTHOUSE_INFO": {
+      "id": "MALTHOUSE_INFO",
+      "name": "Malthouse",
+      "image": "../../../../assets/icons/buildings/townsmen/Malthouse.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Malthouse"
+    },
+    "HOP_FARM_INFO": {
+      "id": "HOP_FARM_INFO",
+      "name": "HopFarm",
+      "image": "../../../../assets/icons/buildings/townsmen/HopFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Hop"
+    },
+    "LONGBOWYER_INFO": {
+      "id": "LONGBOWYER_INFO",
+      "name": "Longbowyer",
+      "image": "../../../../assets/icons/buildings/townsmen/Longbowyer.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Longbowyer"
+    },
+    "CHARCOAL_KILN_INFO": {
+      "id": "CHARCOAL_KILN_INFO",
+      "name": "CharcoalKiln",
+      "image": "../../../../assets/icons/buildings/townsmen/CharcoalKiln.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "CharcoalKiln"
+    },
+    "SAILMAKER_INFO": {
+      "id": "SAILMAKER_INFO",
+      "name": "Sailmaker",
+      "image": "../../../../assets/icons/buildings/townsmen/Sailmaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Sailmaker"
+    },
+    "DRUM_MAKER_INFO": {
+      "id": "DRUM_MAKER_INFO",
+      "name": "DrumMaker",
+      "image": "../../../../assets/icons/buildings/townsmen/DrumMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Drum"
+    },
+    "STRAWBERRY_FARM_INFO": {
+      "id": "STRAWBERRY_FARM_INFO",
+      "name": "StrawberryFarm",
+      "image": "../../../../assets/icons/buildings/townsmen/StrawberryFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Strawberry"
+    },
+    "DRUMMERS_SCHOOL_INFO": {
+      "id": "DRUMMERS_SCHOOL_INFO",
+      "name": "DrummersSchool",
+      "image": "../../../../assets/icons/buildings/townsmen/DrummersSchool.png",
+      "time_sec": 900,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "War Drummer"
+    },
+    "CHALK_MAKER_INFO": {
+      "id": "CHALK_MAKER_INFO",
+      "name": "ChalkMaker",
+      "image": "../../../../assets/icons/buildings/townsmen/ChalkMaker.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Chalk"
+    },
+    "TANNERY_INFO": {
+      "id": "TANNERY_INFO",
+      "name": "Tannery",
+      "image": "../../../../assets/icons/buildings/townsmen/Tannery.png",
+      "time_sec": 1080,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Tannery"
+    },
+    "BOULDER_GATHERER_INFO": {
+      "id": "BOULDER_GATHERER_INFO",
+      "name": "BoulderGatherer",
+      "image": "../../../../assets/icons/buildings/townsmen/BoulderGatherer.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "BoulderGatherer"
+    },
+    "LONGBOW_ARCHERY_RANGE_INFO": {
+      "id": "LONGBOW_ARCHERY_RANGE_INFO",
+      "name": "LongbowArcheryRange",
+      "image": "../../../../assets/icons/buildings/townsmen/LongbowArcheryRange.png",
+      "time_sec": 900,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "LongbowArcheryRange"
+    },
+    "JAM_MAKER_INFO": {
+      "id": "JAM_MAKER_INFO",
+      "name": "JamMaker",
+      "image": "../../../../assets/icons/buildings/townsmen/JamMaker.png",
+      "time_sec": 720,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Jam"
+    },
+    "FURRIERY_INFO": {
+      "id": "FURRIERY_INFO",
+      "name": "Furriery",
+      "image": "../../../../assets/icons/buildings/townsmen/Furriery.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Furriery"
+    },
+    "SALT_WORKS_INFO": {
+      "id": "SALT_WORKS_INFO",
+      "name": "SaltWorks",
+      "image": "../../../../assets/icons/buildings/townsmen/SaltWorks.png",
+      "time_sec": 720,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "SaltWorks"
+    },
+    "PADDOCK_INFO": {
+      "id": "PADDOCK_INFO",
+      "name": "Paddock",
+      "image": "../../../../assets/icons/buildings/townsmen/Paddock.png",
+      "time_sec": 360,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Paddock"
+    },
+    "HORSE_BREEDER_INFO": {
+      "id": "HORSE_BREEDER_INFO",
+      "name": "HorseBreeder",
+      "image": "../../../../assets/icons/buildings/townsmen/HorseBreeder.png",
+      "time_sec": 360,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "HorseBreeder"
+    },
+    "COAL_MINE_INFO": {
+      "id": "COAL_MINE_INFO",
+      "name": "CoalMine",
+      "image": "../../../../assets/icons/buildings/townsmen/CoalMine.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Coal"
+    },
+    "MEDICUS_INFO": {
+      "id": "MEDICUS_INFO",
+      "name": "Medicus",
+      "image": "../../../../assets/icons/buildings/townsmen/Medicus.png",
+      "time_sec": 60,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "Medicus"
+    },
+    "ROCK_SALT_MINE_INFO": {
+      "id": "ROCK_SALT_MINE_INFO",
+      "name": "RockSaltMine",
+      "image": "../../../../assets/icons/buildings/townsmen/RockSaltMine.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "RockSalt"
+    },
+    "CATTLE_RANCH_INFO": {
+      "id": "CATTLE_RANCH_INFO",
+      "name": "CattleRanch",
+      "image": "../../../../assets/icons/buildings/townsmen/CattleRanch.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "CattleRanch"
+    },
+    "RIDING_ARENA_INFO": {
+      "id": "RIDING_ARENA_INFO",
+      "name": "RidingArena",
+      "image": "../../../../assets/icons/buildings/townsmen/RidingArena.png",
+      "time_sec": 900,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "townsmen",
+      "produces": "RidingArena"
+    },
+    "COFFEE_PLANTATION_INFO": {
+      "id": "COFFEE_PLANTATION_INFO",
+      "name": "CoffeePlantation",
+      "image": "../../../../assets/icons/buildings/farmers/CoffeePlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Coffee"
+    },
+    "FIBER_MAKER_INFO": {
+      "id": "FIBER_MAKER_INFO",
+      "name": "FiberMaker",
+      "image": "../../../../assets/icons/buildings/farmers/FiberMaker.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Fiber"
+    },
+    "COFFEE_HOUSE_INFO": {
+      "id": "COFFEE_HOUSE_INFO",
+      "name": "CoffeeHouse",
+      "image": "../../../../assets/icons/buildings/farmers/CoffeeHouse.png",
+      "time_sec": 240,
+      "produce_qty": 20,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CoffeeHouse"
+    },
+    "COPPER_MINE_TROPICAL_INFO": {
+      "id": "COPPER_MINE_TROPICAL_INFO",
+      "name": "CopperMineTropical",
+      "image": "../../../../assets/icons/buildings/farmers/CopperMineTropical.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CopperTropical"
+    },
+    "DAIRY_INFO": {
+      "id": "DAIRY_INFO",
+      "name": "Dairy",
+      "image": "../../../../assets/icons/buildings/farmers/Dairy.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Dairy"
+    },
+    "ROAST_HOUSE_INFO": {
+      "id": "ROAST_HOUSE_INFO",
+      "name": "RoastHouse",
+      "image": "../../../../assets/icons/buildings/farmers/RoastHouse.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "RoastHouse"
+    },
+    "WHIM_HOUSE_INFO": {
+      "id": "WHIM_HOUSE_INFO",
+      "name": "WhimHouse",
+      "image": "../../../../assets/icons/buildings/farmers/WhimHouse.png",
+      "time_sec": 90,
+      "produce_qty": 76,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "WhimHouse"
+    },
+    "SUGAR_CANE_PLANTATION_INFO": {
+      "id": "SUGAR_CANE_PLANTATION_INFO",
+      "name": "SugarCanePlantation",
+      "image": "../../../../assets/icons/buildings/farmers/SugarCanePlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "SugarCane"
+    },
+    "COAL_MINE_TROPICAL_INFO": {
+      "id": "COAL_MINE_TROPICAL_INFO",
+      "name": "CoalMineTropical",
+      "image": "../../../../assets/icons/buildings/farmers/CoalMineTropical.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CoalTropical"
+    },
+    "DRYWELL_INFO": {
+      "id": "DRYWELL_INFO",
+      "name": "Drywell",
+      "image": "../../../../assets/icons/buildings/farmers/Drywell.png",
+      "time_sec": 1,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Drywell"
+    },
+    "ROPERY_TROPICAL_INFO": {
+      "id": "ROPERY_TROPICAL_INFO",
+      "name": "RoperyTropical",
+      "image": "../../../../assets/icons/buildings/farmers/RoperyTropical.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "RoperyTropical"
+    },
+    "BALL_MAKER_INFO": {
+      "id": "BALL_MAKER_INFO",
+      "name": "BallMaker",
+      "image": "../../../../assets/icons/buildings/farmers/BallMaker.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Ball"
+    },
+    "SPORTS_GROUND_INFO": {
+      "id": "SPORTS_GROUND_INFO",
+      "name": "SportsGround",
+      "image": "../../../../assets/icons/buildings/farmers/SportsGround.png",
+      "time_sec": 120,
+      "produce_qty": 40,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "SportsGround"
+    },
+    "TOBACCO_FARM_INFO": {
+      "id": "TOBACCO_FARM_INFO",
+      "name": "TobaccoFarm",
+      "image": "../../../../assets/icons/buildings/farmers/TobaccoFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Tobacco"
+    },
+    "CLAY_PIT_INFO": {
+      "id": "CLAY_PIT_INFO",
+      "name": "ClayPit",
+      "image": "../../../../assets/icons/buildings/farmers/ClayPit.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "ClayPit"
+    },
+    "POLETURNERS_WORKSHOP_INFO": {
+      "id": "POLETURNERS_WORKSHOP_INFO",
+      "name": "PoleturnersWorkshop",
+      "image": "../../../../assets/icons/buildings/farmers/PoleturnersWorkshop.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "PoleturnersWorkshop"
+    },
+    "TEA_PLANTATION_INFO": {
+      "id": "TEA_PLANTATION_INFO",
+      "name": "TeaPlantation",
+      "image": "../../../../assets/icons/buildings/farmers/TeaPlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Tea"
+    },
+    "WATER_BUFFALO_RANCH_INFO": {
+      "id": "WATER_BUFFALO_RANCH_INFO",
+      "name": "WaterBuffaloRanch",
+      "image": "../../../../assets/icons/buildings/farmers/WaterBuffaloRanch.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "WaterBuffaloRanch"
+    },
+    "CIGAR_MANUFACTURE_INFO": {
+      "id": "CIGAR_MANUFACTURE_INFO",
+      "name": "CigarManufacture",
+      "image": "../../../../assets/icons/buildings/farmers/CigarManufacture.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CigarManufacture"
+    },
+    "FIELD_SURGEON_HOUSE_INFO": {
+      "id": "FIELD_SURGEON_HOUSE_INFO",
+      "name": "FieldSurgeonHouse",
+      "image": "../../../../assets/icons/buildings/farmers/FieldSurgeonHouse.png",
+      "time_sec": 900,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "FieldSurgeonHouse"
+    },
+    "RUM_DISTILLERY_INFO": {
+      "id": "RUM_DISTILLERY_INFO",
+      "name": "RumDistillery",
+      "image": "../../../../assets/icons/buildings/farmers/RumDistillery.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "RumDistillery"
+    },
+    "SUGAR_MILL_INFO": {
+      "id": "SUGAR_MILL_INFO",
+      "name": "SugarMill",
+      "image": "../../../../assets/icons/buildings/farmers/SugarMill.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "SugarMill"
+    },
+    "COPPER_SMELTER_TROPICAL_INFO": {
+      "id": "COPPER_SMELTER_TROPICAL_INFO",
+      "name": "CopperSmelterTropical",
+      "image": "../../../../assets/icons/buildings/farmers/CopperSmelterTropical.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CopperTropical"
+    },
+    "FARMERS_SHACK_INFO": {
+      "id": "FARMERS_SHACK_INFO",
+      "name": "FarmersShack",
+      "image": "../../../../assets/icons/buildings/farmers/FarmersShack.png",
+      "time_sec": 60,
+      "produce_qty": 0,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "ersShack"
+    },
+    "BRICKYARD_INFO": {
+      "id": "BRICKYARD_INFO",
+      "name": "Brickyard",
+      "image": "../../../../assets/icons/buildings/farmers/Brickyard.png",
+      "time_sec": 240,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Brickyard"
+    },
+    "APOTHECARY_INFO": {
+      "id": "APOTHECARY_INFO",
+      "name": "Apothecary",
+      "image": "../../../../assets/icons/buildings/farmers/Apothecary.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Apothecary"
+    },
+    "CROCODILE_RANCH_INFO": {
+      "id": "CROCODILE_RANCH_INFO",
+      "name": "CrocodileRanch",
+      "image": "../../../../assets/icons/buildings/farmers/CrocodileRanch.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "CrocodileRanch"
+    },
+    "PIKEMEN_BARRACKS_INFO": {
+      "id": "PIKEMEN_BARRACKS_INFO",
+      "name": "PikemenBarracks",
+      "image": "../../../../assets/icons/buildings/farmers/PikemenBarracks.png",
+      "time_sec": 900,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Pikeman"
+    },
+    "GOAT_FARM_INFO": {
+      "id": "GOAT_FARM_INFO",
+      "name": "GoatFarm",
+      "image": "../../../../assets/icons/buildings/farmers/GoatFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Goat"
+    },
+    "BEACH_FISHERMANS_HUT_INFO": {
+      "id": "BEACH_FISHERMANS_HUT_INFO",
+      "name": "BeachFishermansHut",
+      "image": "../../../../assets/icons/buildings/farmers/BeachFishermansHut.png",
+      "time_sec": 90,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "Fish"
+    },
+    "SALTERN_TROPICAL_INFO": {
+      "id": "SALTERN_TROPICAL_INFO",
+      "name": "SalternTropical",
+      "image": "../../../../assets/icons/buildings/farmers/SalternTropical.png",
+      "time_sec": 960,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "SalternTropical"
+    },
+    "SUGAR_WINDMILL_INFO": {
+      "id": "SUGAR_WINDMILL_INFO",
+      "name": "SugarWindmill",
+      "image": "../../../../assets/icons/buildings/farmers/SugarWindmill.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "farmers",
+      "produces": "SugarWindmill"
+    },
+    "APIARY_INFO": {
+      "id": "APIARY_INFO",
+      "name": "Apiary",
+      "image": "../../../../assets/icons/buildings/merchants/Apiary.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Apiary"
+    },
+    "IRON_SMELTER_INFO": {
+      "id": "IRON_SMELTER_INFO",
+      "name": "IronSmelter",
+      "image": "../../../../assets/icons/buildings/merchants/IronSmelter.png",
+      "time_sec": 960,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Iron"
+    },
+    "BUTCHERY_INFO": {
+      "id": "BUTCHERY_INFO",
+      "name": "Butchery",
+      "image": "../../../../assets/icons/buildings/merchants/Butchery.png",
+      "time_sec": 480,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Butchery"
+    },
+    "IRON_ARMORY_INFO": {
+      "id": "IRON_ARMORY_INFO",
+      "name": "IronArmory",
+      "image": "../../../../assets/icons/buildings/merchants/IronArmory.png",
+      "time_sec": 960,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "IronArmory"
+    },
+    "HOSPITAL_INFO": {
+      "id": "HOSPITAL_INFO",
+      "name": "Hospital",
+      "image": "../../../../assets/icons/buildings/merchants/Hospital.png",
+      "time_sec": 60,
+      "produce_qty": 120,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Hospital"
+    },
+    "FELTMAKING_MILL_INFO": {
+      "id": "FELTMAKING_MILL_INFO",
+      "name": "FeltmakingMill",
+      "image": "../../../../assets/icons/buildings/merchants/FeltmakingMill.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "FeltmakingMill"
+    },
+    "GOLDSMITH_INFO": {
+      "id": "GOLDSMITH_INFO",
+      "name": "Goldsmith",
+      "image": "../../../../assets/icons/buildings/merchants/Goldsmith.png",
+      "time_sec": 960,
+      "produce_qty": 6,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Goldsmith"
+    },
+    "PIPEMAKERS_SHOP_INFO": {
+      "id": "PIPEMAKERS_SHOP_INFO",
+      "name": "PipemakersShop",
+      "image": "../../../../assets/icons/buildings/merchants/PipemakersShop.png",
+      "time_sec": 240,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "PipemakersShop"
+    },
+    "PERFUMERY_INFO": {
+      "id": "PERFUMERY_INFO",
+      "name": "Perfumery",
+      "image": "../../../../assets/icons/buildings/merchants/Perfumery.png",
+      "time_sec": 480,
+      "produce_qty": 10,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Perfumery"
+    },
+    "COMPOSITE_BOWYER_INFO": {
+      "id": "COMPOSITE_BOWYER_INFO",
+      "name": "CompositeBowyer",
+      "image": "../../../../assets/icons/buildings/merchants/CompositeBowyer.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Composite Bow"
+    },
+    "COINING_PRESS_INFO": {
+      "id": "COINING_PRESS_INFO",
+      "name": "CoiningPress",
+      "image": "../../../../assets/icons/buildings/merchants/CoiningPress.png",
+      "time_sec": 240,
+      "produce_qty": 7,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "CoiningPress"
+    },
+    "BRANDY_DISTILLERY_INFO": {
+      "id": "BRANDY_DISTILLERY_INFO",
+      "name": "BrandyDistillery",
+      "image": "../../../../assets/icons/buildings/merchants/BrandyDistillery.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "BrandyDistillery"
+    },
+    "MARBLE_QUARRY_INFO": {
+      "id": "MARBLE_QUARRY_INFO",
+      "name": "MarbleQuarry",
+      "image": "../../../../assets/icons/buildings/merchants/MarbleQuarry.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "MarbleQuarry"
+    },
+    "CROSSBOW_SHOOTING_RANGE_INFO": {
+      "id": "CROSSBOW_SHOOTING_RANGE_INFO",
+      "name": "CrossbowShootingRange",
+      "image": "../../../../assets/icons/buildings/merchants/CrossbowShootingRange.png",
+      "time_sec": 1200,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "CrossbowShootingRange"
+    },
+    "PASTRY_MANUFACTURE_INFO": {
+      "id": "PASTRY_MANUFACTURE_INFO",
+      "name": "PastryManufacture",
+      "image": "../../../../assets/icons/buildings/merchants/PastryManufacture.png",
+      "time_sec": 240,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "PastryManufacture"
+    },
+    "TOOLMAKER_INFO": {
+      "id": "TOOLMAKER_INFO",
+      "name": "Toolmaker",
+      "image": "../../../../assets/icons/buildings/merchants/Toolmaker.png",
+      "time_sec": 960,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Toolmaker"
+    },
+    "ROSE_CULTIVATION_INFO": {
+      "id": "ROSE_CULTIVATION_INFO",
+      "name": "RoseCultivation",
+      "image": "../../../../assets/icons/buildings/merchants/RoseCultivation.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "RoseCultivation"
+    },
+    "TOWNHALL_INFO": {
+      "id": "TOWNHALL_INFO",
+      "name": "Townhall",
+      "image": "../../../../assets/icons/buildings/merchants/Townhall.png",
+      "time_sec": 120,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Townhall"
+    },
+    "GOLD_SMELTER_INFO": {
+      "id": "GOLD_SMELTER_INFO",
+      "name": "GoldSmelter",
+      "image": "../../../../assets/icons/buildings/merchants/GoldSmelter.png",
+      "time_sec": 960,
+      "produce_qty": 2,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Gold"
+    },
+    "ARCHER_ACADEMY_INFO": {
+      "id": "ARCHER_ACADEMY_INFO",
+      "name": "ArcherAcademy",
+      "image": "../../../../assets/icons/buildings/merchants/ArcherAcademy.png",
+      "time_sec": 1200,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Composite Bow Archer"
+    },
+    "CHICKEN_FARM_INFO": {
+      "id": "CHICKEN_FARM_INFO",
+      "name": "ChickenFarm",
+      "image": "../../../../assets/icons/buildings/merchants/ChickenFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Chicken"
+    },
+    "DEEP_COPPER_MINE_INFO": {
+      "id": "DEEP_COPPER_MINE_INFO",
+      "name": "DeepCopperMine",
+      "image": "../../../../assets/icons/buildings/merchants/DeepCopperMine.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "DeepCopper"
+    },
+    "CROSSBOW_MAKER_INFO": {
+      "id": "CROSSBOW_MAKER_INFO",
+      "name": "CrossbowMaker",
+      "image": "../../../../assets/icons/buildings/merchants/CrossbowMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Crossbow"
+    },
+    "ESSENCE_DISTILLERY_INFO": {
+      "id": "ESSENCE_DISTILLERY_INFO",
+      "name": "EssenceDistillery",
+      "image": "../../../../assets/icons/buildings/merchants/EssenceDistillery.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "EssenceDistillery"
+    },
+    "KNIGHT_BARRACKS_INFO": {
+      "id": "KNIGHT_BARRACKS_INFO",
+      "name": "KnightBarracks",
+      "image": "../../../../assets/icons/buildings/merchants/KnightBarracks.png",
+      "time_sec": 1200,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Knight"
+    },
+    "BATHHOUSE_INFO": {
+      "id": "BATHHOUSE_INFO",
+      "name": "Bathhouse",
+      "image": "../../../../assets/icons/buildings/merchants/Bathhouse.png",
+      "time_sec": 240,
+      "produce_qty": 48,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Bathhouse"
+    },
+    "FOREST_WARDENS_CABIN_INFO": {
+      "id": "FOREST_WARDENS_CABIN_INFO",
+      "name": "ForestWardensCabin",
+      "image": "../../../../assets/icons/buildings/merchants/ForestWardensCabin.png",
+      "time_sec": 30,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "ForestWardensCabin"
+    },
+    "IRON_MINE_INFO": {
+      "id": "IRON_MINE_INFO",
+      "name": "IronMine",
+      "image": "../../../../assets/icons/buildings/merchants/IronMine.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "Iron"
+    },
+    "CURING_HOUSE_INFO": {
+      "id": "CURING_HOUSE_INFO",
+      "name": "CuringHouse",
+      "image": "../../../../assets/icons/buildings/merchants/CuringHouse.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "CuringHouse"
+    },
+    "HATTERS_SHOP_INFO": {
+      "id": "HATTERS_SHOP_INFO",
+      "name": "HattersShop",
+      "image": "../../../../assets/icons/buildings/merchants/HattersShop.png",
+      "time_sec": 960,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "HattersShop"
+    },
+    "SUGAR_BEET_FARM_INFO": {
+      "id": "SUGAR_BEET_FARM_INFO",
+      "name": "SugarBeetFarm",
+      "image": "../../../../assets/icons/buildings/merchants/SugarBeetFarm.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "merchants",
+      "produces": "SugarBeet"
+    },
+    "GOLD_MINE_TROPICAL_INFO": {
+      "id": "GOLD_MINE_TROPICAL_INFO",
+      "name": "GoldMineTropical",
+      "image": "../../../../assets/icons/buildings/workers/GoldMineTropical.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "GoldTropical"
+    },
+    "HERALDIC_ARMOURER_INFO": {
+      "id": "HERALDIC_ARMOURER_INFO",
+      "name": "HeraldicArmourer",
+      "image": "../../../../assets/icons/buildings/workers/HeraldicArmourer.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "HeraldicArmourer"
+    },
+    "BUFFALO_PASTURE_INFO": {
+      "id": "BUFFALO_PASTURE_INFO",
+      "name": "BuffaloPasture",
+      "image": "../../../../assets/icons/buildings/workers/BuffaloPasture.png",
+      "time_sec": 120,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "workers",
+      "produces": "BuffaloPasture"
+    },
+    "GLAIVE_SMITH_INFO": {
+      "id": "GLAIVE_SMITH_INFO",
+      "name": "GlaiveSmith",
+      "image": "../../../../assets/icons/buildings/workers/GlaiveSmith.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "GlaiveSmith"
+    },
+    "INDIGO_PLANTATION_INFO": {
+      "id": "INDIGO_PLANTATION_INFO",
+      "name": "IndigoPlantation",
+      "image": "../../../../assets/icons/buildings/workers/IndigoPlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Indigo"
+    },
+    "FINE_WOOD_LOGGER_INFO": {
+      "id": "FINE_WOOD_LOGGER_INFO",
+      "name": "FineWoodLogger",
+      "image": "../../../../assets/icons/buildings/workers/FineWoodLogger.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "FineWoodLogger"
+    },
+    "BUFFALO_BUTCHERY_INFO": {
+      "id": "BUFFALO_BUTCHERY_INFO",
+      "name": "BuffaloButchery",
+      "image": "../../../../assets/icons/buildings/workers/BuffaloButchery.png",
+      "time_sec": 480,
+      "produce_qty": 6,
+      "consumes": {},
+      "category": "workers",
+      "produces": "BuffaloButchery"
+    },
+    "LUTHIER_INFO": {
+      "id": "LUTHIER_INFO",
+      "name": "Luthier",
+      "image": "../../../../assets/icons/buildings/workers/Luthier.png",
+      "time_sec": 120,
+      "produce_qty": 8,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Luthier"
+    },
+    "GOLD_PANNER_INFO": {
+      "id": "GOLD_PANNER_INFO",
+      "name": "GoldPanner",
+      "image": "../../../../assets/icons/buildings/workers/GoldPanner.png",
+      "time_sec": 960,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "GoldPanner"
+    },
+    "SOUP_KITCHEN_INFO": {
+      "id": "SOUP_KITCHEN_INFO",
+      "name": "SoupKitchen",
+      "image": "../../../../assets/icons/buildings/workers/SoupKitchen.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "SoupKitchen"
+    },
+    "STADIUM_INFO": {
+      "id": "STADIUM_INFO",
+      "name": "Stadium",
+      "image": "../../../../assets/icons/buildings/workers/Stadium.png",
+      "time_sec": 1,
+      "produce_qty": 48,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Stadium"
+    },
+    "CACAO_PLANTATION_INFO": {
+      "id": "CACAO_PLANTATION_INFO",
+      "name": "CacaoPlantation",
+      "image": "../../../../assets/icons/buildings/workers/CacaoPlantation.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Cacao"
+    },
+    "GOLD_SMELTER_TROPICAL_INFO": {
+      "id": "GOLD_SMELTER_TROPICAL_INFO",
+      "name": "GoldSmelterTropical",
+      "image": "../../../../assets/icons/buildings/workers/GoldSmelterTropical.png",
+      "time_sec": 480,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "GoldTropical"
+    },
+    "DANCING_SCHOOL_INFO": {
+      "id": "DANCING_SCHOOL_INFO",
+      "name": "DancingSchool",
+      "image": "../../../../assets/icons/buildings/workers/DancingSchool.png",
+      "time_sec": 60,
+      "produce_qty": 48,
+      "consumes": {},
+      "category": "workers",
+      "produces": "DancingSchool"
+    },
+    "COTTON_PLANTATION_INFO": {
+      "id": "COTTON_PLANTATION_INFO",
+      "name": "CottonPlantation",
+      "image": "../../../../assets/icons/buildings/workers/CottonPlantation.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Cotton"
+    },
+    "NITRATE_MAKER_INFO": {
+      "id": "NITRATE_MAKER_INFO",
+      "name": "NitrateMaker",
+      "image": "../../../../assets/icons/buildings/workers/NitrateMaker.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Nitrate"
+    },
+    "CHOCOLATERIE_INFO": {
+      "id": "CHOCOLATERIE_INFO",
+      "name": "Chocolaterie",
+      "image": "../../../../assets/icons/buildings/workers/Chocolaterie.png",
+      "time_sec": 120,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Chocolaterie"
+    },
+    "SILK_TWINE_MILL_INFO": {
+      "id": "SILK_TWINE_MILL_INFO",
+      "name": "SilkTwineMill",
+      "image": "../../../../assets/icons/buildings/workers/SilkTwineMill.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "SilkTwineMill"
+    },
+    "RICKYARD_TROPICAL_INFO": {
+      "id": "RICKYARD_TROPICAL_INFO",
+      "name": "RickyardTropical",
+      "image": "../../../../assets/icons/buildings/workers/RickyardTropical.png",
+      "time_sec": 60,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "workers",
+      "produces": "RickyardTropical"
+    },
+    "NOBLE_TAILOR_INFO": {
+      "id": "NOBLE_TAILOR_INFO",
+      "name": "NobleTailor",
+      "image": "../../../../assets/icons/buildings/workers/NobleTailor.png",
+      "time_sec": 240,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "NobleTailor"
+    },
+    "BRASS_SMELTER_TROPICAL_INFO": {
+      "id": "BRASS_SMELTER_TROPICAL_INFO",
+      "name": "BrassSmelterTropical",
+      "image": "../../../../assets/icons/buildings/workers/BrassSmelterTropical.png",
+      "time_sec": 360,
+      "produce_qty": 5,
+      "consumes": {},
+      "category": "workers",
+      "produces": "BrassTropical"
+    },
+    "CEMETERY_INFO": {
+      "id": "CEMETERY_INFO",
+      "name": "Cemetery",
+      "image": "../../../../assets/icons/buildings/workers/Cemetery.png",
+      "time_sec": 60,
+      "produce_qty": 24,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Cemetery"
+    },
+    "SHIELD_GUARDIAN_TEMPLE_INFO": {
+      "id": "SHIELD_GUARDIAN_TEMPLE_INFO",
+      "name": "ShieldGuardianTemple",
+      "image": "../../../../assets/icons/buildings/workers/ShieldGuardianTemple.png",
+      "time_sec": 1200,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Shield Guardian"
+    },
+    "GEMSTONE_MINE_INFO": {
+      "id": "GEMSTONE_MINE_INFO",
+      "name": "GemstoneMine",
+      "image": "../../../../assets/icons/buildings/workers/GemstoneMine.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Gemstone"
+    },
+    "SILK_PLANTATION_INFO": {
+      "id": "SILK_PLANTATION_INFO",
+      "name": "SilkPlantation",
+      "image": "../../../../assets/icons/buildings/workers/SilkPlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Silk"
+    },
+    "ARTISTIC_BLACKSMITH_INFO": {
+      "id": "ARTISTIC_BLACKSMITH_INFO",
+      "name": "ArtisticBlacksmith",
+      "image": "../../../../assets/icons/buildings/workers/ArtisticBlacksmith.png",
+      "time_sec": 960,
+      "produce_qty": 4,
+      "consumes": {},
+      "category": "workers",
+      "produces": "ArtisticBlacksmith"
+    },
+    "COSTUMIER_INFO": {
+      "id": "COSTUMIER_INFO",
+      "name": "Costumier",
+      "image": "../../../../assets/icons/buildings/workers/Costumier.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Costumier"
+    },
+    "SPINNING_MILL_INFO": {
+      "id": "SPINNING_MILL_INFO",
+      "name": "SpinningMill",
+      "image": "../../../../assets/icons/buildings/workers/SpinningMill.png",
+      "time_sec": 240,
+      "produce_qty": 3,
+      "consumes": {},
+      "category": "workers",
+      "produces": "SpinningMill"
+    },
+    "GLAIVE_TEMPLE_INFO": {
+      "id": "GLAIVE_TEMPLE_INFO",
+      "name": "GlaiveTemple",
+      "image": "../../../../assets/icons/buildings/workers/GlaiveTemple.png",
+      "time_sec": 1200,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Glaive Warrior"
+    },
+    "MARKET_HALL_INFO": {
+      "id": "MARKET_HALL_INFO",
+      "name": "MarketHall",
+      "image": "../../../../assets/icons/buildings/workers/MarketHall.png",
+      "time_sec": 1,
+      "produce_qty": 48,
+      "consumes": {},
+      "category": "workers",
+      "produces": "MarketHall"
+    },
+    "FLOWER_HOUSE_INFO": {
+      "id": "FLOWER_HOUSE_INFO",
+      "name": "FlowerHouse",
+      "image": "../../../../assets/icons/buildings/workers/FlowerHouse.png",
+      "time_sec": 60,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "FlowerHouse"
+    },
+    "COCONUT_PLANTATION_INFO": {
+      "id": "COCONUT_PLANTATION_INFO",
+      "name": "CoconutPlantation",
+      "image": "../../../../assets/icons/buildings/workers/CoconutPlantation.png",
+      "time_sec": 120,
+      "produce_qty": 1,
+      "consumes": {},
+      "category": "workers",
+      "produces": "Coconut"
+    }
+  },
+  "population": {
+    "POPULATION_MERCHANTS_MANSION_INFO": {
+      "name": "MerchantsMansion",
+      "needs": {}
+    },
+    "POPULATION_PARAGONS_RESIDENCE_INFO": {
+      "name": "ParagonsResidence",
+      "needs": {}
+    },
+    "POPULATION_TOWNSMEN_HOUSE_INFO": {
+      "name": "Townsmen",
+      "needs": {}
+    },
+    "POPULATION_COLONISTS_HOUSE_INFO": {
+      "name": "Colonists",
+      "needs": {}
+    },
+    "POPULATION_FARMERS_SHACK_INFO": {
+      "name": "FarmersShack",
+      "needs": {}
+    },
+    "POPULATION_PIONEERS_HUT_INFO": {
+      "name": "PioneersHut",
+      "needs": {}
+    },
+    "POPULATION_WORKERS_HOUSE_INFO": {
+      "name": "Workers",
+      "needs": {}
+    }
+  },
+  "items": {},
+  "item_producers": {
+    "CopperNorth": [
+      "COPPER_SMELTER_NORTH_INFO",
+      "COPPER_MINE_NORTH_INFO"
+    ],
+    "RockSaltNorth": [
+      "ROCK_SALT_MINE_NORTH_INFO"
+    ],
+    "GoldNorth": [
+      "GOLD_SMELTER_NORTH_INFO",
+      "GOLD_MINE_NORTH_INFO"
+    ],
+    "HeatingPlant": [
+      "HEATING_PLANT_INFO"
+    ],
+    "FurTrapper": [
+      "FUR_TRAPPER_INFO"
+    ],
+    "BrassNorth": [
+      "BRASS_SMELTER_NORTH_INFO"
+    ],
+    "LargeHeatingPlant": [
+      "LARGE_HEATING_PLANT_INFO"
+    ],
+    "MarbleQuarryNorth": [
+      "MARBLE_QUARRY_NORTH_INFO"
+    ],
+    "ConiferLumberjack": [
+      "CONIFER_LUMBERJACK_INFO"
+    ],
+    "IronNorth": [
+      "IRON_SMELTER_NORTH_INFO",
+      "IRON_MINE_NORTH_INFO"
+    ],
+    "CoalNorth": [
+      "COAL_MINE_NORTH_INFO"
+    ],
+    "CaviarFactory": [
+      "CAVIAR_FACTORY_INFO"
+    ],
+    "Fish": [
+      "SALMON_FISHERMANS_HUT_INFO",
+      "FISHERMANS_HUT_INFO",
+      "BEACH_FISHERMANS_HUT_INFO"
+    ],
+    "Whaler": [
+      "WHALER_INFO"
+    ],
+    "SaltWorksNorth": [
+      "SALT_WORKS_NORTH_INFO"
+    ],
+    "Zinc": [
+      "ZINC_SMELTER_INFO",
+      "ZINC_MINE_NORTH_INFO"
+    ],
+    "Lead": [
+      "LEAD_MINE_INFO",
+      "LEAD_SMELTER_INFO"
+    ],
+    "AmbergrisProduction": [
+      "AMBERGRIS_PRODUCTION_INFO"
+    ],
+    "Sturgeon": [
+      "STURGEON_FARM_INFO"
+    ],
+    "Theatre": [
+      "THEATRE_INFO"
+    ],
+    "Senate": [
+      "SENATE_INFO"
+    ],
+    "BrocadeSpinningFactory": [
+      "BROCADE_SPINNING_FACTORY_INFO"
+    ],
+    "SteelFurnace": [
+      "STEEL_FURNACE_INFO"
+    ],
+    "Trumpet": [
+      "TRUMPET_MAKER_INFO"
+    ],
+    "LensGrinder": [
+      "LENS_GRINDER_INFO"
+    ],
+    "OrnateTailor": [
+      "ORNATE_TAILOR_INFO"
+    ],
+    "LargeThermalBath": [
+      "LARGE_THERMAL_BATH_INFO"
+    ],
+    "Chandler": [
+      "CHANDLER_INFO"
+    ],
+    "Saltern": [
+      "SALTERN_INFO"
+    ],
+    "Fireworks": [
+      "FIREWORKS_MAKER_INFO"
+    ],
+    "TreasureSeeker": [
+      "TREASURE_SEEKER_INFO"
+    ],
+    "Musket": [
+      "MUSKET_MAKER_INFO"
+    ],
+    "Cannoneer": [
+      "CANNONEERS_SCHOOL_INFO"
+    ],
+    "Cooper": [
+      "COOPER_INFO"
+    ],
+    "Bookbinder": [
+      "BOOKBINDER_INFO"
+    ],
+    "HoneyDistillery": [
+      "HONEY_DISTILLERY_INFO"
+    ],
+    "Glassworks": [
+      "GLASSWORKS_INFO"
+    ],
+    "Winery": [
+      "WINERY_INFO"
+    ],
+    "University": [
+      "UNIVERSITY_INFO"
+    ],
+    "Confectionery": [
+      "CONFECTIONERY_INFO"
+    ],
+    "CuirassierAcademy": [
+      "CUIRASSIER_ACADEMY_INFO"
+    ],
+    "Musketeer": [
+      "MUSKETEER_SCHOOL_INFO"
+    ],
+    "Brass": [
+      "BRASS_SMELTER_INFO"
+    ],
+    "CannonFoundry": [
+      "CANNON_FOUNDRY_INFO"
+    ],
+    "Armorsmith": [
+      "ARMORSMITH_INFO"
+    ],
+    "Tiltyard": [
+      "TILTYARD_INFO"
+    ],
+    "GalziersWorkshop": [
+      "GALZIERS_WORKSHOP_INFO"
+    ],
+    "Coiffeur": [
+      "COIFFEUR_INFO"
+    ],
+    "Winepress": [
+      "WINEPRESS_INFO"
+    ],
+    "PowderMill": [
+      "POWDER_MILL_INFO"
+    ],
+    "CobblersShop": [
+      "COBBLERS_SHOP_INFO"
+    ],
+    "Lance": [
+      "LANCE_MAKER_INFO"
+    ],
+    "PaperMill": [
+      "PAPER_MILL_INFO"
+    ],
+    "QuartzQuarry": [
+      "QUARTZ_QUARRY_INFO"
+    ],
+    "PlaningMill": [
+      "PLANING_MILL_INFO"
+    ],
+    "Cokery": [
+      "COKERY_INFO"
+    ],
+    "Tavern": [
+      "TAVERN_INFO"
+    ],
+    "Cider": [
+      "CIDER_MAKER_INFO"
+    ],
+    "Cistern": [
+      "CISTERN_INFO"
+    ],
+    "Wood": [
+      "LUMBERJACK_INFO"
+    ],
+    "Sausage": [
+      "SAUSAGE_MAKER_INFO"
+    ],
+    "PioneersHut": [
+      "PIONEERS_HUT_INFO"
+    ],
+    "Pigs": [
+      "PIG_RANCH_INFO",
+      "PIGGERY_INFO"
+    ],
+    "Squire": [
+      "BOOT_CAMP_INFO"
+    ],
+    "SawWorks": [
+      "SAW_WORKS_INFO"
+    ],
+    "Well": [
+      "WELL_INFO"
+    ],
+    "Sawmill": [
+      "SAWMILL_INFO"
+    ],
+    "School": [
+      "SCHOOL_INFO"
+    ],
+    "Sheep": [
+      "SHEEP_FARM_INFO"
+    ],
+    "Axe": [
+      "COPPER_AXESMITH_INFO"
+    ],
+    "Fabric": [
+      "WEAVER_INFO"
+    ],
+    "Sword": [
+      "COPPER_ARMORY_INFO"
+    ],
+    "Limestone": [
+      "STONECUTTER_INFO"
+    ],
+    "FlourMill": [
+      "FLOUR_MILL_INFO"
+    ],
+    "Bakery": [
+      "BAKERY_INFO"
+    ],
+    "LimeKiln": [
+      "LIME_KILN_INFO"
+    ],
+    "AshHouse": [
+      "ASH_HOUSE_INFO"
+    ],
+    "MortarBatchWorks": [
+      "MORTAR_BATCH_WORKS_INFO"
+    ],
+    "FlourWindmill": [
+      "FLOUR_WINDMILL_INFO"
+    ],
+    "Linseed": [
+      "LINSEED_FARM_INFO"
+    ],
+    "Archer": [
+      "ARCHERY_RANGE_INFO"
+    ],
+    "TextileFactory": [
+      "TEXTILE_FACTORY_INFO"
+    ],
+    "Wheat": [
+      "WHEAT_FARM_INFO"
+    ],
+    "Ropery": [
+      "ROPERY_INFO"
+    ],
+    "Copper": [
+      "COPPER_MINE_INFO",
+      "COPPER_SMELTER_INFO"
+    ],
+    "Soap": [
+      "SOAP_MAKER_INFO"
+    ],
+    "Berserker": [
+      "BERSERKER_HALL_INFO"
+    ],
+    "HarborTavern": [
+      "HARBOR_TAVERN_INFO"
+    ],
+    "Footsoldier": [
+      "BARRACKS_INFO"
+    ],
+    "Bow": [
+      "BOWYER_INFO"
+    ],
+    "Rickyard": [
+      "RICKYARD_INFO"
+    ],
+    "RenderingWorks": [
+      "RENDERING_WORKS_INFO"
+    ],
+    "Fair": [
+      "FAIR_INFO"
+    ],
+    "Boiler": [
+      "BOILER_MAKER_INFO"
+    ],
+    "Brewery": [
+      "BREWERY_INFO"
+    ],
+    "TownSchool": [
+      "TOWN_SCHOOL_INFO"
+    ],
+    "BoilingHouse": [
+      "BOILING_HOUSE_INFO"
+    ],
+    "Malthouse": [
+      "MALTHOUSE_INFO"
+    ],
+    "Hop": [
+      "HOP_FARM_INFO"
+    ],
+    "Longbowyer": [
+      "LONGBOWYER_INFO"
+    ],
+    "CharcoalKiln": [
+      "CHARCOAL_KILN_INFO"
+    ],
+    "Sailmaker": [
+      "SAILMAKER_INFO"
+    ],
+    "Drum": [
+      "DRUM_MAKER_INFO"
+    ],
+    "Strawberry": [
+      "STRAWBERRY_FARM_INFO"
+    ],
+    "War Drummer": [
+      "DRUMMERS_SCHOOL_INFO"
+    ],
+    "Chalk": [
+      "CHALK_MAKER_INFO"
+    ],
+    "Tannery": [
+      "TANNERY_INFO"
+    ],
+    "BoulderGatherer": [
+      "BOULDER_GATHERER_INFO"
+    ],
+    "LongbowArcheryRange": [
+      "LONGBOW_ARCHERY_RANGE_INFO"
+    ],
+    "Jam": [
+      "JAM_MAKER_INFO"
+    ],
+    "Furriery": [
+      "FURRIERY_INFO"
+    ],
+    "SaltWorks": [
+      "SALT_WORKS_INFO"
+    ],
+    "Paddock": [
+      "PADDOCK_INFO"
+    ],
+    "HorseBreeder": [
+      "HORSE_BREEDER_INFO"
+    ],
+    "Coal": [
+      "COAL_MINE_INFO"
+    ],
+    "Medicus": [
+      "MEDICUS_INFO"
+    ],
+    "RockSalt": [
+      "ROCK_SALT_MINE_INFO"
+    ],
+    "CattleRanch": [
+      "CATTLE_RANCH_INFO"
+    ],
+    "RidingArena": [
+      "RIDING_ARENA_INFO"
+    ],
+    "Coffee": [
+      "COFFEE_PLANTATION_INFO"
+    ],
+    "Fiber": [
+      "FIBER_MAKER_INFO"
+    ],
+    "CoffeeHouse": [
+      "COFFEE_HOUSE_INFO"
+    ],
+    "CopperTropical": [
+      "COPPER_MINE_TROPICAL_INFO",
+      "COPPER_SMELTER_TROPICAL_INFO"
+    ],
+    "Dairy": [
+      "DAIRY_INFO"
+    ],
+    "RoastHouse": [
+      "ROAST_HOUSE_INFO"
+    ],
+    "WhimHouse": [
+      "WHIM_HOUSE_INFO"
+    ],
+    "SugarCane": [
+      "SUGAR_CANE_PLANTATION_INFO"
+    ],
+    "CoalTropical": [
+      "COAL_MINE_TROPICAL_INFO"
+    ],
+    "Drywell": [
+      "DRYWELL_INFO"
+    ],
+    "RoperyTropical": [
+      "ROPERY_TROPICAL_INFO"
+    ],
+    "Ball": [
+      "BALL_MAKER_INFO"
+    ],
+    "SportsGround": [
+      "SPORTS_GROUND_INFO"
+    ],
+    "Tobacco": [
+      "TOBACCO_FARM_INFO"
+    ],
+    "ClayPit": [
+      "CLAY_PIT_INFO"
+    ],
+    "PoleturnersWorkshop": [
+      "POLETURNERS_WORKSHOP_INFO"
+    ],
+    "Tea": [
+      "TEA_PLANTATION_INFO"
+    ],
+    "WaterBuffaloRanch": [
+      "WATER_BUFFALO_RANCH_INFO"
+    ],
+    "CigarManufacture": [
+      "CIGAR_MANUFACTURE_INFO"
+    ],
+    "FieldSurgeonHouse": [
+      "FIELD_SURGEON_HOUSE_INFO"
+    ],
+    "RumDistillery": [
+      "RUM_DISTILLERY_INFO"
+    ],
+    "SugarMill": [
+      "SUGAR_MILL_INFO"
+    ],
+    "ersShack": [
+      "FARMERS_SHACK_INFO"
+    ],
+    "Brickyard": [
+      "BRICKYARD_INFO"
+    ],
+    "Apothecary": [
+      "APOTHECARY_INFO"
+    ],
+    "CrocodileRanch": [
+      "CROCODILE_RANCH_INFO"
+    ],
+    "Pikeman": [
+      "PIKEMEN_BARRACKS_INFO"
+    ],
+    "Goat": [
+      "GOAT_FARM_INFO"
+    ],
+    "SalternTropical": [
+      "SALTERN_TROPICAL_INFO"
+    ],
+    "SugarWindmill": [
+      "SUGAR_WINDMILL_INFO"
+    ],
+    "Apiary": [
+      "APIARY_INFO"
+    ],
+    "Iron": [
+      "IRON_SMELTER_INFO",
+      "IRON_MINE_INFO"
+    ],
+    "Butchery": [
+      "BUTCHERY_INFO"
+    ],
+    "IronArmory": [
+      "IRON_ARMORY_INFO"
+    ],
+    "Hospital": [
+      "HOSPITAL_INFO"
+    ],
+    "FeltmakingMill": [
+      "FELTMAKING_MILL_INFO"
+    ],
+    "Goldsmith": [
+      "GOLDSMITH_INFO"
+    ],
+    "PipemakersShop": [
+      "PIPEMAKERS_SHOP_INFO"
+    ],
+    "Perfumery": [
+      "PERFUMERY_INFO"
+    ],
+    "Composite Bow": [
+      "COMPOSITE_BOWYER_INFO"
+    ],
+    "CoiningPress": [
+      "COINING_PRESS_INFO"
+    ],
+    "BrandyDistillery": [
+      "BRANDY_DISTILLERY_INFO"
+    ],
+    "MarbleQuarry": [
+      "MARBLE_QUARRY_INFO"
+    ],
+    "CrossbowShootingRange": [
+      "CROSSBOW_SHOOTING_RANGE_INFO"
+    ],
+    "PastryManufacture": [
+      "PASTRY_MANUFACTURE_INFO"
+    ],
+    "Toolmaker": [
+      "TOOLMAKER_INFO"
+    ],
+    "RoseCultivation": [
+      "ROSE_CULTIVATION_INFO"
+    ],
+    "Townhall": [
+      "TOWNHALL_INFO"
+    ],
+    "Gold": [
+      "GOLD_SMELTER_INFO"
+    ],
+    "Composite Bow Archer": [
+      "ARCHER_ACADEMY_INFO"
+    ],
+    "Chicken": [
+      "CHICKEN_FARM_INFO"
+    ],
+    "DeepCopper": [
+      "DEEP_COPPER_MINE_INFO"
+    ],
+    "Crossbow": [
+      "CROSSBOW_MAKER_INFO"
+    ],
+    "EssenceDistillery": [
+      "ESSENCE_DISTILLERY_INFO"
+    ],
+    "Knight": [
+      "KNIGHT_BARRACKS_INFO"
+    ],
+    "Bathhouse": [
+      "BATHHOUSE_INFO"
+    ],
+    "ForestWardensCabin": [
+      "FOREST_WARDENS_CABIN_INFO"
+    ],
+    "CuringHouse": [
+      "CURING_HOUSE_INFO"
+    ],
+    "HattersShop": [
+      "HATTERS_SHOP_INFO"
+    ],
+    "SugarBeet": [
+      "SUGAR_BEET_FARM_INFO"
+    ],
+    "GoldTropical": [
+      "GOLD_MINE_TROPICAL_INFO",
+      "GOLD_SMELTER_TROPICAL_INFO"
+    ],
+    "HeraldicArmourer": [
+      "HERALDIC_ARMOURER_INFO"
+    ],
+    "BuffaloPasture": [
+      "BUFFALO_PASTURE_INFO"
+    ],
+    "GlaiveSmith": [
+      "GLAIVE_SMITH_INFO"
+    ],
+    "Indigo": [
+      "INDIGO_PLANTATION_INFO"
+    ],
+    "FineWoodLogger": [
+      "FINE_WOOD_LOGGER_INFO"
+    ],
+    "BuffaloButchery": [
+      "BUFFALO_BUTCHERY_INFO"
+    ],
+    "Luthier": [
+      "LUTHIER_INFO"
+    ],
+    "GoldPanner": [
+      "GOLD_PANNER_INFO"
+    ],
+    "SoupKitchen": [
+      "SOUP_KITCHEN_INFO"
+    ],
+    "Stadium": [
+      "STADIUM_INFO"
+    ],
+    "Cacao": [
+      "CACAO_PLANTATION_INFO"
+    ],
+    "DancingSchool": [
+      "DANCING_SCHOOL_INFO"
+    ],
+    "Cotton": [
+      "COTTON_PLANTATION_INFO"
+    ],
+    "Nitrate": [
+      "NITRATE_MAKER_INFO"
+    ],
+    "Chocolaterie": [
+      "CHOCOLATERIE_INFO"
+    ],
+    "SilkTwineMill": [
+      "SILK_TWINE_MILL_INFO"
+    ],
+    "RickyardTropical": [
+      "RICKYARD_TROPICAL_INFO"
+    ],
+    "NobleTailor": [
+      "NOBLE_TAILOR_INFO"
+    ],
+    "BrassTropical": [
+      "BRASS_SMELTER_TROPICAL_INFO"
+    ],
+    "Cemetery": [
+      "CEMETERY_INFO"
+    ],
+    "Shield Guardian": [
+      "SHIELD_GUARDIAN_TEMPLE_INFO"
+    ],
+    "Gemstone": [
+      "GEMSTONE_MINE_INFO"
+    ],
+    "Silk": [
+      "SILK_PLANTATION_INFO"
+    ],
+    "ArtisticBlacksmith": [
+      "ARTISTIC_BLACKSMITH_INFO"
+    ],
+    "Costumier": [
+      "COSTUMIER_INFO"
+    ],
+    "SpinningMill": [
+      "SPINNING_MILL_INFO"
+    ],
+    "Glaive Warrior": [
+      "GLAIVE_TEMPLE_INFO"
+    ],
+    "MarketHall": [
+      "MARKET_HALL_INFO"
+    ],
+    "FlowerHouse": [
+      "FLOWER_HOUSE_INFO"
+    ],
+    "Coconut": [
+      "COCONUT_PLANTATION_INFO"
+    ]
+  }
+}
