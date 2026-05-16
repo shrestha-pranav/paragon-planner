@@ -134,16 +134,15 @@ function App() {
                   <h3>{region} Region</h3>
                   <div className="building-grid">
                     {Object.entries(buildings).map(([id, count]) => {
-                      const b = (gameData.buildings[id] || gameData.population[id]) as any;
-                      const iconPart = b.image?.split('/icons/')[1];
-                      const iconSrc = iconPart ? `/paragon-planner/icons/${iconPart}` : '';
+                      const b = (gameData.buildings[id] || gameData.population[id]);
+                      const iconSrc = b?.icon ? `/paragon-planner${b.icon}` : '';
                       
                       return (
-                        <div key={id} className="building-item" title={`${b.name} (${b.category})`}>
-                          {iconSrc && <img src={iconSrc} alt={b.name} className="b-icon" />}
+                        <div key={id} className="building-item" title={`${b?.name} (${b?.region})`}>
+                          {iconSrc && <img src={iconSrc} alt={b?.name} className="b-icon" />}
                           <div className="b-info">
                             <div className="count">{Math.ceil(count)}</div>
-                            <div className="name">{b.name}</div>
+                            <div className="name">{b?.name}</div>
                           </div>
                         </div>
                       )
