@@ -167,9 +167,12 @@ function App() {
                       {Object.entries(buildings)
                         .filter(([_, count]) => count > 5)
                         .sort((a, b) => b[1] - a[1])
-                        .map(([id]) => (
-                          <span key={id} className="pill">{gameData.buildings[id].produces} Hub</span>
-                        ))
+                        .map(([id]) => {
+                          const b = (gameData.buildings[id] || gameData.population[id]);
+                          return (
+                            <span key={id} className="pill">{b?.produces} Hub</span>
+                          )
+                        })
                       }
                     </div>
                   </div>
