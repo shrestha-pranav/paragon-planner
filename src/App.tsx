@@ -2,16 +2,6 @@ import { useState, useMemo } from 'react'
 import { gameData, calculatePlan } from './engine'
 import './App.css'
 
-const REGION_MAP: Record<string, string> = {
-  'pioneers': 'Temperate',
-  'colonists': 'Temperate',
-  'merchants': 'Temperate',
-  'paragons': 'Temperate',
-  'farmers': 'Tropical',
-  'workers': 'Tropical',
-  'northern-islands': 'North',
-};
-
 function App() {
   const [popCounts, setPopCounts] = useState<Record<string, number>>({
     POPULATION_MERCHANTS_MANSION_INFO: 1000,
@@ -42,17 +32,6 @@ function App() {
   const updateUnit = (item: string, val: string) => {
     setUnitTargets(prev => ({ ...prev, [item]: parseFloat(val) || 0 }));
   };
-
-  const groupedBuildings = useMemo(() => {
-    const groups: Record<string, Record<string, number>> = {};
-    for (const [id, count] of Object.entries(plan.buildings)) {
-      const b = gameData.buildings[id];
-      const region = REGION_MAP[b.category] || 'Other';
-      if (!groups[region]) groups[region] = {};
-      groups[region][id] = count;
-    }
-    return groups;
-  }, [plan.buildings]);
 
   return (
     <div className="planner-container">
