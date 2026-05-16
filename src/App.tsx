@@ -14,7 +14,6 @@ function App() {
 
   const getIconUrl = (path?: string) => {
     if (!path) return '';
-    // Fix: Remove leading slash if any and use base URL correctly
     const cleanPath = path.startsWith('/') ? path.slice(1) : path;
     const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
       ? import.meta.env.BASE_URL 
@@ -42,9 +41,8 @@ function App() {
 
   const plan = useMemo(() => {
     const normalizedUnits: Record<string, number> = {};
-    const PRECISION = gameData.config.precision;
     for (const [item, ratePerMin] of Object.entries(unitTargets)) {
-      normalizedUnits[item] = (ratePerMin / 60) * PRECISION;
+      normalizedUnits[item] = ratePerMin / 60;
     }
 
     return calculatePlan({ 
@@ -59,10 +57,9 @@ function App() {
   }, [plan]);
 
   const unitMult = useMemo(() => {
-    const PRECISION = gameData.config.precision;
-    if (unit === 'sec') return 1 / PRECISION;
-    if (unit === 'min') return 60 / PRECISION;
-    return 3600 / PRECISION;
+    if (unit === 'sec') return 1;
+    if (unit === 'min') return 60;
+    return 3600;
   }, [unit]);
 
   const updatePop = (id: string, val: string) => {
@@ -143,7 +140,7 @@ function App() {
             <div className="summary-stats">
               <div className="stat-item">
                 <span className="label">Total Building Slots</span>
-                <span className="value">{plan.totalSlots}</span>
+                <span className="value">{Math.ceil(plan.totalSlots)}</span>
               </div>
               <div className="stat-item">
                 <span className="label">Estimated Islands (Size 22)</span>

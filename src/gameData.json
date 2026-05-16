@@ -1,17 +1,14 @@
 {
-  "config": {
-    "precision": 1000000
-  },
   "buildings": {
     "COPPER_SMELTER_NORTH_INFO": {
       "id": "COPPER_SMELTER_NORTH_INFO",
       "name": "CopperSmelterNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/CopperSmelterNorth.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Copper Ore": 4167
+      "icon": "icons/buildings/northern-islands/CopperSmelterNorth.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Copper Ore": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Copper Ingot"
@@ -20,10 +17,10 @@
       "id": "ROCK_SALT_MINE_NORTH_INFO",
       "name": "RockSaltMineNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/RockSaltMineNorth.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "RockSalt Deposit": 4167
+      "icon": "icons/buildings/northern-islands/RockSaltMineNorth.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "RockSalt Deposit": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Rock Salt"
@@ -32,11 +29,11 @@
       "id": "GOLD_SMELTER_NORTH_INFO",
       "name": "GoldSmelterNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/GoldSmelterNorth.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 4167,
-        "Gold Ore": 2083
+      "icon": "icons/buildings/northern-islands/GoldSmelterNorth.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.004166666666666667,
+        "Gold Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Gold Ingot"
@@ -45,10 +42,10 @@
       "id": "HEATING_PLANT_INFO",
       "name": "HeatingPlant",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/HeatingPlant.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wood": 8333
+      "icon": "icons/buildings/northern-islands/HeatingPlant.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Heating Plant"
@@ -57,10 +54,10 @@
       "id": "GOLD_MINE_NORTH_INFO",
       "name": "GoldMineNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/GoldMineNorth.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Gold Deposit": 8333
+      "icon": "icons/buildings/northern-islands/GoldMineNorth.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Gold Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Gold Ore"
@@ -69,10 +66,10 @@
       "id": "FUR_TRAPPER_INFO",
       "name": "FurTrapper",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/FurTrapper.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Grass": 19444
+      "icon": "icons/buildings/northern-islands/FurTrapper.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Grass": 0.019444444444444445
       },
       "slots": 1,
       "produces": "Fur Trapper"
@@ -81,11 +78,11 @@
       "id": "BRASS_SMELTER_NORTH_INFO",
       "name": "BrassSmelterNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/BrassSmelterNorth.png",
-      "rate_per_tick": 13889,
-      "consumes_per_tick": {
-        "Copper Ingot": 8333,
-        "Zinc Ingot": 5556
+      "icon": "icons/buildings/northern-islands/BrassSmelterNorth.png",
+      "rate_per_sec": 0.013888888888888888,
+      "consumes_per_sec": {
+        "Copper Ingot": 0.008333333333333333,
+        "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
       "produces": "Brass Ingot"
@@ -94,10 +91,10 @@
       "id": "LARGE_HEATING_PLANT_INFO",
       "name": "LargeHeatingPlant",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/LargeHeatingPlant.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coal": 8333
+      "icon": "icons/buildings/northern-islands/LargeHeatingPlant.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Large Heating Plant"
@@ -106,10 +103,10 @@
       "id": "MARBLE_QUARRY_NORTH_INFO",
       "name": "MarbleQuarryNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/MarbleQuarryNorth.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Marble": 16667
+      "icon": "icons/buildings/northern-islands/MarbleQuarryNorth.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Marble": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Marble Quarry"
@@ -118,10 +115,10 @@
       "id": "CONIFER_LUMBERJACK_INFO",
       "name": "ConiferLumberjack",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/ConiferLumberjack.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Conifer Forest": 33333
+      "icon": "icons/buildings/northern-islands/ConiferLumberjack.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Conifer Forest": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Wood"
@@ -130,11 +127,11 @@
       "id": "IRON_SMELTER_NORTH_INFO",
       "name": "IronSmelterNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/IronSmelterNorth.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coal": 2083,
-        "Iron Ore": 4167
+      "icon": "icons/buildings/northern-islands/IronSmelterNorth.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coal": 0.0020833333333333333,
+        "Iron Ore": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Iron Ingot"
@@ -143,10 +140,10 @@
       "id": "COAL_MINE_NORTH_INFO",
       "name": "CoalMineNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/CoalMineNorth.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Coal Deposit": 16667
+      "icon": "icons/buildings/northern-islands/CoalMineNorth.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Coal Deposit": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Coal"
@@ -155,11 +152,11 @@
       "id": "CAVIAR_FACTORY_INFO",
       "name": "CaviarFactory",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/CaviarFactory.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Salt": 2083,
-        "Sturgeon": 2083
+      "icon": "icons/buildings/northern-islands/CaviarFactory.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Salt": 0.0020833333333333333,
+        "Sturgeon": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Caviar Factory"
@@ -168,10 +165,10 @@
       "id": "SALMON_FISHERMANS_HUT_INFO",
       "name": "SalmonFishermansHut",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/SalmonFishermansHut.png",
-      "rate_per_tick": 22222,
-      "consumes_per_tick": {
-        "Coastal Field": 88889
+      "icon": "icons/buildings/northern-islands/SalmonFishermansHut.png",
+      "rate_per_sec": 0.022222222222222223,
+      "consumes_per_sec": {
+        "Coastal Field": 0.08888888888888889
       },
       "slots": 1,
       "produces": "Fish"
@@ -180,10 +177,10 @@
       "id": "WHALER_INFO",
       "name": "Whaler",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/Whaler.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Sperm Whale": 4167
+      "icon": "icons/buildings/northern-islands/Whaler.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Sperm Whale": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Whaler"
@@ -192,11 +189,11 @@
       "id": "SALT_WORKS_NORTH_INFO",
       "name": "SaltWorksNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/SaltWorksNorth.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Coal": 1389,
-        "RockSalt Ore": 1389
+      "icon": "icons/buildings/northern-islands/SaltWorksNorth.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Coal": 0.001388888888888889,
+        "RockSalt Ore": 0.001388888888888889
       },
       "slots": 1,
       "produces": "Salt"
@@ -205,11 +202,11 @@
       "id": "ZINC_SMELTER_INFO",
       "name": "ZincSmelter",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/ZincSmelter.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Wood": 5556,
-        "Zinc Ore": 2778
+      "icon": "icons/buildings/northern-islands/ZincSmelter.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Wood": 0.005555555555555556,
+        "Zinc Ore": 0.002777777777777778
       },
       "slots": 1,
       "produces": "Zinc Ingot"
@@ -218,10 +215,10 @@
       "id": "IRON_MINE_NORTH_INFO",
       "name": "IronMineNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/IronMineNorth.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Iron Deposit": 8333
+      "icon": "icons/buildings/northern-islands/IronMineNorth.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Iron Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Iron Ore"
@@ -230,10 +227,10 @@
       "id": "COPPER_MINE_NORTH_INFO",
       "name": "CopperMineNorth",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/CopperMineNorth.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Copper Deposit": 8333
+      "icon": "icons/buildings/northern-islands/CopperMineNorth.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Copper Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Copper Ore"
@@ -242,10 +239,10 @@
       "id": "LEAD_MINE_INFO",
       "name": "LeadMine",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/LeadMine.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Lead Deposit": 8333
+      "icon": "icons/buildings/northern-islands/LeadMine.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Lead Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Lead Ore"
@@ -254,10 +251,10 @@
       "id": "AMBERGRIS_PRODUCTION_INFO",
       "name": "AmbergrisProduction",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/AmbergrisProduction.png",
-      "rate_per_tick": 521,
-      "consumes_per_tick": {
-        "Sperm Whale": 1042
+      "icon": "icons/buildings/northern-islands/AmbergrisProduction.png",
+      "rate_per_sec": 0.0005208333333333333,
+      "consumes_per_sec": {
+        "Sperm Whale": 0.0010416666666666667
       },
       "slots": 1,
       "produces": "Ambergris Production"
@@ -266,11 +263,11 @@
       "id": "LEAD_SMELTER_INFO",
       "name": "LeadSmelter",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/LeadSmelter.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Lead Ore": 4167
+      "icon": "icons/buildings/northern-islands/LeadSmelter.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Lead Ore": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Lead Ingot"
@@ -279,10 +276,10 @@
       "id": "STURGEON_FARM_INFO",
       "name": "SturgeonFarm",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/SturgeonFarm.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "River Field": 4167
+      "icon": "icons/buildings/northern-islands/SturgeonFarm.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Sturgeon Farm"
@@ -291,10 +288,10 @@
       "id": "ZINC_MINE_NORTH_INFO",
       "name": "ZincMine",
       "region": "North",
-      "icon": "/icons/buildings/northern-islands/ZincMine.png",
-      "rate_per_tick": 5556,
-      "consumes_per_tick": {
-        "Zinc Deposit": 5556
+      "icon": "icons/buildings/northern-islands/ZincMine.png",
+      "rate_per_sec": 0.005555555555555556,
+      "consumes_per_sec": {
+        "Zinc Deposit": 0.005555555555555556
       },
       "slots": 1,
       "produces": "Zinc Ore"
@@ -303,9 +300,9 @@
       "id": "THEATRE_INFO",
       "name": "Theatre",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Theatre.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/paragons/Theatre.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Theatre"
     },
@@ -313,9 +310,9 @@
       "id": "SENATE_INFO",
       "name": "Senate",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Senate.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/paragons/Senate.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Senate"
     },
@@ -323,12 +320,12 @@
       "id": "BROCADE_SPINNING_FACTORY_INFO",
       "name": "BrocadeSpinningFactory",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/BrocadeSpinningFactory.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Gold Ingot": 16667,
-        "Silk Fabric": 16667,
-        "River Field": 16667
+      "icon": "icons/buildings/paragons/BrocadeSpinningFactory.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Gold Ingot": 0.016666666666666666,
+        "Silk Fabric": 0.016666666666666666,
+        "River Field": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Brocade Spinning Factory"
@@ -337,12 +334,12 @@
       "id": "STEEL_FURNACE_INFO",
       "name": "SteelFurnace",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/SteelFurnace.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coke": 4167,
-        "Iron Ingot": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/paragons/SteelFurnace.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coke": 0.004166666666666667,
+        "Iron Ingot": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Steel Furnace"
@@ -351,10 +348,10 @@
       "id": "TRUMPET_MAKER_INFO",
       "name": "TrumpetMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/TrumpetMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Brass Ingot": 4167
+      "icon": "icons/buildings/paragons/TrumpetMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Brass Ingot": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Trumpet Maker"
@@ -363,11 +360,11 @@
       "id": "LENS_GRINDER_INFO",
       "name": "LensGrinder",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/LensGrinder.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Brass Ingot": 4167,
-        "Glass": 16667
+      "icon": "icons/buildings/paragons/LensGrinder.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Brass Ingot": 0.004166666666666667,
+        "Glass": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Lens Grinder"
@@ -376,11 +373,11 @@
       "id": "ORNATE_TAILOR_INFO",
       "name": "OrnateTailor",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/OrnateTailor.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Fur": 8333,
-        "Brocade Fabric": 8333
+      "icon": "icons/buildings/paragons/OrnateTailor.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Fur": 0.008333333333333333,
+        "Brocade Fabric": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Ornate Tailor"
@@ -389,9 +386,9 @@
       "id": "LARGE_THERMAL_BATH_INFO",
       "name": "LargeThermalBath",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/LargeThermalBath.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/paragons/LargeThermalBath.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Large Thermal Bath"
     },
@@ -399,11 +396,11 @@
       "id": "CHANDLER_INFO",
       "name": "Chandler",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Chandler.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Honey": 12500,
-        "Fiber": 4167
+      "icon": "icons/buildings/paragons/Chandler.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Honey": 0.0125,
+        "Fiber": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Chandler"
@@ -412,10 +409,10 @@
       "id": "SALTERN_INFO",
       "name": "Saltern",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Saltern.png",
-      "rate_per_tick": 1042,
-      "consumes_per_tick": {
-        "Coastal Field": 2083
+      "icon": "icons/buildings/paragons/Saltern.png",
+      "rate_per_sec": 0.0010416666666666667,
+      "consumes_per_sec": {
+        "Coastal Field": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Saltern"
@@ -424,11 +421,11 @@
       "id": "FIREWORKS_MAKER_INFO",
       "name": "FireworksMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/FireworksMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Gunpowder": 8333,
-        "Metal Cutting": 8333
+      "icon": "icons/buildings/paragons/FireworksMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Gunpowder": 0.008333333333333333,
+        "Metal Cutting": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Fireworks Maker"
@@ -437,10 +434,10 @@
       "id": "TREASURE_SEEKER_INFO",
       "name": "TreasureSeeker",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/TreasureSeeker.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "River": 16667
+      "icon": "icons/buildings/paragons/TreasureSeeker.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "River": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Treasure Seeker"
@@ -449,13 +446,13 @@
       "id": "MUSKET_MAKER_INFO",
       "name": "MusketMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/MusketMaker.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Gunpowder": 2083,
-        "Brass Ingot": 2083,
-        "Steel": 2083,
-        "River Field": 2083
+      "icon": "icons/buildings/paragons/MusketMaker.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Gunpowder": 0.0020833333333333333,
+        "Brass Ingot": 0.0020833333333333333,
+        "Steel": 0.0020833333333333333,
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Musket Maker"
@@ -464,11 +461,11 @@
       "id": "CANNONEERS_SCHOOL_INFO",
       "name": "CannoneersSchool",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/CannoneersSchool.png",
-      "rate_per_tick": 556,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Cannon": 556
+      "icon": "icons/buildings/paragons/CannoneersSchool.png",
+      "rate_per_sec": 0.0005555555555555556,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Cannon": 0.0005555555555555556
       },
       "slots": 1,
       "produces": "Cannoneers School"
@@ -477,11 +474,11 @@
       "id": "COOPER_INFO",
       "name": "Cooper",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Cooper.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Iron Ingot": 2083,
-        "Planks": 16667
+      "icon": "icons/buildings/paragons/Cooper.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Iron Ingot": 0.0020833333333333333,
+        "Planks": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Cooper"
@@ -490,11 +487,11 @@
       "id": "BOOKBINDER_INFO",
       "name": "Bookbinder",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Bookbinder.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Dye": 8333,
-        "Paper": 66667
+      "icon": "icons/buildings/paragons/Bookbinder.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Dye": 0.008333333333333333,
+        "Paper": 0.06666666666666667
       },
       "slots": 1,
       "produces": "Bookbinder"
@@ -503,11 +500,11 @@
       "id": "HONEY_DISTILLERY_INFO",
       "name": "HoneyDistillery",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/HoneyDistillery.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Honey": 8333,
-        "Brandy": 4167
+      "icon": "icons/buildings/paragons/HoneyDistillery.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Honey": 0.008333333333333333,
+        "Brandy": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Honey Distillery"
@@ -516,12 +513,12 @@
       "id": "GLASSWORKS_INFO",
       "name": "Glassworks",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Glassworks.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Limestone": 2083,
-        "Potash": 4167,
-        "Quartz": 10417
+      "icon": "icons/buildings/paragons/Glassworks.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Limestone": 0.0020833333333333333,
+        "Potash": 0.004166666666666667,
+        "Quartz": 0.010416666666666666
       },
       "slots": 1,
       "produces": "Glassworks"
@@ -530,10 +527,10 @@
       "id": "WINERY_INFO",
       "name": "Winery",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Winery.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Vineyard": 200000
+      "icon": "icons/buildings/paragons/Winery.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Vineyard": 0.2
       },
       "slots": 1,
       "produces": "Winery"
@@ -542,10 +539,10 @@
       "id": "UNIVERSITY_INFO",
       "name": "University",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/University.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Candles": 16667
+      "icon": "icons/buildings/paragons/University.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Candles": 0.016666666666666666
       },
       "slots": 1,
       "produces": "University"
@@ -554,11 +551,11 @@
       "id": "CONFECTIONERY_INFO",
       "name": "Confectionery",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Confectionery.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Liqueur": 4167,
-        "Chocolate": 8333
+      "icon": "icons/buildings/paragons/Confectionery.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Liqueur": 0.004166666666666667,
+        "Chocolate": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Confectionery"
@@ -567,11 +564,11 @@
       "id": "CUIRASSIER_ACADEMY_INFO",
       "name": "CuirassierAcademy",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/CuirassierAcademy.png",
-      "rate_per_tick": 556,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Armored Horse": 556
+      "icon": "icons/buildings/paragons/CuirassierAcademy.png",
+      "rate_per_sec": 0.0005555555555555556,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Armored Horse": 0.0005555555555555556
       },
       "slots": 1,
       "produces": "Cuirassier Academy"
@@ -580,11 +577,11 @@
       "id": "MUSKETEER_SCHOOL_INFO",
       "name": "MusketeerSchool",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/MusketeerSchool.png",
-      "rate_per_tick": 556,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Musket": 556
+      "icon": "icons/buildings/paragons/MusketeerSchool.png",
+      "rate_per_sec": 0.0005555555555555556,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Musket": 0.0005555555555555556
       },
       "slots": 1,
       "produces": "Musketeer School"
@@ -593,11 +590,11 @@
       "id": "BRASS_SMELTER_INFO",
       "name": "BrassSmelter",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/BrassSmelter.png",
-      "rate_per_tick": 13889,
-      "consumes_per_tick": {
-        "Copper Ingot": 8333,
-        "Zinc Ingot": 5556
+      "icon": "icons/buildings/paragons/BrassSmelter.png",
+      "rate_per_sec": 0.013888888888888888,
+      "consumes_per_sec": {
+        "Copper Ingot": 0.008333333333333333,
+        "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
       "produces": "Brass Ingot"
@@ -606,12 +603,12 @@
       "id": "CANNON_FOUNDRY_INFO",
       "name": "CannonFoundry",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/CannonFoundry.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Gunpowder": 2083,
-        "Steel": 2083,
-        "River Field": 2083
+      "icon": "icons/buildings/paragons/CannonFoundry.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Gunpowder": 0.0020833333333333333,
+        "Steel": 0.0020833333333333333,
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Cannon Foundry"
@@ -620,12 +617,12 @@
       "id": "ARMORSMITH_INFO",
       "name": "Armorsmith",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Armorsmith.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Horse": 4167,
-        "Steel": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/paragons/Armorsmith.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Horse": 0.004166666666666667,
+        "Steel": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Armorsmith"
@@ -634,11 +631,11 @@
       "id": "TILTYARD_INFO",
       "name": "Tiltyard",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Tiltyard.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Lance": 8333,
-        "Horse": 8333
+      "icon": "icons/buildings/paragons/Tiltyard.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Lance": 0.008333333333333333,
+        "Horse": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Tiltyard"
@@ -647,11 +644,11 @@
       "id": "GALZIERS_WORKSHOP_INFO",
       "name": "GalziersWorkshop",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/GalziersWorkshop.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Lead Ingot": 4167,
-        "Glass": 16667
+      "icon": "icons/buildings/paragons/GalziersWorkshop.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Lead Ingot": 0.004166666666666667,
+        "Glass": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Galziers Workshop"
@@ -660,9 +657,9 @@
       "id": "COIFFEUR_INFO",
       "name": "Coiffeur",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Coiffeur.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/paragons/Coiffeur.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Coiffeur"
     },
@@ -670,12 +667,12 @@
       "id": "WINEPRESS_INFO",
       "name": "Winepress",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Winepress.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Barrel": 2778,
-        "Grape": 11111,
-        "River Field": 2778
+      "icon": "icons/buildings/paragons/Winepress.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Barrel": 0.002777777777777778,
+        "Grape": 0.011111111111111112,
+        "River Field": 0.002777777777777778
       },
       "slots": 1,
       "produces": "Winepress"
@@ -684,12 +681,12 @@
       "id": "POWDER_MILL_INFO",
       "name": "PowderMill",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/PowderMill.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coal": 4167,
-        "Saltpeter": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/paragons/PowderMill.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coal": 0.004166666666666667,
+        "Saltpeter": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Powder Mill"
@@ -698,11 +695,11 @@
       "id": "COBBLERS_SHOP_INFO",
       "name": "CobblersShop",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/CobblersShop.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Brass Ingot": 2083,
-        "Leather": 8333
+      "icon": "icons/buildings/paragons/CobblersShop.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Brass Ingot": 0.0020833333333333333,
+        "Leather": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Cobblers Shop"
@@ -711,11 +708,11 @@
       "id": "LANCE_MAKER_INFO",
       "name": "LanceMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/LanceMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Dye": 8333,
-        "Wood": 33333
+      "icon": "icons/buildings/paragons/LanceMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Dye": 0.008333333333333333,
+        "Wood": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Lance Maker"
@@ -724,12 +721,12 @@
       "id": "PAPER_MILL_INFO",
       "name": "PaperMill",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/PaperMill.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Wood": 16667,
-        "Quicklime": 8333,
-        "River Field": 8333
+      "icon": "icons/buildings/paragons/PaperMill.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Wood": 0.016666666666666666,
+        "Quicklime": 0.008333333333333333,
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Paper Mill"
@@ -738,10 +735,10 @@
       "id": "QUARTZ_QUARRY_INFO",
       "name": "QuartzQuarry",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/QuartzQuarry.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coastal Field": 33333
+      "icon": "icons/buildings/paragons/QuartzQuarry.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coastal Field": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Quartz Quarry"
@@ -750,13 +747,13 @@
       "id": "PLANING_MILL_INFO",
       "name": "PlaningMill",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/PlaningMill.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Zinc Ingot": 4167,
-        "Iron Ingot": 4167,
-        "Copper Ingot": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/paragons/PlaningMill.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Zinc Ingot": 0.004166666666666667,
+        "Iron Ingot": 0.004166666666666667,
+        "Copper Ingot": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Planing Mill"
@@ -765,10 +762,10 @@
       "id": "COKERY_INFO",
       "name": "Cokery",
       "region": "Temperate",
-      "icon": "/icons/buildings/paragons/Cokery.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coal": 8333
+      "icon": "icons/buildings/paragons/Cokery.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coal": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Cokery"
@@ -777,10 +774,10 @@
       "id": "FISHERMANS_HUT_INFO",
       "name": "FishermansHut",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/FishermansHut.png",
-      "rate_per_tick": 11111,
-      "consumes_per_tick": {
-        "Water": 44444
+      "icon": "icons/buildings/pioneers/FishermansHut.png",
+      "rate_per_sec": 0.011111111111111112,
+      "consumes_per_sec": {
+        "Water": 0.044444444444444446
       },
       "slots": 1,
       "produces": "Fish"
@@ -789,9 +786,9 @@
       "id": "TAVERN_INFO",
       "name": "Tavern",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Tavern.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/pioneers/Tavern.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Tavern"
     },
@@ -799,10 +796,10 @@
       "id": "CIDER_MAKER_INFO",
       "name": "CiderMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/CiderMaker.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Apple": 16667
+      "icon": "icons/buildings/pioneers/CiderMaker.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Apple": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Cider"
@@ -811,9 +808,9 @@
       "id": "CISTERN_INFO",
       "name": "Cistern",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Cistern.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/pioneers/Cistern.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Water"
     },
@@ -821,10 +818,10 @@
       "id": "LUMBERJACK_INFO",
       "name": "Lumberjack",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Lumberjack.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Forest": 33333
+      "icon": "icons/buildings/pioneers/Lumberjack.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Forest": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Wood"
@@ -833,10 +830,10 @@
       "id": "SAUSAGE_MAKER_INFO",
       "name": "SausageMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/SausageMaker.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Pigs": 8333
+      "icon": "icons/buildings/pioneers/SausageMaker.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Pigs": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sausage"
@@ -845,9 +842,9 @@
       "id": "PIONEERS_HUT_INFO",
       "name": "PioneersHut",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/PioneersHut.png",
-      "rate_per_tick": 950,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/pioneers/PioneersHut.png",
+      "rate_per_sec": 0.00095,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Militia"
     },
@@ -855,10 +852,10 @@
       "id": "PIG_RANCH_INFO",
       "name": "PigRanch",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/PigRanch.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Grass": 266667
+      "icon": "icons/buildings/pioneers/PigRanch.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Grass": 0.26666666666666666
       },
       "slots": 1,
       "produces": "Pigs"
@@ -867,11 +864,11 @@
       "id": "BOOT_CAMP_INFO",
       "name": "BootCamp",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/BootCamp.png",
-      "rate_per_tick": 3333,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Planks": 3333
+      "icon": "icons/buildings/pioneers/BootCamp.png",
+      "rate_per_sec": 0.0033333333333333335,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Planks": 0.0033333333333333335
       },
       "slots": 1,
       "produces": "Boot Camp"
@@ -880,10 +877,10 @@
       "id": "SAW_WORKS_INFO",
       "name": "SawWorks",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/SawWorks.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Wood": 33333
+      "icon": "icons/buildings/pioneers/SawWorks.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Saw Works"
@@ -892,10 +889,10 @@
       "id": "PIGGERY_INFO",
       "name": "Piggery",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Piggery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Grass": 33333
+      "icon": "icons/buildings/pioneers/Piggery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Grass": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Pigs"
@@ -904,9 +901,9 @@
       "id": "WELL_INFO",
       "name": "Well",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Well.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/pioneers/Well.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Water"
     },
@@ -914,11 +911,11 @@
       "id": "SAWMILL_INFO",
       "name": "Sawmill",
       "region": "Temperate",
-      "icon": "/icons/buildings/pioneers/Sawmill.png",
-      "rate_per_tick": 100000,
-      "consumes_per_tick": {
-        "Wood": 66667,
-        "River Field": 33333
+      "icon": "icons/buildings/pioneers/Sawmill.png",
+      "rate_per_sec": 0.1,
+      "consumes_per_sec": {
+        "Wood": 0.06666666666666667,
+        "River Field": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Sawmill"
@@ -927,9 +924,9 @@
       "id": "SCHOOL_INFO",
       "name": "School",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/School.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/colonists/School.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "School"
     },
@@ -937,10 +934,10 @@
       "id": "SHEEP_FARM_INFO",
       "name": "SheepFarm",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/SheepFarm.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Grass": 16667
+      "icon": "icons/buildings/colonists/SheepFarm.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Grass": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Sheep Farm"
@@ -949,11 +946,11 @@
       "id": "COPPER_AXESMITH_INFO",
       "name": "CopperAxesmith",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/CopperAxesmith.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Copper Ingot": 2083
+      "icon": "icons/buildings/colonists/CopperAxesmith.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Copper Axesmith"
@@ -962,10 +959,10 @@
       "id": "WEAVER_INFO",
       "name": "Weaver",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Weaver.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Yarn": 8333
+      "icon": "icons/buildings/colonists/Weaver.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Yarn": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Fabric"
@@ -974,11 +971,11 @@
       "id": "COPPER_ARMORY_INFO",
       "name": "CopperArmory",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/CopperArmory.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Copper Ingot": 2083
+      "icon": "icons/buildings/colonists/CopperArmory.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Copper Armory"
@@ -987,10 +984,10 @@
       "id": "STONECUTTER_INFO",
       "name": "Stonecutter",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Stonecutter.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Cliff": 2083
+      "icon": "icons/buildings/colonists/Stonecutter.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Cliff": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Limestone"
@@ -999,11 +996,11 @@
       "id": "FLOUR_MILL_INFO",
       "name": "FlourMill",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/FlourMill.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wheat": 16667,
-        "River Field": 8333
+      "icon": "icons/buildings/colonists/FlourMill.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wheat": 0.016666666666666666,
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Flour Mill"
@@ -1012,10 +1009,10 @@
       "id": "BAKERY_INFO",
       "name": "Bakery",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Bakery.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Flour": 4167
+      "icon": "icons/buildings/colonists/Bakery.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Flour": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Bread"
@@ -1024,11 +1021,11 @@
       "id": "LIME_KILN_INFO",
       "name": "LimeKiln",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/LimeKiln.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wood": 33333,
-        "Limestone": 8333
+      "icon": "icons/buildings/colonists/LimeKiln.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.03333333333333333,
+        "Limestone": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Lime Kiln"
@@ -1037,10 +1034,10 @@
       "id": "ASH_HOUSE_INFO",
       "name": "AshHouse",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/AshHouse.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wood": 16667
+      "icon": "icons/buildings/colonists/AshHouse.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Ash House"
@@ -1049,11 +1046,11 @@
       "id": "MORTAR_BATCH_WORKS_INFO",
       "name": "MortarBatchWorks",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/MortarBatchWorks.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Quicklime": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/colonists/MortarBatchWorks.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Quicklime": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Mortar Batch Works"
@@ -1062,10 +1059,10 @@
       "id": "FLOUR_WINDMILL_INFO",
       "name": "FlourWindmill",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/FlourWindmill.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wheat": 16667
+      "icon": "icons/buildings/colonists/FlourWindmill.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wheat": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Flour Windmill"
@@ -1074,10 +1071,10 @@
       "id": "LINSEED_FARM_INFO",
       "name": "LinseedFarm",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/LinseedFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Linseed": 8333
+      "icon": "icons/buildings/colonists/LinseedFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Linseed": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Linseed Farm"
@@ -1086,11 +1083,11 @@
       "id": "ARCHERY_RANGE_INFO",
       "name": "ArcheryRange",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/ArcheryRange.png",
-      "rate_per_tick": 3333,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Bow": 3333
+      "icon": "icons/buildings/colonists/ArcheryRange.png",
+      "rate_per_sec": 0.0033333333333333335,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Bow": 0.0033333333333333335
       },
       "slots": 1,
       "produces": "Archer"
@@ -1099,11 +1096,11 @@
       "id": "TEXTILE_FACTORY_INFO",
       "name": "TextileFactory",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/TextileFactory.png",
-      "rate_per_tick": 12500,
-      "consumes_per_tick": {
-        "Yarn": 16667,
-        "River Field": 4167
+      "icon": "icons/buildings/colonists/TextileFactory.png",
+      "rate_per_sec": 0.0125,
+      "consumes_per_sec": {
+        "Yarn": 0.016666666666666666,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Textile Factory"
@@ -1112,10 +1109,10 @@
       "id": "WHEAT_FARM_INFO",
       "name": "WheatFarm",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/WheatFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wheat": 8333
+      "icon": "icons/buildings/colonists/WheatFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wheat": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Wheat Farm"
@@ -1124,10 +1121,10 @@
       "id": "ROPERY_INFO",
       "name": "Ropery",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Ropery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Fiber": 8333
+      "icon": "icons/buildings/colonists/Ropery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Fiber": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Ropery"
@@ -1136,10 +1133,10 @@
       "id": "COPPER_MINE_INFO",
       "name": "CopperMine",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/CopperMine.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Copper Deposit": 4167
+      "icon": "icons/buildings/colonists/CopperMine.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Copper Deposit": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Copper Ore"
@@ -1148,11 +1145,11 @@
       "id": "SOAP_MAKER_INFO",
       "name": "SoapMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/SoapMaker.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Potash": 8333,
-        "Tallow": 8333
+      "icon": "icons/buildings/colonists/SoapMaker.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Potash": 0.008333333333333333,
+        "Tallow": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Soap"
@@ -1161,11 +1158,11 @@
       "id": "BERSERKER_HALL_INFO",
       "name": "BerserkerHall",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/BerserkerHall.png",
-      "rate_per_tick": 1667,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Copper Axe": 1667
+      "icon": "icons/buildings/colonists/BerserkerHall.png",
+      "rate_per_sec": 0.0016666666666666668,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Copper Axe": 0.0016666666666666668
       },
       "slots": 1,
       "produces": "Berserker Hall"
@@ -1174,9 +1171,9 @@
       "id": "HARBOR_TAVERN_INFO",
       "name": "HarborTavern",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/HarborTavern.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/colonists/HarborTavern.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Harbor Tavern"
     },
@@ -1184,11 +1181,11 @@
       "id": "BARRACKS_INFO",
       "name": "Barracks",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Barracks.png",
-      "rate_per_tick": 1667,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Copper Sword": 1667
+      "icon": "icons/buildings/colonists/Barracks.png",
+      "rate_per_sec": 0.0016666666666666668,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Copper Sword": 0.0016666666666666668
       },
       "slots": 1,
       "produces": "Footsoldier"
@@ -1197,11 +1194,11 @@
       "id": "BOWYER_INFO",
       "name": "Bowyer",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Bowyer.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Wood": 12500,
-        "Fiber": 8333
+      "icon": "icons/buildings/colonists/Bowyer.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Wood": 0.0125,
+        "Fiber": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Bowyer"
@@ -1210,10 +1207,10 @@
       "id": "RICKYARD_INFO",
       "name": "Rickyard",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/Rickyard.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Wheat": 16667
+      "icon": "icons/buildings/colonists/Rickyard.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Wheat": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Rickyard"
@@ -1222,10 +1219,10 @@
       "id": "RENDERING_WORKS_INFO",
       "name": "RenderingWorks",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/RenderingWorks.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Pigs": 8333
+      "icon": "icons/buildings/colonists/RenderingWorks.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Pigs": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Rendering Works"
@@ -1234,11 +1231,11 @@
       "id": "COPPER_SMELTER_INFO",
       "name": "CopperSmelter",
       "region": "Temperate",
-      "icon": "/icons/buildings/colonists/CopperSmelter.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Copper Ore": 2083
+      "icon": "icons/buildings/colonists/CopperSmelter.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Copper Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Copper Ingot"
@@ -1247,9 +1244,9 @@
       "id": "FAIR_INFO",
       "name": "Fair",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Fair.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/townsmen/Fair.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Fair"
     },
@@ -1257,11 +1254,11 @@
       "id": "BOILER_MAKER_INFO",
       "name": "BoilerMaker",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/BoilerMaker.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Copper Ingot": 2083
+      "icon": "icons/buildings/townsmen/BoilerMaker.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Boiler Maker"
@@ -1270,11 +1267,11 @@
       "id": "BREWERY_INFO",
       "name": "Brewery",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Brewery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Hops": 12500,
-        "Malt": 4167
+      "icon": "icons/buildings/townsmen/Brewery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Hops": 0.0125,
+        "Malt": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Beer"
@@ -1283,10 +1280,10 @@
       "id": "TOWN_SCHOOL_INFO",
       "name": "TownSchool",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/TownSchool.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Chalk": 16667
+      "icon": "icons/buildings/townsmen/TownSchool.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Chalk": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Town School"
@@ -1295,11 +1292,11 @@
       "id": "BOILING_HOUSE_INFO",
       "name": "BoilingHouse",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/BoilingHouse.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coal": 4167,
-        "Fish": 25000
+      "icon": "icons/buildings/townsmen/BoilingHouse.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.004166666666666667,
+        "Fish": 0.025
       },
       "slots": 1,
       "produces": "Boiling House"
@@ -1308,10 +1305,10 @@
       "id": "MALTHOUSE_INFO",
       "name": "Malthouse",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Malthouse.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Wheat": 16667
+      "icon": "icons/buildings/townsmen/Malthouse.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Wheat": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Malthouse"
@@ -1320,10 +1317,10 @@
       "id": "HOP_FARM_INFO",
       "name": "HopFarm",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/HopFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Hops": 66667
+      "icon": "icons/buildings/townsmen/HopFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Hops": 0.06666666666666667
       },
       "slots": 1,
       "produces": "Hop Farm"
@@ -1332,11 +1329,11 @@
       "id": "LONGBOWYER_INFO",
       "name": "Longbowyer",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Longbowyer.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Wood": 41667,
-        "Fiber": 8333
+      "icon": "icons/buildings/townsmen/Longbowyer.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Wood": 0.041666666666666664,
+        "Fiber": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Longbowyer"
@@ -1345,10 +1342,10 @@
       "id": "CHARCOAL_KILN_INFO",
       "name": "CharcoalKiln",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/CharcoalKiln.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Wood": 33333
+      "icon": "icons/buildings/townsmen/CharcoalKiln.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Wood": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Charcoal Kiln"
@@ -1357,11 +1354,11 @@
       "id": "SAILMAKER_INFO",
       "name": "Sailmaker",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Sailmaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Rope": 4167,
-        "Yarn": 8333
+      "icon": "icons/buildings/townsmen/Sailmaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Rope": 0.004166666666666667,
+        "Yarn": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sailmaker"
@@ -1370,10 +1367,10 @@
       "id": "DRUM_MAKER_INFO",
       "name": "DrumMaker",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/DrumMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Leather": 4167
+      "icon": "icons/buildings/townsmen/DrumMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Leather": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Drum Maker"
@@ -1382,10 +1379,10 @@
       "id": "STRAWBERRY_FARM_INFO",
       "name": "StrawberryFarm",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/StrawberryFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Strawberry": 100000
+      "icon": "icons/buildings/townsmen/StrawberryFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Strawberry": 0.1
       },
       "slots": 1,
       "produces": "Strawberry Farm"
@@ -1394,11 +1391,11 @@
       "id": "DRUMMERS_SCHOOL_INFO",
       "name": "DrummersSchool",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/DrummersSchool.png",
-      "rate_per_tick": 1111,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Drum": 1111
+      "icon": "icons/buildings/townsmen/DrummersSchool.png",
+      "rate_per_sec": 0.0011111111111111111,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Drum": 0.0011111111111111111
       },
       "slots": 1,
       "produces": "War Drummer"
@@ -1407,10 +1404,10 @@
       "id": "CHALK_MAKER_INFO",
       "name": "ChalkMaker",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/ChalkMaker.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Limestone": 8333
+      "icon": "icons/buildings/townsmen/ChalkMaker.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Limestone": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Chalk Maker"
@@ -1419,12 +1416,12 @@
       "id": "TANNERY_INFO",
       "name": "Tannery",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Tannery.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Salt": 926,
-        "Leather": 2778,
-        "River Field": 926
+      "icon": "icons/buildings/townsmen/Tannery.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Salt": 0.000925925925925926,
+        "Leather": 0.002777777777777778,
+        "River Field": 0.000925925925925926
       },
       "slots": 1,
       "produces": "Tannery"
@@ -1433,10 +1430,10 @@
       "id": "BOULDER_GATHERER_INFO",
       "name": "BoulderGatherer",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/BoulderGatherer.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Grass": 333333
+      "icon": "icons/buildings/townsmen/BoulderGatherer.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Grass": 0.3333333333333333
       },
       "slots": 1,
       "produces": "Boulder Gatherer"
@@ -1445,11 +1442,11 @@
       "id": "LONGBOW_ARCHERY_RANGE_INFO",
       "name": "LongbowArcheryRange",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/LongbowArcheryRange.png",
-      "rate_per_tick": 1111,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Longbow": 1111
+      "icon": "icons/buildings/townsmen/LongbowArcheryRange.png",
+      "rate_per_sec": 0.0011111111111111111,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Longbow": 0.0011111111111111111
       },
       "slots": 1,
       "produces": "Longbow Archer"
@@ -1458,11 +1455,11 @@
       "id": "JAM_MAKER_INFO",
       "name": "JamMaker",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/JamMaker.png",
-      "rate_per_tick": 5556,
-      "consumes_per_tick": {
-        "Sugar": 1389,
-        "Strawberry": 5556
+      "icon": "icons/buildings/townsmen/JamMaker.png",
+      "rate_per_sec": 0.005555555555555556,
+      "consumes_per_sec": {
+        "Sugar": 0.001388888888888889,
+        "Strawberry": 0.005555555555555556
       },
       "slots": 1,
       "produces": "Jam Maker"
@@ -1471,10 +1468,10 @@
       "id": "FURRIERY_INFO",
       "name": "Furriery",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Furriery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Cattle": 8333
+      "icon": "icons/buildings/townsmen/Furriery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Cattle": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Furriery"
@@ -1483,11 +1480,11 @@
       "id": "SALT_WORKS_INFO",
       "name": "SaltWorks",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/SaltWorks.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Coal": 1389,
-        "RockSalt Ore": 1389
+      "icon": "icons/buildings/townsmen/SaltWorks.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Coal": 0.001388888888888889,
+        "RockSalt Ore": 0.001388888888888889
       },
       "slots": 1,
       "produces": "Salt"
@@ -1496,10 +1493,10 @@
       "id": "PADDOCK_INFO",
       "name": "Paddock",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Paddock.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Horse": 2778
+      "icon": "icons/buildings/townsmen/Paddock.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Horse": 0.002777777777777778
       },
       "slots": 1,
       "produces": "Paddock"
@@ -1508,10 +1505,10 @@
       "id": "HORSE_BREEDER_INFO",
       "name": "HorseBreeder",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/HorseBreeder.png",
-      "rate_per_tick": 2778,
-      "consumes_per_tick": {
-        "Grass": 55556
+      "icon": "icons/buildings/townsmen/HorseBreeder.png",
+      "rate_per_sec": 0.002777777777777778,
+      "consumes_per_sec": {
+        "Grass": 0.05555555555555555
       },
       "slots": 1,
       "produces": "Horse Breeder"
@@ -1520,10 +1517,10 @@
       "id": "COAL_MINE_INFO",
       "name": "CoalMine",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/CoalMine.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Coal Deposit": 16667
+      "icon": "icons/buildings/townsmen/CoalMine.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Coal Deposit": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Coal"
@@ -1532,10 +1529,10 @@
       "id": "MEDICUS_INFO",
       "name": "Medicus",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/Medicus.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Fish Oil": 16667
+      "icon": "icons/buildings/townsmen/Medicus.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Fish Oil": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Medicus"
@@ -1544,10 +1541,10 @@
       "id": "ROCK_SALT_MINE_INFO",
       "name": "RockSaltMine",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/RockSaltMine.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Rock Salt Deposit": 4167
+      "icon": "icons/buildings/townsmen/RockSaltMine.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Rock Salt Deposit": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Rock Salt"
@@ -1556,10 +1553,10 @@
       "id": "CATTLE_RANCH_INFO",
       "name": "CattleRanch",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/CattleRanch.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Grass": 33333
+      "icon": "icons/buildings/townsmen/CattleRanch.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Grass": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Cattle Ranch"
@@ -1568,11 +1565,11 @@
       "id": "RIDING_ARENA_INFO",
       "name": "RidingArena",
       "region": "Townsmen",
-      "icon": "/icons/buildings/townsmen/RidingArena.png",
-      "rate_per_tick": 1111,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Horse": 1111
+      "icon": "icons/buildings/townsmen/RidingArena.png",
+      "rate_per_sec": 0.0011111111111111111,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Horse": 0.0011111111111111111
       },
       "slots": 1,
       "produces": "Riding Arena"
@@ -1581,10 +1578,10 @@
       "id": "COFFEE_PLANTATION_INFO",
       "name": "CoffeePlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CoffeePlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coffee Bean": 8333
+      "icon": "icons/buildings/farmers/CoffeePlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coffee Bean": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Coffee Plantation"
@@ -1593,10 +1590,10 @@
       "id": "FIBER_MAKER_INFO",
       "name": "FiberMaker",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/FiberMaker.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Palm Tree": 33333
+      "icon": "icons/buildings/farmers/FiberMaker.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Palm Tree": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Fiber Maker"
@@ -1605,10 +1602,10 @@
       "id": "COFFEE_HOUSE_INFO",
       "name": "CoffeeHouse",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CoffeeHouse.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coffee": 4167
+      "icon": "icons/buildings/farmers/CoffeeHouse.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coffee": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Coffee House"
@@ -1617,10 +1614,10 @@
       "id": "COPPER_MINE_TROPICAL_INFO",
       "name": "CopperMineTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CopperMineTropical.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Copper Deposit": 4167
+      "icon": "icons/buildings/farmers/CopperMineTropical.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Copper Deposit": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Copper Ore"
@@ -1629,10 +1626,10 @@
       "id": "DAIRY_INFO",
       "name": "Dairy",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/Dairy.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Milk": 16667
+      "icon": "icons/buildings/farmers/Dairy.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Milk": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Dairy"
@@ -1641,10 +1638,10 @@
       "id": "ROAST_HOUSE_INFO",
       "name": "RoastHouse",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/RoastHouse.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coffee Bean": 16667
+      "icon": "icons/buildings/farmers/RoastHouse.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coffee Bean": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Roast House"
@@ -1653,10 +1650,10 @@
       "id": "WHIM_HOUSE_INFO",
       "name": "WhimHouse",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/WhimHouse.png",
-      "rate_per_tick": 11111,
-      "consumes_per_tick": {
-        "Water Buffalo": 11111
+      "icon": "icons/buildings/farmers/WhimHouse.png",
+      "rate_per_sec": 0.011111111111111112,
+      "consumes_per_sec": {
+        "Water Buffalo": 0.011111111111111112
       },
       "slots": 1,
       "produces": "Whim House"
@@ -1665,10 +1662,10 @@
       "id": "SUGAR_CANE_PLANTATION_INFO",
       "name": "SugarCanePlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/SugarCanePlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Sugar Cane": 8333
+      "icon": "icons/buildings/farmers/SugarCanePlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Sugar Cane": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sugar Cane Plantation"
@@ -1677,10 +1674,10 @@
       "id": "COAL_MINE_TROPICAL_INFO",
       "name": "CoalMineTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CoalMineTropical.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Coal Deposit": 16667
+      "icon": "icons/buildings/farmers/CoalMineTropical.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Coal Deposit": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Coal"
@@ -1689,9 +1686,9 @@
       "id": "DRYWELL_INFO",
       "name": "Drywell",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/Drywell.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/farmers/Drywell.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Drywell"
     },
@@ -1699,10 +1696,10 @@
       "id": "ROPERY_TROPICAL_INFO",
       "name": "RoperyTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/RoperyTropical.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Fiber": 8333
+      "icon": "icons/buildings/farmers/RoperyTropical.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Fiber": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Ropery"
@@ -1711,10 +1708,10 @@
       "id": "BALL_MAKER_INFO",
       "name": "BallMaker",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/BallMaker.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Leather": 8333
+      "icon": "icons/buildings/farmers/BallMaker.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Leather": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Ball Maker"
@@ -1723,10 +1720,10 @@
       "id": "SPORTS_GROUND_INFO",
       "name": "SportsGround",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/SportsGround.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Ball": 8333
+      "icon": "icons/buildings/farmers/SportsGround.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Ball": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sports Ground"
@@ -1735,10 +1732,10 @@
       "id": "TOBACCO_FARM_INFO",
       "name": "TobaccoFarm",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/TobaccoFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Tobacco": 8333
+      "icon": "icons/buildings/farmers/TobaccoFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Tobacco": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Tobacco Farm"
@@ -1747,10 +1744,10 @@
       "id": "CLAY_PIT_INFO",
       "name": "ClayPit",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/ClayPit.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Clay Deposit": 16667
+      "icon": "icons/buildings/farmers/ClayPit.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Clay Deposit": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Clay Pit"
@@ -1759,11 +1756,11 @@
       "id": "POLETURNERS_WORKSHOP_INFO",
       "name": "PoleturnersWorkshop",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/PoleturnersWorkshop.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Coal": 2083,
-        "Copper Ingot": 2083
+      "icon": "icons/buildings/farmers/PoleturnersWorkshop.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.0020833333333333333,
+        "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Poleturners Workshop"
@@ -1772,10 +1769,10 @@
       "id": "TEA_PLANTATION_INFO",
       "name": "TeaPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/TeaPlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Tea": 8333
+      "icon": "icons/buildings/farmers/TeaPlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Tea": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Tea Plantation"
@@ -1784,11 +1781,11 @@
       "id": "WATER_BUFFALO_RANCH_INFO",
       "name": "WaterBuffaloRanch",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/WaterBuffaloRanch.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Grass": 8333,
-        "River Field": 4167
+      "icon": "icons/buildings/farmers/WaterBuffaloRanch.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Grass": 0.008333333333333333,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Water Buffalo Ranch"
@@ -1797,10 +1794,10 @@
       "id": "CIGAR_MANUFACTURE_INFO",
       "name": "CigarManufacture",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CigarManufacture.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Tobacco": 16667
+      "icon": "icons/buildings/farmers/CigarManufacture.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Tobacco": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Cigar Manufacture"
@@ -1809,11 +1806,11 @@
       "id": "FIELD_SURGEON_HOUSE_INFO",
       "name": "FieldSurgeonHouse",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/FieldSurgeonHouse.png",
-      "rate_per_tick": 1111,
-      "consumes_per_tick": {
-        "Slinger": 3333,
-        "Bandages": 1111
+      "icon": "icons/buildings/farmers/FieldSurgeonHouse.png",
+      "rate_per_sec": 0.0011111111111111111,
+      "consumes_per_sec": {
+        "Slinger": 0.0033333333333333335,
+        "Bandages": 0.0011111111111111111
       },
       "slots": 1,
       "produces": "Field Surgeon House"
@@ -1822,10 +1819,10 @@
       "id": "RUM_DISTILLERY_INFO",
       "name": "RumDistillery",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/RumDistillery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Sugar Cane": 16667
+      "icon": "icons/buildings/farmers/RumDistillery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Sugar Cane": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Rum Distillery"
@@ -1834,11 +1831,11 @@
       "id": "SUGAR_MILL_INFO",
       "name": "SugarMill",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/SugarMill.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Sugar Cane": 16667,
-        "River Field": 8333
+      "icon": "icons/buildings/farmers/SugarMill.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Sugar Cane": 0.016666666666666666,
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sugar Mill"
@@ -1847,11 +1844,11 @@
       "id": "COPPER_SMELTER_TROPICAL_INFO",
       "name": "CopperSmelterTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CopperSmelterTropical.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Coal": 2083,
-        "Copper Ore": 2083
+      "icon": "icons/buildings/farmers/CopperSmelterTropical.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.0020833333333333333,
+        "Copper Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Copper Ingot"
@@ -1860,9 +1857,9 @@
       "id": "FARMERS_SHACK_INFO",
       "name": "FarmersShack",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/FarmersShack.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/farmers/FarmersShack.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Slinger"
     },
@@ -1870,11 +1867,11 @@
       "id": "BRICKYARD_INFO",
       "name": "Brickyard",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/Brickyard.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coal": 4167,
-        "Clay": 8333
+      "icon": "icons/buildings/farmers/Brickyard.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.004166666666666667,
+        "Clay": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Brickyard"
@@ -1883,11 +1880,11 @@
       "id": "APOTHECARY_INFO",
       "name": "Apothecary",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/Apothecary.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Leather": 4167,
-        "Rum": 12500
+      "icon": "icons/buildings/farmers/Apothecary.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Leather": 0.004166666666666667,
+        "Rum": 0.0125
       },
       "slots": 1,
       "produces": "Apothecary"
@@ -1896,10 +1893,10 @@
       "id": "CROCODILE_RANCH_INFO",
       "name": "CrocodileRanch",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/CrocodileRanch.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "River Field": 4167
+      "icon": "icons/buildings/farmers/CrocodileRanch.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Crocodile Ranch"
@@ -1908,11 +1905,11 @@
       "id": "PIKEMEN_BARRACKS_INFO",
       "name": "PikemenBarracks",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/PikemenBarracks.png",
-      "rate_per_tick": 1111,
-      "consumes_per_tick": {
-        "Slinger": 3333,
-        "Pike": 1111
+      "icon": "icons/buildings/farmers/PikemenBarracks.png",
+      "rate_per_sec": 0.0011111111111111111,
+      "consumes_per_sec": {
+        "Slinger": 0.0033333333333333335,
+        "Pike": 0.0011111111111111111
       },
       "slots": 1,
       "produces": "Pikeman"
@@ -1921,10 +1918,10 @@
       "id": "GOAT_FARM_INFO",
       "name": "GoatFarm",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/GoatFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Mountain": 33333
+      "icon": "icons/buildings/farmers/GoatFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Mountain": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Goat Farm"
@@ -1933,10 +1930,10 @@
       "id": "BEACH_FISHERMANS_HUT_INFO",
       "name": "BeachFishermansHut",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/BeachFishermansHut.png",
-      "rate_per_tick": 11111,
-      "consumes_per_tick": {
-        "Coastal Field": 44444
+      "icon": "icons/buildings/farmers/BeachFishermansHut.png",
+      "rate_per_sec": 0.011111111111111112,
+      "consumes_per_sec": {
+        "Coastal Field": 0.044444444444444446
       },
       "slots": 1,
       "produces": "Fish"
@@ -1945,10 +1942,10 @@
       "id": "SALTERN_TROPICAL_INFO",
       "name": "SalternTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/SalternTropical.png",
-      "rate_per_tick": 1042,
-      "consumes_per_tick": {
-        "Coastal Field": 2083
+      "icon": "icons/buildings/farmers/SalternTropical.png",
+      "rate_per_sec": 0.0010416666666666667,
+      "consumes_per_sec": {
+        "Coastal Field": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Saltern"
@@ -1957,10 +1954,10 @@
       "id": "SUGAR_WINDMILL_INFO",
       "name": "SugarWindmill",
       "region": "Tropical",
-      "icon": "/icons/buildings/farmers/SugarWindmill.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Sugar Cane": 8333
+      "icon": "icons/buildings/farmers/SugarWindmill.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Sugar Cane": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Sugar Windmill"
@@ -1969,10 +1966,10 @@
       "id": "APIARY_INFO",
       "name": "Apiary",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Apiary.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Grass": 33333
+      "icon": "icons/buildings/merchants/Apiary.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Grass": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Apiary"
@@ -1981,11 +1978,11 @@
       "id": "IRON_SMELTER_INFO",
       "name": "IronSmelter",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/IronSmelter.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Coal": 1042,
-        "Iron Ore": 2083
+      "icon": "icons/buildings/merchants/IronSmelter.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.0010416666666666667,
+        "Iron Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Iron Ingot"
@@ -1994,11 +1991,11 @@
       "id": "BUTCHERY_INFO",
       "name": "Butchery",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Butchery.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Salt": 2083,
-        "Cattle": 4167
+      "icon": "icons/buildings/merchants/Butchery.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Salt": 0.0020833333333333333,
+        "Cattle": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Butchery"
@@ -2007,12 +2004,12 @@
       "id": "IRON_ARMORY_INFO",
       "name": "IronArmory",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/IronArmory.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Coal": 1042,
-        "Iron Ingot": 2083,
-        "River Field": 1042
+      "icon": "icons/buildings/merchants/IronArmory.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.0010416666666666667,
+        "Iron Ingot": 0.0020833333333333333,
+        "River Field": 0.0010416666666666667
       },
       "slots": 1,
       "produces": "Iron Sword"
@@ -2021,10 +2018,10 @@
       "id": "HOSPITAL_INFO",
       "name": "Hospital",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Hospital.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Fish Oil": 33333
+      "icon": "icons/buildings/merchants/Hospital.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Fish Oil": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Hospital"
@@ -2033,12 +2030,12 @@
       "id": "FELTMAKING_MILL_INFO",
       "name": "FeltmakingMill",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/FeltmakingMill.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Soap": 4167,
-        "Yarn": 8333,
-        "River Field": 2083
+      "icon": "icons/buildings/merchants/FeltmakingMill.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Soap": 0.004166666666666667,
+        "Yarn": 0.008333333333333333,
+        "River Field": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Feltmaking Mill"
@@ -2047,11 +2044,11 @@
       "id": "GOLDSMITH_INFO",
       "name": "Goldsmith",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Goldsmith.png",
-      "rate_per_tick": 6250,
-      "consumes_per_tick": {
-        "Coal": 1042,
-        "Gold Ingot": 2083
+      "icon": "icons/buildings/merchants/Goldsmith.png",
+      "rate_per_sec": 0.00625,
+      "consumes_per_sec": {
+        "Coal": 0.0010416666666666667,
+        "Gold Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Goldsmith"
@@ -2060,11 +2057,11 @@
       "id": "PIPEMAKERS_SHOP_INFO",
       "name": "PipemakersShop",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/PipemakersShop.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Fine Wood": 4167,
-        "Pipe Tobacco": 8333
+      "icon": "icons/buildings/merchants/PipemakersShop.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Fine Wood": 0.004166666666666667,
+        "Pipe Tobacco": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Pipemakers Shop"
@@ -2073,12 +2070,12 @@
       "id": "PERFUMERY_INFO",
       "name": "Perfumery",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Perfumery.png",
-      "rate_per_tick": 20833,
-      "consumes_per_tick": {
-        "Ambergris": 2083,
-        "Brandy": 4167,
-        "Rose Water": 4167
+      "icon": "icons/buildings/merchants/Perfumery.png",
+      "rate_per_sec": 0.020833333333333332,
+      "consumes_per_sec": {
+        "Ambergris": 0.0020833333333333333,
+        "Brandy": 0.004166666666666667,
+        "Rose Water": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Perfumery"
@@ -2087,11 +2084,11 @@
       "id": "COMPOSITE_BOWYER_INFO",
       "name": "CompositeBowyer",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/CompositeBowyer.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Bow": 4167,
-        "Cattle": 8333
+      "icon": "icons/buildings/merchants/CompositeBowyer.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Bow": 0.004166666666666667,
+        "Cattle": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Composite Bow"
@@ -2100,10 +2097,10 @@
       "id": "COINING_PRESS_INFO",
       "name": "CoiningPress",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/CoiningPress.png",
-      "rate_per_tick": 29167,
-      "consumes_per_tick": {
-        "Gold Ingot": 4167
+      "icon": "icons/buildings/merchants/CoiningPress.png",
+      "rate_per_sec": 0.029166666666666667,
+      "consumes_per_sec": {
+        "Gold Ingot": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Coining Press"
@@ -2112,11 +2109,11 @@
       "id": "BRANDY_DISTILLERY_INFO",
       "name": "BrandyDistillery",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/BrandyDistillery.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 16667,
-        "Cider": 25000
+      "icon": "icons/buildings/merchants/BrandyDistillery.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.016666666666666666,
+        "Cider": 0.025
       },
       "slots": 1,
       "produces": "Brandy Distillery"
@@ -2125,10 +2122,10 @@
       "id": "MARBLE_QUARRY_INFO",
       "name": "MarbleQuarry",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/MarbleQuarry.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Marble Deposit": 8333
+      "icon": "icons/buildings/merchants/MarbleQuarry.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Marble Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Marble Quarry"
@@ -2137,11 +2134,11 @@
       "id": "CROSSBOW_SHOOTING_RANGE_INFO",
       "name": "CrossbowShootingRange",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/CrossbowShootingRange.png",
-      "rate_per_tick": 833,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Crossbow": 833
+      "icon": "icons/buildings/merchants/CrossbowShootingRange.png",
+      "rate_per_sec": 0.0008333333333333334,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Crossbow": 0.0008333333333333334
       },
       "slots": 1,
       "produces": "Crossbowman"
@@ -2150,12 +2147,12 @@
       "id": "PASTRY_MANUFACTURE_INFO",
       "name": "PastryManufacture",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/PastryManufacture.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Meat": 8333,
-        "Flour": 4167,
-        "Egg": 12500
+      "icon": "icons/buildings/merchants/PastryManufacture.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Meat": 0.008333333333333333,
+        "Flour": 0.004166666666666667,
+        "Egg": 0.0125
       },
       "slots": 1,
       "produces": "Pastry Manufacture"
@@ -2164,11 +2161,11 @@
       "id": "TOOLMAKER_INFO",
       "name": "Toolmaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Toolmaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Coal": 1042,
-        "Iron Ingot": 2083
+      "icon": "icons/buildings/merchants/Toolmaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Coal": 0.0010416666666666667,
+        "Iron Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Toolmaker"
@@ -2177,10 +2174,10 @@
       "id": "ROSE_CULTIVATION_INFO",
       "name": "RoseCultivation",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/RoseCultivation.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Rose": 33333
+      "icon": "icons/buildings/merchants/RoseCultivation.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Rose": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Rose Cultivation"
@@ -2189,10 +2186,10 @@
       "id": "TOWNHALL_INFO",
       "name": "Townhall",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Townhall.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Honeycomb": 8333
+      "icon": "icons/buildings/merchants/Townhall.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Honeycomb": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Townhall"
@@ -2201,11 +2198,11 @@
       "id": "GOLD_SMELTER_INFO",
       "name": "GoldSmelter",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/GoldSmelter.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Coal": 1042,
-        "Gold Ore": 2083
+      "icon": "icons/buildings/merchants/GoldSmelter.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Coal": 0.0010416666666666667,
+        "Gold Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Gold Ingot"
@@ -2214,11 +2211,11 @@
       "id": "ARCHER_ACADEMY_INFO",
       "name": "ArcherAcademy",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/ArcherAcademy.png",
-      "rate_per_tick": 833,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Composite Bow": 833
+      "icon": "icons/buildings/merchants/ArcherAcademy.png",
+      "rate_per_sec": 0.0008333333333333334,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Composite Bow": 0.0008333333333333334
       },
       "slots": 1,
       "produces": "Composite Bow Archer"
@@ -2227,10 +2224,10 @@
       "id": "CHICKEN_FARM_INFO",
       "name": "ChickenFarm",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/ChickenFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Grass": 66667
+      "icon": "icons/buildings/merchants/ChickenFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Grass": 0.06666666666666667
       },
       "slots": 1,
       "produces": "Chicken Farm"
@@ -2239,10 +2236,10 @@
       "id": "DEEP_COPPER_MINE_INFO",
       "name": "DeepCopperMine",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/DeepCopperMine.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Copper Deposit": 8333
+      "icon": "icons/buildings/merchants/DeepCopperMine.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Copper Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Deep Copper Mine"
@@ -2251,12 +2248,12 @@
       "id": "CROSSBOW_MAKER_INFO",
       "name": "CrossbowMaker",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/CrossbowMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Fiber": 8333,
-        "Iron Ingot": 4167,
-        "River Field": 4167
+      "icon": "icons/buildings/merchants/CrossbowMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Fiber": 0.008333333333333333,
+        "Iron Ingot": 0.004166666666666667,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Crossbow Maker"
@@ -2265,11 +2262,11 @@
       "id": "ESSENCE_DISTILLERY_INFO",
       "name": "EssenceDistillery",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/EssenceDistillery.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Wood": 8333,
-        "Rose": 8333
+      "icon": "icons/buildings/merchants/EssenceDistillery.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Wood": 0.008333333333333333,
+        "Rose": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Essence Distillery"
@@ -2278,11 +2275,11 @@
       "id": "KNIGHT_BARRACKS_INFO",
       "name": "KnightBarracks",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/KnightBarracks.png",
-      "rate_per_tick": 833,
-      "consumes_per_tick": {
-        "Militia": 3333,
-        "Iron Sword": 833
+      "icon": "icons/buildings/merchants/KnightBarracks.png",
+      "rate_per_sec": 0.0008333333333333334,
+      "consumes_per_sec": {
+        "Militia": 0.0033333333333333335,
+        "Iron Sword": 0.0008333333333333334
       },
       "slots": 1,
       "produces": "Knight"
@@ -2291,11 +2288,11 @@
       "id": "BATHHOUSE_INFO",
       "name": "Bathhouse",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/Bathhouse.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Fabric": 4167,
-        "Soap": 4167
+      "icon": "icons/buildings/merchants/Bathhouse.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Fabric": 0.004166666666666667,
+        "Soap": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Bathhouse"
@@ -2304,10 +2301,10 @@
       "id": "FOREST_WARDENS_CABIN_INFO",
       "name": "ForestWardensCabin",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/ForestWardensCabin.png",
-      "rate_per_tick": 33333,
-      "consumes_per_tick": {
-        "Forest": 33333
+      "icon": "icons/buildings/merchants/ForestWardensCabin.png",
+      "rate_per_sec": 0.03333333333333333,
+      "consumes_per_sec": {
+        "Forest": 0.03333333333333333
       },
       "slots": 1,
       "produces": "Wood"
@@ -2316,10 +2313,10 @@
       "id": "IRON_MINE_INFO",
       "name": "IronMine",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/IronMine.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Iron Deposit": 4167
+      "icon": "icons/buildings/merchants/IronMine.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Iron Deposit": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Iron Ore"
@@ -2328,11 +2325,11 @@
       "id": "CURING_HOUSE_INFO",
       "name": "CuringHouse",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/CuringHouse.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Honey": 8333,
-        "Tobacco": 16667
+      "icon": "icons/buildings/merchants/CuringHouse.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Honey": 0.008333333333333333,
+        "Tobacco": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Curing House"
@@ -2341,10 +2338,10 @@
       "id": "HATTERS_SHOP_INFO",
       "name": "HattersShop",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/HattersShop.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Felt": 1042
+      "icon": "icons/buildings/merchants/HattersShop.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Felt": 0.0010416666666666667
       },
       "slots": 1,
       "produces": "Hatters Shop"
@@ -2353,10 +2350,10 @@
       "id": "SUGAR_BEET_FARM_INFO",
       "name": "SugarBeetFarm",
       "region": "Temperate",
-      "icon": "/icons/buildings/merchants/SugarBeetFarm.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Sugar Beet": 166667
+      "icon": "icons/buildings/merchants/SugarBeetFarm.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Sugar Beet": 0.16666666666666666
       },
       "slots": 1,
       "produces": "Sugar Beet Farm"
@@ -2365,10 +2362,10 @@
       "id": "GOLD_MINE_TROPICAL_INFO",
       "name": "GoldMineTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GoldMineTropical.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Gold Deposit": 8333
+      "icon": "icons/buildings/workers/GoldMineTropical.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Gold Deposit": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Gold Ore"
@@ -2377,11 +2374,11 @@
       "id": "HERALDIC_ARMOURER_INFO",
       "name": "HeraldicArmourer",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/HeraldicArmourer.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Gold Ingot": 8333,
-        "Fine Wood": 16667
+      "icon": "icons/buildings/workers/HeraldicArmourer.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Gold Ingot": 0.008333333333333333,
+        "Fine Wood": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Heraldic Armourer"
@@ -2390,10 +2387,10 @@
       "id": "BUFFALO_PASTURE_INFO",
       "name": "BuffaloPasture",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/BuffaloPasture.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Water Buffalo": 8333
+      "icon": "icons/buildings/workers/BuffaloPasture.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Water Buffalo": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Buffalo Pasture"
@@ -2402,12 +2399,12 @@
       "id": "GLAIVE_SMITH_INFO",
       "name": "GlaiveSmith",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GlaiveSmith.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Fine Wood": 2083,
-        "Gemstone": 4167,
-        "Copper Ingot": 2083
+      "icon": "icons/buildings/workers/GlaiveSmith.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Fine Wood": 0.0020833333333333333,
+        "Gemstone": 0.004166666666666667,
+        "Copper Ingot": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Glaive Smith"
@@ -2416,10 +2413,10 @@
       "id": "INDIGO_PLANTATION_INFO",
       "name": "IndigoPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/IndigoPlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Indigo": 8333
+      "icon": "icons/buildings/workers/IndigoPlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Indigo": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Indigo Plantation"
@@ -2428,10 +2425,10 @@
       "id": "FINE_WOOD_LOGGER_INFO",
       "name": "FineWoodLogger",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/FineWoodLogger.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Mahogany Tree": 8333
+      "icon": "icons/buildings/workers/FineWoodLogger.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Mahogany Tree": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Fine Wood Logger"
@@ -2440,11 +2437,11 @@
       "id": "BUFFALO_BUTCHERY_INFO",
       "name": "BuffaloButchery",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/BuffaloButchery.png",
-      "rate_per_tick": 12500,
-      "consumes_per_tick": {
-        "Salt": 2083,
-        "Buffalo": 4167
+      "icon": "icons/buildings/workers/BuffaloButchery.png",
+      "rate_per_sec": 0.0125,
+      "consumes_per_sec": {
+        "Salt": 0.0020833333333333333,
+        "Buffalo": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Buffalo Butchery"
@@ -2453,11 +2450,11 @@
       "id": "LUTHIER_INFO",
       "name": "Luthier",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/Luthier.png",
-      "rate_per_tick": 66667,
-      "consumes_per_tick": {
-        "Brass Ingot": 8333,
-        "Fine Wood": 66667
+      "icon": "icons/buildings/workers/Luthier.png",
+      "rate_per_sec": 0.06666666666666667,
+      "consumes_per_sec": {
+        "Brass Ingot": 0.008333333333333333,
+        "Fine Wood": 0.06666666666666667
       },
       "slots": 1,
       "produces": "Luthier"
@@ -2466,10 +2463,10 @@
       "id": "GOLD_PANNER_INFO",
       "name": "GoldPanner",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GoldPanner.png",
-      "rate_per_tick": 1042,
-      "consumes_per_tick": {
-        "River Field": 1042
+      "icon": "icons/buildings/workers/GoldPanner.png",
+      "rate_per_sec": 0.0010416666666666667,
+      "consumes_per_sec": {
+        "River Field": 0.0010416666666666667
       },
       "slots": 1,
       "produces": "Gold Panner"
@@ -2478,11 +2475,11 @@
       "id": "SOUP_KITCHEN_INFO",
       "name": "SoupKitchen",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/SoupKitchen.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Coconut": 16667,
-        "Meat": 16667
+      "icon": "icons/buildings/workers/SoupKitchen.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Coconut": 0.016666666666666666,
+        "Meat": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Soup Kitchen"
@@ -2491,9 +2488,9 @@
       "id": "STADIUM_INFO",
       "name": "Stadium",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/Stadium.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/workers/Stadium.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Stadium"
     },
@@ -2501,10 +2498,10 @@
       "id": "CACAO_PLANTATION_INFO",
       "name": "CacaoPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/CacaoPlantation.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Cacao Tree": 4167
+      "icon": "icons/buildings/workers/CacaoPlantation.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Cacao Tree": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Cacao Plantation"
@@ -2513,11 +2510,11 @@
       "id": "GOLD_SMELTER_TROPICAL_INFO",
       "name": "GoldSmelterTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GoldSmelterTropical.png",
-      "rate_per_tick": 2083,
-      "consumes_per_tick": {
-        "Fiber": 8333,
-        "Gold Ore": 2083
+      "icon": "icons/buildings/workers/GoldSmelterTropical.png",
+      "rate_per_sec": 0.0020833333333333333,
+      "consumes_per_sec": {
+        "Fiber": 0.008333333333333333,
+        "Gold Ore": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Gold Ingot"
@@ -2526,10 +2523,10 @@
       "id": "DANCING_SCHOOL_INFO",
       "name": "DancingSchool",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/DancingSchool.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Costume": 16667
+      "icon": "icons/buildings/workers/DancingSchool.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Costume": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Dancing School"
@@ -2538,10 +2535,10 @@
       "id": "COTTON_PLANTATION_INFO",
       "name": "CottonPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/CottonPlantation.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Cotton": 16667
+      "icon": "icons/buildings/workers/CottonPlantation.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Cotton": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Cotton Plantation"
@@ -2550,10 +2547,10 @@
       "id": "NITRATE_MAKER_INFO",
       "name": "NitrateMaker",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/NitrateMaker.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Saltpeter": 4167
+      "icon": "icons/buildings/workers/NitrateMaker.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Saltpeter": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Nitrate Maker"
@@ -2562,11 +2559,11 @@
       "id": "CHOCOLATERIE_INFO",
       "name": "Chocolaterie",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/Chocolaterie.png",
-      "rate_per_tick": 25000,
-      "consumes_per_tick": {
-        "Sugar": 8333,
-        "Cacao": 25000
+      "icon": "icons/buildings/workers/Chocolaterie.png",
+      "rate_per_sec": 0.025,
+      "consumes_per_sec": {
+        "Sugar": 0.008333333333333333,
+        "Cacao": 0.025
       },
       "slots": 1,
       "produces": "Chocolaterie"
@@ -2575,11 +2572,11 @@
       "id": "SILK_TWINE_MILL_INFO",
       "name": "SilkTwineMill",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/SilkTwineMill.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Silk": 16667,
-        "River Field": 8333
+      "icon": "icons/buildings/workers/SilkTwineMill.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Silk": 0.016666666666666666,
+        "River Field": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Silk Twine Mill"
@@ -2588,10 +2585,10 @@
       "id": "RICKYARD_TROPICAL_INFO",
       "name": "RickyardTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/RickyardTropical.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Wheat": 16667
+      "icon": "icons/buildings/workers/RickyardTropical.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Wheat": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Rickyard"
@@ -2600,10 +2597,10 @@
       "id": "NOBLE_TAILOR_INFO",
       "name": "NobleTailor",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/NobleTailor.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Silk": 4167
+      "icon": "icons/buildings/workers/NobleTailor.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Silk": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Noble Tailor"
@@ -2612,11 +2609,11 @@
       "id": "BRASS_SMELTER_TROPICAL_INFO",
       "name": "BrassSmelterTropical",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/BrassSmelterTropical.png",
-      "rate_per_tick": 13889,
-      "consumes_per_tick": {
-        "Copper Ingot": 8333,
-        "Zinc Ingot": 5556
+      "icon": "icons/buildings/workers/BrassSmelterTropical.png",
+      "rate_per_sec": 0.013888888888888888,
+      "consumes_per_sec": {
+        "Copper Ingot": 0.008333333333333333,
+        "Zinc Ingot": 0.005555555555555556
       },
       "slots": 1,
       "produces": "Brass Ingot"
@@ -2625,10 +2622,10 @@
       "id": "CEMETERY_INFO",
       "name": "Cemetery",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/Cemetery.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Flowers": 16667
+      "icon": "icons/buildings/workers/Cemetery.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Flowers": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Cemetery"
@@ -2637,11 +2634,11 @@
       "id": "SHIELD_GUARDIAN_TEMPLE_INFO",
       "name": "ShieldGuardianTemple",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/ShieldGuardianTemple.png",
-      "rate_per_tick": 833,
-      "consumes_per_tick": {
-        "Slinger": 3333,
-        "Shield": 833
+      "icon": "icons/buildings/workers/ShieldGuardianTemple.png",
+      "rate_per_sec": 0.0008333333333333334,
+      "consumes_per_sec": {
+        "Slinger": 0.0033333333333333335,
+        "Shield": 0.0008333333333333334
       },
       "slots": 1,
       "produces": "Shield Guardian"
@@ -2650,10 +2647,10 @@
       "id": "GEMSTONE_MINE_INFO",
       "name": "GemstoneMine",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GemstoneMine.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Gemstone": 16667
+      "icon": "icons/buildings/workers/GemstoneMine.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Gemstone": 0.016666666666666666
       },
       "slots": 1,
       "produces": "Gemstone Mine"
@@ -2662,10 +2659,10 @@
       "id": "SILK_PLANTATION_INFO",
       "name": "SilkPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/SilkPlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Silkworm": 8333
+      "icon": "icons/buildings/workers/SilkPlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Silkworm": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Silk Plantation"
@@ -2674,11 +2671,11 @@
       "id": "ARTISTIC_BLACKSMITH_INFO",
       "name": "ArtisticBlacksmith",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/ArtisticBlacksmith.png",
-      "rate_per_tick": 4167,
-      "consumes_per_tick": {
-        "Gold Ingot": 1042,
-        "Gemstone": 2083
+      "icon": "icons/buildings/workers/ArtisticBlacksmith.png",
+      "rate_per_sec": 0.004166666666666667,
+      "consumes_per_sec": {
+        "Gold Ingot": 0.0010416666666666667,
+        "Gemstone": 0.0020833333333333333
       },
       "slots": 1,
       "produces": "Artistic Blacksmith"
@@ -2687,11 +2684,11 @@
       "id": "COSTUMIER_INFO",
       "name": "Costumier",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/Costumier.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Dye": 16667,
-        "Fabric": 25000
+      "icon": "icons/buildings/workers/Costumier.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Dye": 0.016666666666666666,
+        "Fabric": 0.025
       },
       "slots": 1,
       "produces": "Costumier"
@@ -2700,11 +2697,11 @@
       "id": "SPINNING_MILL_INFO",
       "name": "SpinningMill",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/SpinningMill.png",
-      "rate_per_tick": 12500,
-      "consumes_per_tick": {
-        "Yarn": 16667,
-        "River Field": 4167
+      "icon": "icons/buildings/workers/SpinningMill.png",
+      "rate_per_sec": 0.0125,
+      "consumes_per_sec": {
+        "Yarn": 0.016666666666666666,
+        "River Field": 0.004166666666666667
       },
       "slots": 1,
       "produces": "Spinning Mill"
@@ -2713,11 +2710,11 @@
       "id": "GLAIVE_TEMPLE_INFO",
       "name": "GlaiveTemple",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/GlaiveTemple.png",
-      "rate_per_tick": 833,
-      "consumes_per_tick": {
-        "Slinger": 3333,
-        "Glaive": 833
+      "icon": "icons/buildings/workers/GlaiveTemple.png",
+      "rate_per_sec": 0.0008333333333333334,
+      "consumes_per_sec": {
+        "Slinger": 0.0033333333333333335,
+        "Glaive": 0.0008333333333333334
       },
       "slots": 1,
       "produces": "Glaive Warrior"
@@ -2726,9 +2723,9 @@
       "id": "MARKET_HALL_INFO",
       "name": "MarketHall",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/MarketHall.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {},
+      "icon": "icons/buildings/workers/MarketHall.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {},
       "slots": 1,
       "produces": "Market Hall"
     },
@@ -2736,10 +2733,10 @@
       "id": "FLOWER_HOUSE_INFO",
       "name": "FlowerHouse",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/FlowerHouse.png",
-      "rate_per_tick": 16667,
-      "consumes_per_tick": {
-        "Grass": 333333
+      "icon": "icons/buildings/workers/FlowerHouse.png",
+      "rate_per_sec": 0.016666666666666666,
+      "consumes_per_sec": {
+        "Grass": 0.3333333333333333
       },
       "slots": 1,
       "produces": "Flower House"
@@ -2748,10 +2745,10 @@
       "id": "COCONUT_PLANTATION_INFO",
       "name": "CoconutPlantation",
       "region": "Tropical",
-      "icon": "/icons/buildings/workers/CoconutPlantation.png",
-      "rate_per_tick": 8333,
-      "consumes_per_tick": {
-        "Coconut Palm": 8333
+      "icon": "icons/buildings/workers/CoconutPlantation.png",
+      "rate_per_sec": 0.008333333333333333,
+      "consumes_per_sec": {
+        "Coconut Palm": 0.008333333333333333
       },
       "slots": 1,
       "produces": "Coconut Plantation"
@@ -2762,26 +2759,26 @@
       "id": "POPULATION_MERCHANTS_MANSION_INFO",
       "name": "PopulationMerchantsMansion",
       "region": "Population",
-      "icon": "/icons/buildings/population/MerchantsMansion.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Cauldron": 551,
-        "Beer": 1397,
-        "Leather": 1131,
-        "Coffee": 1196,
-        "Jam": 1866,
-        "Water": 1000000,
-        "Community": 1000000,
-        "Education": 1000000,
-        "Medical Care": 1000000,
-        "Hat": 3125,
-        "Pipe": 2778,
-        "Pastry": 3125,
-        "Caviar": 694,
-        "Gold Jewelry": 2016,
-        "Perfume": 2016,
-        "Administration": 1000000,
-        "Hygiene": 1000000
+      "icon": "icons/buildings/population/MerchantsMansion.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Cauldron": 0.0005506607929515419,
+        "Beer": 0.0013966480446927375,
+        "Leather": 0.0011312217194570137,
+        "Coffee": 0.0011961722488038277,
+        "Jam": 0.0018656716417910447,
+        "Water": 1.0,
+        "Community": 1.0,
+        "Education": 1.0,
+        "Medical Care": 1.0,
+        "Hat": 0.003125,
+        "Pipe": 0.002777777777777778,
+        "Pastry": 0.003125,
+        "Caviar": 0.0006944444444444445,
+        "Gold Jewelry": 0.0020161290322580645,
+        "Perfume": 0.0020161290322580645,
+        "Administration": 1.0,
+        "Hygiene": 1.0
       },
       "slots": 1,
       "produces": "Population Merchants Mansion",
@@ -2791,29 +2788,29 @@
       "id": "POPULATION_PARAGONS_RESIDENCE_INFO",
       "name": "PopulationParagonsResidence",
       "region": "Population",
-      "icon": "/icons/buildings/population/ParagonsResidence.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Pastry": 3750,
-        "Pipe": 3333,
-        "Caviar": 833,
-        "Gold Jewelry": 2419,
-        "Perfume": 2419,
-        "Community": 1000000,
-        "Education": 1000000,
-        "Medical Care": 1000000,
-        "Administration": 1000000,
-        "Hygiene": 1000000,
-        "Shoe": 4902,
-        "Glasses": 4902,
-        "Book": 1716,
-        "Chocolate Candy": 2941,
-        "Noble Garment": 1716,
-        "Wine": 3676,
-        "Coiffeur": 1000000,
-        "Entertainment": 1000000,
-        "Higher Education": 1000000,
-        "Gambling": 1000000
+      "icon": "icons/buildings/population/ParagonsResidence.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Pastry": 0.00375,
+        "Pipe": 0.0033333333333333335,
+        "Caviar": 0.0008333333333333334,
+        "Gold Jewelry": 0.0024193548387096775,
+        "Perfume": 0.0024193548387096775,
+        "Community": 1.0,
+        "Education": 1.0,
+        "Medical Care": 1.0,
+        "Administration": 1.0,
+        "Hygiene": 1.0,
+        "Shoe": 0.004901960784313725,
+        "Glasses": 0.004901960784313725,
+        "Book": 0.0017157563625965113,
+        "Chocolate Candy": 0.0029411764705882353,
+        "Noble Garment": 0.0017157563625965113,
+        "Wine": 0.003676470588235294,
+        "Coiffeur": 1.0,
+        "Entertainment": 1.0,
+        "Higher Education": 1.0,
+        "Gambling": 1.0
       },
       "slots": 1,
       "produces": "Population Paragons Residence",
@@ -2823,21 +2820,21 @@
       "id": "POPULATION_TOWNSMEN_HOUSE_INFO",
       "name": "PopulationTownsmenHouse",
       "region": "Population",
-      "icon": "/icons/buildings/population/TownsmenHouse.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Soap": 1587,
-        "Fabric": 992,
-        "Bread": 1190,
-        "Water": 1000000,
-        "Community": 1000000,
-        "Education": 1000000,
-        "Cauldron": 441,
-        "Beer": 1117,
-        "Leather": 905,
-        "Coffee": 957,
-        "Jam": 1493,
-        "Medical Care": 1000000
+      "icon": "icons/buildings/population/TownsmenHouse.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Soap": 0.0015873015873015873,
+        "Fabric": 0.000992063492063492,
+        "Bread": 0.0011904761904761906,
+        "Water": 1.0,
+        "Community": 1.0,
+        "Education": 1.0,
+        "Cauldron": 0.0004405286343612335,
+        "Beer": 0.0011173184357541898,
+        "Leather": 0.0009049773755656109,
+        "Coffee": 0.0009569377990430622,
+        "Jam": 0.0014925373134328358,
+        "Medical Care": 1.0
       },
       "slots": 1,
       "produces": "Population Townsmen House",
@@ -2847,18 +2844,18 @@
       "id": "POPULATION_COLONISTS_HOUSE_INFO",
       "name": "PopulationColonistsHouse",
       "region": "Population",
-      "icon": "/icons/buildings/population/ColonistsHouse.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Fish": 3968,
-        "Water": 1000000,
-        "Sausage": 1389,
-        "Cider": 1587,
-        "Community": 1000000,
-        "Soap": 1190,
-        "Fabric": 744,
-        "Bread": 893,
-        "Education": 1000000
+      "icon": "icons/buildings/population/ColonistsHouse.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Fish": 0.003968253968253968,
+        "Water": 1.0,
+        "Sausage": 0.001388888888888889,
+        "Cider": 0.0015873015873015873,
+        "Community": 1.0,
+        "Soap": 0.0011904761904761906,
+        "Fabric": 0.000744047619047619,
+        "Bread": 0.0008928571428571428,
+        "Education": 1.0
       },
       "slots": 1,
       "produces": "Population Colonists House",
@@ -2868,17 +2865,17 @@
       "id": "POPULATION_FARMERS_SHACK_INFO",
       "name": "PopulationFarmersShack",
       "region": "Population",
-      "icon": "/icons/buildings/population/FarmersShack.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Fish": 3030,
-        "Tea": 1429,
-        "Water": 1000000,
-        "Rum": 529,
-        "Cheese": 885,
-        "Cigar": 1053,
-        "Community": 1000000,
-        "Sports": 1000000
+      "icon": "icons/buildings/population/FarmersShack.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Fish": 0.0030303030303030303,
+        "Tea": 0.0014285714285714286,
+        "Water": 1.0,
+        "Rum": 0.0005291005291005291,
+        "Cheese": 0.0008849557522123894,
+        "Cigar": 0.0010526315789473684,
+        "Community": 1.0,
+        "Sports": 1.0
       },
       "slots": 1,
       "produces": "Population Farmers Shack",
@@ -2888,14 +2885,14 @@
       "id": "POPULATION_PIONEERS_HUT_INFO",
       "name": "PopulationPioneersHut",
       "region": "Population",
-      "icon": "/icons/buildings/population/PioneersHut.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Fish": 2646,
-        "Water": 1000000,
-        "Sausage": 926,
-        "Cider": 1058,
-        "Community": 1000000
+      "icon": "icons/buildings/population/PioneersHut.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Fish": 0.0026455026455026454,
+        "Water": 1.0,
+        "Sausage": 0.000925925925925926,
+        "Cider": 0.0010582010582010583,
+        "Community": 1.0
       },
       "slots": 1,
       "produces": "Population Pioneers Hut",
@@ -2905,26 +2902,26 @@
       "id": "POPULATION_WORKERS_HOUSE_INFO",
       "name": "PopulationWorkersHouse",
       "region": "Population",
-      "icon": "/icons/buildings/population/WorkersHouse.png",
-      "rate_per_tick": 1000000,
-      "consumes_per_tick": {
-        "Fish": 6061,
-        "Tea": 2857,
-        "Rum": 1058,
-        "Cheese": 1770,
-        "Cigar": 2105,
-        "Water": 1000000,
-        "Community": 1000000,
-        "Sports": 1000000,
-        "Beer": 1220,
-        "Chocolate": 1626,
-        "Stew": 3636,
-        "Mojo": 1626,
-        "Garment": 1626,
-        "Guitar": 2439,
-        "Trading": 1000000,
-        "Cemetery": 1000000,
-        "Entertainment": 1000000
+      "icon": "icons/buildings/population/WorkersHouse.png",
+      "rate_per_sec": 1.0,
+      "consumes_per_sec": {
+        "Fish": 0.006060606060606061,
+        "Tea": 0.002857142857142857,
+        "Rum": 0.0010582010582010583,
+        "Cheese": 0.0017699115044247787,
+        "Cigar": 0.002105263157894737,
+        "Water": 1.0,
+        "Community": 1.0,
+        "Sports": 1.0,
+        "Beer": 0.0012195121951219512,
+        "Chocolate": 0.0016260162601626016,
+        "Stew": 0.0036363636363636364,
+        "Mojo": 0.0016260162601626016,
+        "Garment": 0.0016260162601626016,
+        "Guitar": 0.0024390243902439024,
+        "Trading": 1.0,
+        "Cemetery": 1.0,
+        "Entertainment": 1.0
       },
       "slots": 1,
       "produces": "Population Workers House",
@@ -3569,5 +3566,20 @@
     "Coconut Plantation": [
       "COCONUT_PLANTATION_INFO"
     ]
+  },
+  "services": {
+    "Community": 30,
+    "Water": 30,
+    "Education": 40,
+    "Medical Care": 40,
+    "Hygiene": 50,
+    "Administration": 80,
+    "Sports": 40,
+    "Cemetery": 100,
+    "Entertainment": 60,
+    "Trading": 60,
+    "Coiffeur": 40,
+    "Higher Education": 60,
+    "Gambling": 60
   }
 }

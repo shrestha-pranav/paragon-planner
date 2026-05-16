@@ -116,9 +116,9 @@ function createIsland(name: string, region: string, buildings: Record<string, nu
     totalSlots += Math.ceil(count) * (b.slots || 1);
 
     if (b.produces) {
-      prod[b.produces] = (prod[b.produces] || 0) + b.rate_per_tick * count;
+      prod[b.produces] = (prod[b.produces] || 0) + b.rate_per_sec * count;
     }
-    Object.entries(b.consumes_per_tick).forEach(([item, rate]) => {
+    Object.entries(b.consumes_per_sec).forEach(([item, rate]) => {
       cons[item] = (cons[item] || 0) + (rate as number) * count;
     });
   });
@@ -130,8 +130,8 @@ function createIsland(name: string, region: string, buildings: Record<string, nu
     const net = p - c;
     if (item.includes('Deposit')) return;
     
-    if (net < -0.1) inputs[item] = Math.abs(net);
-    else if (net > 0.1) outputs[item] = net;
+    if (net < -0.01) inputs[item] = Math.abs(net);
+    else if (net > 0.01) outputs[item] = net;
   });
 
   return { id: name.replace(/\s/g, '_'), name, region, buildings, totalSlots, inputs, outputs };
