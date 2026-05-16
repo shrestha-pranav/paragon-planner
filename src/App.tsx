@@ -44,17 +44,25 @@ function App() {
         <section className="input-section card">
           <h2>Inputs</h2>
           <div className="input-group">
-            <h3>Population Targets</h3>
-            {Object.keys(gameData.population).map(id => (
-              <div key={id} className="input-row">
-                <label>{gameData.population[id].name}</label>
-                <input 
-                  type="number" 
-                  value={popCounts[id] || 0} 
-                  onChange={(e) => updatePop(id, e.target.value)} 
-                />
-              </div>
-            ))}
+            <h3>Population Targets (Inhabitants)</h3>
+            {Object.keys(gameData.population).map(id => {
+              const popName = gameData.population[id].name
+                .replace('Residence', '')
+                .replace('House', '')
+                .replace('Shack', '')
+                .replace('Mansion', '')
+                .trim();
+              return (
+                <div key={id} className="input-row">
+                  <label>{popName}</label>
+                  <input 
+                    type="number" 
+                    value={popCounts[id] || 0} 
+                    onChange={(e) => updatePop(id, e.target.value)} 
+                  />
+                </div>
+              );
+            })}
           </div>
 
           <div className="input-group">
@@ -83,7 +91,12 @@ function App() {
                   <div className="building-grid">
                     {Object.entries(buildings).map(([id, count]) => {
                       const b = gameData.buildings[id];
-                      const iconSrc = b.image ? b.image.replace(/^.*\/icons\//, '/icons/') : '';
+                      // The icons are in public/icons/...
+                      // b.image is something like '../../../../assets/icons/buildings/merchants/ArcherAcademy.png'
+                      // We need to extract the part after '/icons/'
+                      const iconPart = b.image.split('/icons/')[1];
+                      const iconSrc = iconPart ? `/paragon-planner/icons/${iconPart}` : '';
+                      
                       return (
                         <div key={id} className="building-item" title={`${b.name} (${b.category})`}>
                           {iconSrc && <img src={iconSrc} alt={b.name} className="b-icon" />}

@@ -75,7 +75,8 @@ export function calculatePlan(input: PlanInput): PlanResult {
   // 3. Solve dependencies recursively
   let stable = false;
   let iterations = 0;
-  while (!stable && iterations < 30) {
+  // Deepening iterations to handle very complex chains (e.g. magic/advanced paragons)
+  while (!stable && iterations < 100) {
     stable = true;
     iterations++;
 
