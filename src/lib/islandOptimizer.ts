@@ -7,8 +7,8 @@ export interface Island {
   region: string;
   buildings: Record<string, number>;
   totalSlots: number;
-  inputs: Record<string, number>; // item -> rate/sec needed from trade
-  outputs: Record<string, number>; // item -> rate/sec surplus available
+  inputs: Record<string, number>; 
+  outputs: Record<string, number>; 
 }
 
 export interface TradeLink {
@@ -28,79 +28,73 @@ const MAX_SLOTS = 350;
 export function partitionIslands(plan: PlanResult): IslandNetwork {
   const islands: Island[] = [];
   
-  // For each region, create a "Main" island for housing and population-specific buildings
-  // Then create specialized hubs for production chains.
-  
   for (const [region, buildings] of Object.entries(plan.regionalBuildings)) {
     let currentIslandBuildings: Record<string, number> = {};
     let currentSlots = 0;
     let islandCount = 1;
 
-    const addToIsland = (id: string, count: number) => {
-      const b = (gameData.buildings[id] || gameData.population[id]);
-      const slots = Math.ceil(count) * (b?.slots || 1);
-      
-      if (currentSlots + slots > MAX_SLOTS) {
-        // Finalize current island
+    const finalize = () => {
+      if (currentSlots > 0) {
         islands.push(createIsland(`${region} ${islandCount}`, region, currentIslandBuildings));
-        // Reset
         currentIslandBuildings = {};
         currentSlots = 0;
         islandCount++;
       }
-      
-      currentIslandBuildings[id] = (currentIslandBuildings[id] || 0) + count;
-      currentSlots += slots;
     };
 
-    // Sort buildings: Houses first, then supply chain
     const sortedIds = Object.keys(buildings).sort((a, b) => {
         if (a.startsWith('POPULATION_') && !b.startsWith('POPULATION_')) return -1;
         if (!a.startsWith('POPULATION_') && b.startsWith('POPULATION_')) return 1;
-        return 0;
+        return a.localeCompare(b);
     });
 
     for (const id of sortedIds) {
-      addToIsland(id, buildings[id]);
+      const count = buildings[id];
+      const b = (gameData.buildings[id] || gameData.population[id]);
+      if (!b) continue;
+      const slotsPer = (b.slots || 1);
+      
+      let remaining = count;
+      while (remaining > 0) {
+        const canFit = Math.floor((MAX_SLOTS - currentSlots) / slotsPer);
+        if (canFit <= 0) {
+          finalize();
+          continue;
+        }
+        
+        const toAdd = Math.min(remaining, canFit);
+        currentIslandBuildings[id] = (currentIslandBuildings[id] || 0) + toAdd;
+        currentSlots += Math.ceil(toAdd) * slotsPer;
+        remaining -= toAdd;
+        
+        if (currentSlots >= MAX_SLOTS - 1) finalize();
+      }
     }
-
-    if (currentSlots > 0) {
-      islands.push(createIsland(`${region} ${islandCount}`, region, currentIslandBuildings));
-    }
+    finalize();
   }
 
-  // Calculate Trade Links
   const links: TradeLink[] = [];
-  const globalDeficits: Record<string, { islandId: string; amount: number }[]> = {};
-  const globalSurplus: Record<string, { islandId: string; amount: number }[]> = {};
+  const globalSurplus: { islandId: string; item: string; amount: number }[] = [];
 
   islands.forEach(isl => {
-    Object.entries(isl.inputs).forEach(([item, rate]) => {
-      if (!globalDeficits[item]) globalDeficits[item] = [];
-      globalDeficits[item].push({ islandId: isl.id, amount: rate });
-    });
     Object.entries(isl.outputs).forEach(([item, rate]) => {
-      if (!globalSurplus[item]) globalSurplus[item] = [];
-      globalSurplus[item].push({ islandId: isl.id, amount: rate });
+      globalSurplus.push({ islandId: isl.id, item, amount: rate });
     });
   });
 
-  // Basic matching
-  Object.keys(globalDeficits).forEach(item => {
-    const deficits = globalDeficits[item];
-    const surpluses = globalSurplus[item] || [];
-
-    deficits.forEach(d => {
-      let remaining = d.amount;
-      for (const s of surpluses) {
-        if (s.amount <= 0) continue;
-        const trade = Math.min(remaining, s.amount);
-        if (trade > 0) {
-          links.push({ from: s.islandId, to: d.islandId, item, rate: trade });
-          s.amount -= trade;
-          remaining -= trade;
+  islands.forEach(isl => {
+    Object.entries(isl.inputs).forEach(([item, needed]) => {
+      let remaining = needed;
+      for (const s of globalSurplus) {
+        if (s.item === item && s.amount > 0) {
+          const trade = Math.min(remaining, s.amount);
+          if (trade > 1e-6) {
+            links.push({ from: s.islandId, to: isl.id, item, rate: trade });
+            s.amount -= trade;
+            remaining -= trade;
+          }
         }
-        if (remaining <= 0) break;
+        if (remaining <= 1e-6) break;
       }
     });
   });
@@ -125,7 +119,7 @@ function createIsland(name: string, region: string, buildings: Record<string, nu
       prod[b.produces] = (prod[b.produces] || 0) + b.rate_per_tick * count;
     }
     Object.entries(b.consumes_per_tick).forEach(([item, rate]) => {
-      cons[item] = (cons[item] || 0) + rate * count;
+      cons[item] = (cons[item] || 0) + (rate as number) * count;
     });
   });
 
@@ -134,8 +128,10 @@ function createIsland(name: string, region: string, buildings: Record<string, nu
     const p = prod[item] || 0;
     const c = cons[item] || 0;
     const net = p - c;
-    if (net < -0.01) inputs[item] = Math.abs(net);
-    else if (net > 0.01) outputs[item] = net;
+    if (item.includes('Deposit')) return;
+    
+    if (net < -0.1) inputs[item] = Math.abs(net);
+    else if (net > 0.1) outputs[item] = net;
   });
 
   return { id: name.replace(/\s/g, '_'), name, region, buildings, totalSlots, inputs, outputs };

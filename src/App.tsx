@@ -14,7 +14,8 @@ function App() {
 
   const getIconUrl = (path?: string) => {
     if (!path) return '';
-    const cleanPath = path.replace(/^\//, '');
+    // Fix: Remove leading slash if any and use base URL correctly
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
     const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
       ? import.meta.env.BASE_URL 
       : `${import.meta.env.BASE_URL}/`;
@@ -40,11 +41,10 @@ function App() {
   });
 
   const plan = useMemo(() => {
-    // Normalize unit targets from per-minute to per-million-ticks for the engine
     const normalizedUnits: Record<string, number> = {};
-    const MIL = gameData.config.ticks_per_second;
+    const PRECISION = gameData.config.precision;
     for (const [item, ratePerMin] of Object.entries(unitTargets)) {
-      normalizedUnits[item] = (ratePerMin / 60) * MIL;
+      normalizedUnits[item] = (ratePerMin / 60) * PRECISION;
     }
 
     return calculatePlan({ 
@@ -59,10 +59,10 @@ function App() {
   }, [plan]);
 
   const unitMult = useMemo(() => {
-    const MIL = gameData.config.ticks_per_second;
-    if (unit === 'sec') return 1 / MIL;
-    if (unit === 'min') return 60 / MIL;
-    return 3600 / MIL;
+    const PRECISION = gameData.config.precision;
+    if (unit === 'sec') return 1 / PRECISION;
+    if (unit === 'min') return 60 / PRECISION;
+    return 3600 / PRECISION;
   }, [unit]);
 
   const updatePop = (id: string, val: string) => {

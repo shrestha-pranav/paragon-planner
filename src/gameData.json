@@ -1,6 +1,6 @@
 {
   "config": {
-    "ticks_per_second": 1000000
+    "precision": 1000000
   },
   "buildings": {
     "COPPER_SMELTER_NORTH_INFO": {
@@ -196,7 +196,7 @@
       "rate_per_tick": 2778,
       "consumes_per_tick": {
         "Coal": 1389,
-        "Rock Salt": 1389
+        "RockSalt Ore": 1389
       },
       "slots": 1,
       "produces": "Salt"
@@ -1487,7 +1487,7 @@
       "rate_per_tick": 2778,
       "consumes_per_tick": {
         "Coal": 1389,
-        "Rock Salt": 1389
+        "RockSalt Ore": 1389
       },
       "slots": 1,
       "produces": "Salt"
@@ -2368,7 +2368,7 @@
       "icon": "/icons/buildings/workers/GoldMineTropical.png",
       "rate_per_tick": 8333,
       "consumes_per_tick": {
-        "Gold Ore": 8333
+        "Gold Deposit": 8333
       },
       "slots": 1,
       "produces": "Gold Ore"
