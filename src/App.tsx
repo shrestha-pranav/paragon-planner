@@ -8,7 +8,6 @@ type RateUnit = 'sec' | 'min' | 'hour';
 function App() {
   const [unit, setUnit] = useState<RateUnit>('min');
   const [difficulty, setDifficulty] = useState<Difficulty>('Normal');
-  const unitMult = unit === 'sec' ? 1 : (unit === 'min' ? 60 : 3600);
   const [popCounts, setPopCounts] = useState<Record<string, number>>({
     POPULATION_MERCHANTS_MANSION_INFO: 1000,
     POPULATION_WORKERS_HOUSE_INFO: 500,
@@ -28,10 +27,11 @@ function App() {
   });
 
   const plan = useMemo(() => {
-    // Normalize unit targets from per-minute to per-second for the engine
+    // Normalize unit targets from per-minute to per-million-ticks for the engine
     const normalizedUnits: Record<string, number> = {};
+    const MIL = gameData.config.ticks_per_second;
     for (const [item, ratePerMin] of Object.entries(unitTargets)) {
-      normalizedUnits[item] = ratePerMin / 60;
+      normalizedUnits[item] = (ratePerMin / 60) * MIL;
     }
 
     return calculatePlan({ 
@@ -40,6 +40,13 @@ function App() {
       difficulty 
     });
   }, [popCounts, unitTargets, difficulty]);
+
+  const unitMult = useMemo(() => {
+    const MIL = gameData.config.ticks_per_second;
+    if (unit === 'sec') return 1 / MIL;
+    if (unit === 'min') return 60 / MIL;
+    return 3600 / MIL;
+  }, [unit]);
 
   const updatePop = (id: string, val: string) => {
     setPopCounts(prev => ({ ...prev, [id]: parseInt(val) || 0 }));
@@ -79,7 +86,7 @@ function App() {
               {Object.keys(gameData.population).map(id => {
                 const pop = gameData.population[id];
                 const cleanName = pop.name.replace('Population', '').replace('House', '').replace('Mansion', '').replace('Residence', '').replace('Shack', '').trim();
-                const iconSrc = pop.icon ? `/paragon-planner${pop.icon}` : '';
+                const iconSrc = pop.icon ? `${import.meta.env.BASE_URL}${pop.icon.replace(/^\//, '')}` : '';
                 return (
                   <div key={id} className="input-row-with-icon">
                     <div className="label-with-icon">
@@ -137,7 +144,7 @@ function App() {
                   <div className="building-grid">
                     {Object.entries(buildings).map(([id, count]) => {
                       const b = (gameData.buildings[id] || gameData.population[id]);
-                      const iconSrc = b?.icon ? `/paragon-planner${b.icon}` : '';
+                      const iconSrc = b?.icon ? `${import.meta.env.BASE_URL}${b.icon.replace(/^\//, '')}` : '';
                       
                       return (
                         <div key={id} className="building-item" title={`${b?.name} (${b?.region})`}>

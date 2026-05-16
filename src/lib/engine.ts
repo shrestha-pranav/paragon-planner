@@ -5,8 +5,8 @@ export interface Building {
   name: string;
   region: string;
   icon: string;
-  rate_per_sec: number;
-  consumes: Record<string, number>;
+  rate_per_tick: number; // units per million seconds
+  consumes_per_tick: Record<string, number>; // units per million seconds
   produces: string;
   slots: number;
 }
@@ -15,8 +15,8 @@ export interface PopulationType {
   id: string;
   name: string;
   inhabitants_per_house: number;
-  rate_per_sec: number;
-  consumes: Record<string, number>;
+  rate_per_tick: number;
+  consumes_per_tick: Record<string, number>;
   produces: string;
   icon: string;
   region: string;
@@ -24,6 +24,9 @@ export interface PopulationType {
 }
 
 export interface GameData {
+  config: {
+    ticks_per_second: number;
+  };
   buildings: Record<string, Building>;
   population: Record<string, PopulationType>;
   producers: Record<string, string[]>;
@@ -35,14 +38,14 @@ export type Difficulty = 'Easy' | 'Normal' | 'Hard';
 
 export interface PlanInput {
   population: Record<string, number>; // popId -> inhabitantCount
-  units: Record<string, number>;      // item -> targetPerSec
+  units: Record<string, number>;      // item -> targetPerMillionTicks
   difficulty: Difficulty;
 }
 
 export interface ResourceFlow {
-  produced: number;
-  consumed: number;
-  net: number;
+  produced: number; // per tick
+  consumed: number; // per tick
+  net: number;      // per tick
 }
 
 export interface PlanResult {
@@ -60,7 +63,7 @@ export function calculatePlan(input: PlanInput): PlanResult {
 
   const consumptionMultiplier = input.difficulty === 'Easy' ? 0.5 : (input.difficulty === 'Hard' ? 1.5 : 1.0);
 
-  // 1. Calculate population requirements
+  // 1. Initial Population Load
   for (const [popId, inhabitantCount] of Object.entries(input.population)) {
     if (inhabitantCount <= 0) continue;
     const pop = gameData.population[popId];
@@ -69,35 +72,36 @@ export function calculatePlan(input: PlanInput): PlanResult {
     const houseCount = inhabitantCount / pop.inhabitants_per_house;
     buildingCounts[popId] = (buildingCounts[popId] || 0) + houseCount;
     
-    const prodRate = (pop.rate_per_sec || 0) * houseCount;
+    // Production from houses
     if (pop.produces && !pop.produces.includes('Population')) {
+      const prodRate = pop.rate_per_tick * houseCount;
       totalProduced[pop.produces] = (totalProduced[pop.produces] || 0) + prodRate;
       resourceFlows[pop.produces] = (resourceFlows[pop.produces] || 0) + prodRate;
     }
 
-    for (const [item, ratePerSec] of Object.entries(pop.consumes)) {
-      const totalRate = ratePerSec * houseCount * consumptionMultiplier;
+    // Consumption from houses
+    for (const [item, ratePerTick] of Object.entries(pop.consumes_per_tick)) {
+      const totalRate = ratePerTick * houseCount * consumptionMultiplier;
       totalConsumed[item] = (totalConsumed[item] || 0) + totalRate;
       resourceFlows[item] = (resourceFlows[item] || 0) - totalRate;
     }
   }
 
-  // 2. Add military targets
-  for (const [item, targetPerSec] of Object.entries(input.units)) {
-    if (targetPerSec <= 0) continue;
-    totalConsumed[item] = (totalConsumed[item] || 0) + targetPerSec;
-    resourceFlows[item] = (resourceFlows[item] || 0) - targetPerSec;
+  // 2. Add military/other targets
+  for (const [item, targetPerTick] of Object.entries(input.units)) {
+    if (targetPerTick <= 0) continue;
+    totalConsumed[item] = (totalConsumed[item] || 0) + targetPerTick;
+    resourceFlows[item] = (resourceFlows[item] || 0) - targetPerTick;
   }
 
-  // 3. Resolve dependencies
+  // 3. Recursive Solver
   let iterations = 0;
   const maxIterations = 200;
   
   while (iterations < maxIterations) {
     let changed = false;
-    // Get all items that have a deficit AND a known producer
     const itemsWithDeficit = Object.entries(resourceFlows)
-        .filter(([item, flow]) => flow < -1e-10 && gameData.producers[item]);
+        .filter(([item, flow]) => flow < -1e-6 && gameData.producers[item]);
     
     if (itemsWithDeficit.length === 0) break;
     iterations++;
@@ -106,26 +110,25 @@ export function calculatePlan(input: PlanInput): PlanResult {
       const producerIds = gameData.producers[item];
       if (!producerIds || producerIds.length === 0) continue;
 
-      // Filter out population houses as producers for deficits
       const validProducerIds = producerIds.filter(id => !id.startsWith('POPULATION_'));
       if (validProducerIds.length === 0) continue;
 
       const bId = validProducerIds[0];
       const b = gameData.buildings[bId];
-      if (!b || b.rate_per_sec <= 0) continue;
+      if (!b || b.rate_per_tick <= 0) continue;
 
       const deficit = Math.abs(flow);
-      const neededToAdd = deficit / b.rate_per_sec;
+      const neededToAdd = deficit / b.rate_per_tick;
       
-      if (neededToAdd > 1e-12) {
+      if (neededToAdd > 1e-10) {
         changed = true;
         buildingCounts[bId] = (buildingCounts[bId] || 0) + neededToAdd;
         
-        const addedProd = neededToAdd * b.rate_per_sec;
+        const addedProd = neededToAdd * b.rate_per_tick;
         totalProduced[item] = (totalProduced[item] || 0) + addedProd;
         resourceFlows[item] += addedProd;
 
-        for (const [consItem, consRate] of Object.entries(b.consumes)) {
+        for (const [consItem, consRate] of Object.entries(b.consumes_per_tick)) {
           const addedCons = consRate * neededToAdd;
           totalConsumed[consItem] = (totalConsumed[consItem] || 0) + addedCons;
           resourceFlows[consItem] = (resourceFlows[consItem] || 0) - addedCons;
