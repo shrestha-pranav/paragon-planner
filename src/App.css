@@ -247,3 +247,71 @@ h3 {
   font-size: 0.75rem;
   font-weight: bold;
 }
+
+.difficulty-select {
+  width: 100%;
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.summary-stats {
+  display: flex;
+  gap: 2rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-item .label {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.stat-item .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.card-header-with-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 1rem;
+}
+
+.card-header-with-toggle h2 {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.unit-toggle {
+  display: flex;
+  background: var(--input-bg);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.unit-toggle button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.unit-toggle button.active {
+  background: var(--primary-color);
+  color: #1a1210;
+  opacity: 1;
+  font-weight: bold;
+}

@@ -1,8 +1,14 @@
 import { useState, useMemo } from 'react'
-import { gameData, calculatePlan } from './engine'
+import { gameData, calculatePlan } from './lib/engine'
+import type { Difficulty } from './lib/engine'
 import './App.css'
 
+type RateUnit = 'sec' | 'min' | 'hour';
+
 function App() {
+  const [unit, setUnit] = useState<RateUnit>('min');
+  const [difficulty, setDifficulty] = useState<Difficulty>('Normal');
+  const unitMult = unit === 'sec' ? 1 : (unit === 'min' ? 60 : 3600);
   const [popCounts, setPopCounts] = useState<Record<string, number>>({
     POPULATION_MERCHANTS_MANSION_INFO: 1000,
     POPULATION_WORKERS_HOUSE_INFO: 500,
@@ -22,8 +28,18 @@ function App() {
   });
 
   const plan = useMemo(() => {
-    return calculatePlan({ population: popCounts, units: unitTargets });
-  }, [popCounts, unitTargets]);
+    // Normalize unit targets from per-minute to per-second for the engine
+    const normalizedUnits: Record<string, number> = {};
+    for (const [item, ratePerMin] of Object.entries(unitTargets)) {
+      normalizedUnits[item] = ratePerMin / 60;
+    }
+
+    return calculatePlan({ 
+      population: popCounts, 
+      units: normalizedUnits,
+      difficulty 
+    });
+  }, [popCounts, unitTargets, difficulty]);
 
   const updatePop = (id: string, val: string) => {
     setPopCounts(prev => ({ ...prev, [id]: parseInt(val) || 0 }));
@@ -42,6 +58,20 @@ function App() {
 
       <main className="planner-layout">
         <section className="input-section card">
+          <h2>Global Settings</h2>
+          <div className="input-group">
+            <label>Game Difficulty</label>
+            <select 
+              value={difficulty} 
+              onChange={(e) => setDifficulty(e.target.value as Difficulty)}
+              className="difficulty-select"
+            >
+              <option value="Easy">Easy (0.5x Cons)</option>
+              <option value="Normal">Normal (1.0x Cons)</option>
+              <option value="Hard">Hard (1.5x Cons)</option>
+            </select>
+          </div>
+
           <h2>Inputs</h2>
           <div className="input-group">
             <h3>Population Targets (Inhabitants)</h3>
@@ -82,6 +112,20 @@ function App() {
         </section>
 
         <section className="results-section">
+          <div className="card summary-card">
+            <h2>Empire Overview</h2>
+            <div className="summary-stats">
+              <div className="stat-item">
+                <span className="label">Total Building Slots</span>
+                <span className="value">{plan.totalSlots}</span>
+              </div>
+              <div className="stat-item">
+                <span className="label">Estimated Islands (Size 22)</span>
+                <span className="value">{Math.ceil(plan.totalSlots / 350)}</span>
+              </div>
+            </div>
+          </div>
+
           <div className="card buildings-card">
             <h2>Required Buildings (Regional Aggregate)</h2>
             <div className="building-groups">
@@ -90,11 +134,8 @@ function App() {
                   <h3>{region} Region</h3>
                   <div className="building-grid">
                     {Object.entries(buildings).map(([id, count]) => {
-                      const b = gameData.buildings[id];
-                      // The icons are in public/icons/...
-                      // b.image is something like '../../../../assets/icons/buildings/merchants/ArcherAcademy.png'
-                      // We need to extract the part after '/icons/'
-                      const iconPart = b.image.split('/icons/')[1];
+                      const b = (gameData.buildings[id] || gameData.population[id]) as any;
+                      const iconPart = b.image?.split('/icons/')[1];
                       const iconSrc = iconPart ? `/paragon-planner/icons/${iconPart}` : '';
                       
                       return (
@@ -139,7 +180,20 @@ function App() {
           </div>
 
           <div className="card resources-card">
-            <h2>Global Resource Flow (/min)</h2>
+            <div className="card-header-with-toggle">
+              <h2>Global Resource Flow</h2>
+              <div className="unit-toggle">
+                {(['sec', 'min', 'hour'] as RateUnit[]).map(u => (
+                  <button 
+                    key={u} 
+                    className={unit === u ? 'active' : ''} 
+                    onClick={() => setUnit(u)}
+                  >
+                    /{u}
+                  </button>
+                ))}
+              </div>
+            </div>
             <div className="resource-list">
               {Object.entries(plan.resources)
                 .sort((a, b) => a[0].localeCompare(b[0]))
@@ -147,10 +201,10 @@ function App() {
                 <div key={item} className="resource-row">
                   <span className="item-name">{item}</span>
                   <div className="flow-details">
-                    <span className="cons">-{info.consumed.toFixed(1)}</span>
-                    <span className="prod">+{info.produced.toFixed(1)}</span>
-                    <span className={`flow ${info.net >= -0.01 ? 'surplus' : 'deficit'}`}>
-                      {info.net >= 0 ? '+' : ''}{info.net.toFixed(1)}
+                    <span className="cons">-{(info.consumed * unitMult).toFixed(2)}</span>
+                    <span className="prod">+{(info.produced * unitMult).toFixed(2)}</span>
+                    <span className={`flow ${info.net >= -0.0001 ? 'surplus' : 'deficit'}`}>
+                      {info.net >= 0 ? '+' : ''}{(info.net * unitMult).toFixed(2)}
                     </span>
                   </div>
                 </div>
